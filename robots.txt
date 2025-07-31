@@ -1,4 +1,4 @@
-# Luzerne County Golf Carts - Robots.txt
+# Lackawanna County Golf Carts - Robots.txt
 # Allow all web crawlers and search engine bots
 # Follow all links and index all content
 
@@ -41,7 +41,7 @@ Allow: /
 Crawl-delay: 1
 
 # Sitemap location
-Sitemap: https://luzernegolfcarts.com/sitemap.xml
+Sitemap: https://lackawannagolfcarts.com/sitemap.xml
 
 # Allow indexing of all content types
 # CSS, JS, images, and other assets
@@ -56,33 +56,31 @@ Allow: /*.svg
 Allow: /*.pdf
 
 # Company Information for SEO
-# Business: Luzerne County Golf Carts
-# Location: Luzerne County, Pennsylvania
+# Business: Lackawanna County Golf Carts
+# Location: Lackawanna County, Pennsylvania
 # Services: Golf Cart Sales, Service, Rentals, Parts
 # Brands: DENAGO, EVOLUTION
 # Phone: 1-844-844-6638
-# Email: info@luzernegolfcarts.com
-# Coverage: Major Luzerne County locations (35 locations)
+# Email: info@lackawannagolfcarts.com
+# Coverage: All 19 Lackawanna County municipalities
 # 
 # Website Structure:
 # - 8 Main Pages (Home, Inventory, Services, About, Rentals, Showroom, Contact, Financing)
 # - 2 Brand Pages (DENAGO, EVOLUTION)
 # - 37 Individual Vehicle Detail Pages
-# - 35 Luzerne County Location Pages
-# - 35 Luzerne County Location Rental Pages
+# - 19 Lackawanna County Location Pages
+# - 19 Lackawanna County Location Rental Pages
 # - 12 Comprehensive Policy Pages
 # 
-# Luzerne County Locations Served:
-# Cities (4): Hazleton, Nanticoke, Pittston, Wilkes Barre
-# Major Communities: Beach Haven, Bear Creek, Cambra, Conyngham, Dallas, Drifton, 
-#                    Drums, Duryea, Ebervale, Freeland, Glen Lyon, Harleigh, 
-#                    Harveys Lake, Hunlock Creek, Huntington Mills, Kingston,
-#                    Lattimer Mines, Lehman, Luzerne, Milnesville, Mountain Top,
-#                    Nescopeck, Plymouth, Rock Glen, Saint Johns, Shavertown,
-#                    Shawanese, Shickshinny, Sugarloaf, Sweet Valley, Sybertsville,
-#                    Wapwallopen, Weston, White Haven, Wyoming
+# Lackawanna County Municipalities Served:
+# City (1): Scranton
+# Boroughs (11): Archbald, Carbondale, Clarks Summit, Dalton, Jermyn, Jessup, 
+#                Moosic, Moscow, Old Forge, Olyphant, Taylor
+# Townships (7): Chinchilla, Elmhurst, Fleetville, La Plume, Peckville, Ransom, Waverly
 #
 # Professional SEO Implementation:
 # - Complete sitemap.xml with all 100+ pages
 # - Comprehensive structured data markup
-# - Local business optimization for Luzerne County PA
+# - Local business optimization for Lackawanna County PA
+# - Professional background images featuring Lackawanna County Golf Carts showroom
+# - Google Tag Manager and Analytics integration (GTM-NSN3ZJPP, G-QJVWEK6RT8)
