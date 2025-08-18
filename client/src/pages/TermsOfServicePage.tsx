@@ -19,7 +19,7 @@ export function TermsOfServicePage() {
               </p>
               
               <p className="mb-6">
-                Welcome to Montgomery County Golf Carts. These Terms of Service ("Terms") govern your use of our website montcogolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
+                Welcome to Rehoboth Golf Carts. These Terms of Service ("Terms") govern your use of our website rehobothgolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Acceptance of Terms</h2>
@@ -129,7 +129,7 @@ export function TermsOfServicePage() {
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Governing Law</h2>
               <p className="mb-6">
-                These Terms are governed by the laws of the Commonwealth of Pennsylvania. Any disputes shall be resolved in the courts of Montgomery County, Pennsylvania.
+                These Terms are governed by the laws of the State of Delaware. Any disputes shall be resolved in the courts of Sussex County, Delaware.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Changes to Terms</h2>
@@ -145,12 +145,11 @@ export function TermsOfServicePage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <p className="mb-4">If you have questions about these Terms of Service, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Berks County Golf Carts</strong></p>
-                <p className="mb-2">Email: info@berksgolfcarts.com</p>
+                <p className="mb-2"><strong>Rehoboth Golf Carts</strong></p>
+                <p className="mb-2">Email: info@rehobothgolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">TIGON Golf Carts Hatfield: 2333 Bethlehem Pike, Hatfield, PA 19440 | (215) 595-8736</p>
-                <p className="mb-2">TIGON Golf Carts Poconos: 1712 Pennsylvania 940, Pocono Pines, PA 18350 | (570) 643-0152</p>
-                <p>Website: berksgolfcarts.com</p>
+                <p className="mb-2">Serving Sussex County, Delaware - All 27 municipalities</p>
+                <p>Website: rehobothgolfcarts.com</p>
               </div>
 
               <p className="mt-8 text-sm text-gray-600">

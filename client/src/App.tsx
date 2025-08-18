@@ -38,21 +38,8 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// New Lackawanna County Municipality Pages (19 Total - 1 City + 11 Boroughs + 7 Townships)
-import {
-  ArchbaldPage, CarbondalePage, ChinchillaPage, ClarksSummitPage, DaltonPage,
-  ElmhurstPage, FleetvillePage, JermynPage, JessupPage, LaPlumePage,
-  MoosicPage, MoscowPage, OldForgePage, OlyphantPage, PeckvillePage,
-  RansomPage, ScrantonPage, TaylorPage, WaverlyPage
-} from "@/pages/towns/NewLackawannaCountyMunicipalityPages";
-
-// New Lackawanna County Rental Pages (19 Total)
-import {
-  ArchbaldRentalsPage, CarbondaleRentalsPage, ChinchillaRentalsPage, ClarksSummitRentalsPage, DaltonRentalsPage,
-  ElmhurstRentalsPage, FleetvilleRentalsPage, JermynRentalsPage, JessupRentalsPage, LaPlumeRentalsPage,
-  MoosicRentalsPage, MoscowRentalsPage, OldForgeRentalsPage, OlyphantRentalsPage, PeckvilleRentalsPage,
-  RansomRentalsPage, ScrantonRentalsPage, TaylorRentalsPage, WaverlyRentalsPage
-} from "@/pages/rentals/NewLackawannaCountyMunicipalityRentals";
+// Sussex County Municipality Pages - Now handled dynamically by data structure
+// All 27 Sussex County municipalities are rendered through the dynamic routing system
 
 // Note: Individual vehicle detail pages removed - using dynamic VehicleDetailPage instead
 
@@ -114,73 +101,8 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
 
-            {/* New Lackawanna County Municipality Pages - City (1) */}
-            <Route path="/towns/scranton" component={ScrantonPage} />
-            <Route path="/towns/scranton-city" component={ScrantonPage} />
-            
-            {/* New Lackawanna County Municipality Pages - Boroughs (11) */}
-            <Route path="/towns/archbald" component={ArchbaldPage} />
-            <Route path="/towns/carbondale" component={CarbondalePage} />
-            <Route path="/towns/clarks-summit" component={ClarksSummitPage} />
-            <Route path="/towns/dalton" component={DaltonPage} />
-            <Route path="/towns/jermyn" component={JermynPage} />
-            <Route path="/towns/jessup" component={JessupPage} />
-            <Route path="/towns/moosic" component={MoosicPage} />
-            <Route path="/towns/moscow" component={MoscowPage} />
-            <Route path="/towns/old-forge" component={OldForgePage} />
-            <Route path="/towns/olyphant" component={OlyphantPage} />
-            <Route path="/towns/taylor" component={TaylorPage} />
-
-            {/* New Lackawanna County Municipality Pages - Townships (7) */}
-            <Route path="/towns/chinchilla-township" component={ChinchillaPage} />
-            <Route path="/towns/elmhurst-township" component={ElmhurstPage} />
-            <Route path="/towns/fleetville-township" component={FleetvillePage} />
-            <Route path="/towns/la-plume-township" component={LaPlumePage} />
-            <Route path="/towns/peckville-township" component={PeckvillePage} />
-            <Route path="/towns/ransom-township" component={RansomPage} />
-            <Route path="/towns/waverly-township" component={WaverlyPage} />
-
-            {/* SEO-friendly URL routes for New Lackawanna County municipalities */}
-            <Route path="/scranton-golf-carts" component={ScrantonPage} />
-            <Route path="/archbald-golf-carts" component={ArchbaldPage} />
-            <Route path="/carbondale-golf-carts" component={CarbondalePage} />
-            <Route path="/chinchilla-township-golf-carts" component={ChinchillaPage} />
-            <Route path="/clarks-summit-golf-carts" component={ClarksSummitPage} />
-            <Route path="/dalton-golf-carts" component={DaltonPage} />
-            <Route path="/elmhurst-township-golf-carts" component={ElmhurstPage} />
-            <Route path="/fleetville-township-golf-carts" component={FleetvillePage} />
-            <Route path="/jermyn-golf-carts" component={JermynPage} />
-            <Route path="/jessup-golf-carts" component={JessupPage} />
-            <Route path="/la-plume-township-golf-carts" component={LaPlumePage} />
-            <Route path="/moosic-golf-carts" component={MoosicPage} />
-            <Route path="/moscow-golf-carts" component={MoscowPage} />
-            <Route path="/old-forge-golf-carts" component={OldForgePage} />
-            <Route path="/olyphant-golf-carts" component={OlyphantPage} />
-            <Route path="/peckville-township-golf-carts" component={PeckvillePage} />
-            <Route path="/ransom-township-golf-carts" component={RansomPage} />
-            <Route path="/taylor-golf-carts" component={TaylorPage} />
-            <Route path="/waverly-township-golf-carts" component={WaverlyPage} />
-
-            {/* New Lackawanna County Municipality Rental Pages (19 Total) */}
-            <Route path="/rentals/scranton" component={ScrantonRentalsPage} />
-            <Route path="/rentals/archbald" component={ArchbaldRentalsPage} />
-            <Route path="/rentals/carbondale" component={CarbondaleRentalsPage} />
-            <Route path="/rentals/chinchilla-township" component={ChinchillaRentalsPage} />
-            <Route path="/rentals/clarks-summit" component={ClarksSummitRentalsPage} />
-            <Route path="/rentals/dalton" component={DaltonRentalsPage} />
-            <Route path="/rentals/elmhurst-township" component={ElmhurstRentalsPage} />
-            <Route path="/rentals/fleetville-township" component={FleetvilleRentalsPage} />
-            <Route path="/rentals/jermyn" component={JermynRentalsPage} />
-            <Route path="/rentals/jessup" component={JessupRentalsPage} />
-            <Route path="/rentals/la-plume-township" component={LaPlumeRentalsPage} />
-            <Route path="/rentals/moosic" component={MoosicRentalsPage} />
-            <Route path="/rentals/moscow" component={MoscowRentalsPage} />
-            <Route path="/rentals/old-forge" component={OldForgeRentalsPage} />
-            <Route path="/rentals/olyphant" component={OlyphantRentalsPage} />
-            <Route path="/rentals/peckville-township" component={PeckvilleRentalsPage} />
-            <Route path="/rentals/ransom-township" component={RansomRentalsPage} />
-            <Route path="/rentals/taylor" component={TaylorRentalsPage} />
-            <Route path="/rentals/waverly-township" component={WaverlyRentalsPage} />
+            {/* Sussex County Municipality Pages - Dynamic routing handles all 27 municipalities */}
+            {/* Municipality pages are now generated dynamically from sussexCountyMunicipalities.ts data */}
 
             {/* All vehicle detail pages handled by dynamic VehicleDetailPage component */}
 
