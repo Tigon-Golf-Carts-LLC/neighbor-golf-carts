@@ -52,10 +52,10 @@ export default function ShowroomPage() {
   return (
     <>
       <SEOHead 
-        title="Lackawanna County Golf Carts Showrooms | TIGON Golf Cart Sales PA"
-        description="Visit our TIGON Golf Carts showrooms serving Lackawanna County PA. Complete DENAGO and EVOLUTION golf cart lineup with expert service across all 19 municipalities."
-        keywords="Lackawanna County golf carts, TIGON golf carts showroom, golf cart dealership Pennsylvania, DENAGO EVOLUTION Lackawanna County, Scranton golf carts"
-        canonicalUrl="https://lackawannagolfcarts.com/showroom"
+        title="Rehoboth Golf Carts Showroom | Premier Delaware Golf Cart Dealer"
+        description="Visit Rehoboth Golf Carts, Delaware's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup serving all Sussex County municipalities from Rehoboth Beach to Seaford."
+        keywords="Rehoboth golf carts showroom, golf cart dealership Delaware, DENAGO EVOLUTION Sussex County, Delaware golf cart sales, Rehoboth Beach"
+        canonicalUrl="https://rehobothgolfcarts.com/showroom"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
         ogType="website"
       />
@@ -64,11 +64,11 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Lackawanna County Golf Carts LSV Showrooms
+            Rehoboth Golf Carts Delaware Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our TIGON Golf Carts showrooms in Pocono Pines and Scranton, Pennsylvania. 
-            Experience our full lineup of DENAGO and EVOLUTION electric vehicles serving Lackawanna County.
+            Visit our premier Delaware showroom featuring the complete lineup of DENAGO and EVOLUTION electric vehicles. 
+            Serving all Sussex County municipalities from Rehoboth Beach to Seaford.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">

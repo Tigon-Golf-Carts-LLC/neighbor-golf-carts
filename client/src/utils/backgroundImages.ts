@@ -1,73 +1,65 @@
-// Background image utility for Lackawanna County Golf Carts
-// Uses the 8 professional showroom images featuring the modern Lackawanna County Golf Carts dealership
+// Rehoboth Golf Carts - Professional Dealership Background Images
+// 6 new professional golf cart dealership images for dynamic backgrounds
 
-const BACKGROUND_IMAGES = [
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_4zG-0v0fRsSU5AxGt_cEfA_A0HlJrJtSJOlpyerLK2j5Q_1753965748393.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_2JQB2acORFWnp-bjmYY6KA_A0HlJrJtSJOlpyerLK2j5Q_1753965748394.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_cQsH1m3hS0-MskPK4BH5uA_dd9V3Dg-RV6rpmQtK0Rk9Q_1753965748394.png',
-  '/attached_assets/a-photograph-of-a-bright-modern-golf-car_k6d1akbXTKGGRWNW8z_PMQ_AyrHJH6wRZCkACMihvwG_w_1753965748395.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_LEm17UaYQ7uOREk6gVlJJw_AyrHJH6wRZCkACMihvwG_w_1753965748395.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_3MYLyVtKRoeeHx8zidhSqA_AyrHJH6wRZCkACMihvwG_w_1753965748395.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ilITEs4rRxizuRFcFZ3D6Q_Gx4bPyKKR9SOEEUw1DrCyg_1753965748396.png',
-  '/attached_assets/a-photograph-of-a-modern-golf-cart-deale_KIRVRedJQByy93qCY4cIKg_Gx4bPyKKR9SOEEUw1DrCyg_1753965748396.png'
+import image1 from "@assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg";
+import image2 from "@assets/a-photograph-of-a-modern-golf-cart-deale_HQLrBC_STwCeCd7iep9YOA_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg";
+import image3 from "@assets/a-photograph-of-a-modern-golf-cart-deale_dw-CxZw4SSq1umi72SC6bw_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg";
+import image4 from "@assets/a-photograph-of-a-modern-golf-cart-deale_BmkjJPKgRKmt_qykvK10yQ_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg";
+import image5 from "@assets/a-photograph-of-a-modern-golf-cart-deale_Bqa4S713QQqktKcOLRa_wg_eJnoFKA0TtWJ--h6aqGbvw_1755541056711.jpeg";
+import image6 from "@assets/a-photograph-of-a-modern-golf-cart-deale_9KgglZ9VRFSOpjjp3ewMxA_eJnoFKA0TtWJ--h6aqGbvw_1755541056711.jpeg";
+
+export const backgroundImages = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
 ];
 
-// Simple hash function to ensure consistent randomization based on seed
-function simpleHash(str: string): number {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    hash = ((hash << 5) - hash) + char;
-    hash = hash & hash; // Convert to 32-bit integer
-  }
-  return Math.abs(hash);
-}
+// Page-specific background image assignments for consistency
+export const pageBackgrounds = {
+  home: image1,           // Professional showroom for homepage
+  inventory: image2,      // Multiple golf carts display
+  rentals: image3,        // Service-focused dealership view
+  services: image4,       // Professional service area
+  about: image5,          // Welcoming dealership interior
+  contact: image6,        // Professional customer service area
+  showroom: image1,       // Same as home for consistency
+  denago: image2,         // Product-focused
+  evolution: image3,      // Alternative product view
+  default: image4,        // Fallback for other pages
+};
 
-/**
- * Gets a consistent random background image based on a seed string
- * This ensures the same page always gets the same image, but different pages get different images
- */
-export function getRandomBackgroundImage(seed: string): string {
-  const index = simpleHash(seed) % BACKGROUND_IMAGES.length;
-  return BACKGROUND_IMAGES[index];
-}
+// Function to get background image for a specific page
+export const getPageBackground = (pageName: string): string => {
+  return pageBackgrounds[pageName as keyof typeof pageBackgrounds] || pageBackgrounds.default;
+};
 
-/**
- * Gets the background style object for hero sections
- * Includes overlay for text readability
- */
-export function getHeroBackgroundStyle(seed: string): React.CSSProperties {
-  const image = getRandomBackgroundImage(seed);
+// Function to get a random background image
+export const getRandomBackground = (): string => {
+  const randomIndex = Math.floor(Math.random() * backgroundImages.length);
+  return backgroundImages[randomIndex];
+};
+
+// Function to get hero background style with overlay for readability
+export const getHeroBackgroundStyle = (pageName: string) => {
+  const backgroundImage = getPageBackground(pageName);
   return {
-    backgroundImage: `linear-gradient(rgba(14, 46, 85, 0.8), rgba(14, 46, 85, 0.6)), url('${image}')`,
+    backgroundImage: `linear-gradient(rgba(14, 46, 85, 0.75), rgba(14, 46, 85, 0.75)), url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
   };
-}
+};
 
-/**
- * Gets a lighter background style for vehicle pages and other content sections
- */
-export function getLightBackgroundStyle(seed: string): React.CSSProperties {
-  const image = getRandomBackgroundImage(seed);
+// Function to get lighter background style for content sections
+export const getLightBackgroundStyle = (pageName: string) => {
+  const backgroundImage = getPageBackground(pageName);
   return {
-    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9)), url('${image}')`,
+    backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(${backgroundImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
   };
-}
-
-/**
- * Gets background style for call-to-action sections
- */
-export function getCTABackgroundStyle(seed: string): React.CSSProperties {
-  const image = getRandomBackgroundImage(seed);
-  return {
-    backgroundImage: `linear-gradient(rgba(14, 46, 85, 0.9), rgba(14, 46, 85, 0.8)), url('${image}')`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat'
-  };
-}
+};

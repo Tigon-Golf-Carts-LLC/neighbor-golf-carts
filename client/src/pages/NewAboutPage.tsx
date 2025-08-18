@@ -50,7 +50,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve Luzerne County with personalized, community-focused service."
+      description: "Proud to serve Sussex County, Delaware with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -62,10 +62,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Lackawanna County Golf Carts - Your Premier Golf Cart Dealer"
-        description="Learn about Lackawanna County Golf Carts, Pennsylvania's trusted golf cart dealer serving all municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Luzerne County golf carts, about us, golf cart dealer Pennsylvania, DENAGO dealer, EVOLUTION dealer"
-        canonicalUrl="https://lackawannagolfcarts.com/about"
+        title="About Rehoboth Golf Carts - Your Premier Delaware Golf Cart Dealer"
+        description="Learn about Rehoboth Golf Carts, Delaware's trusted golf cart dealer serving all Sussex County municipalities with premium DENAGO and EVOLUTION vehicles since 2010."
+        keywords="Sussex County golf carts, about us, golf cart dealer Delaware, DENAGO dealer, EVOLUTION dealer, Rehoboth Beach"
+        canonicalUrl="https://rehobothgolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
