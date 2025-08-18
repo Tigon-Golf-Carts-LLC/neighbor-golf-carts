@@ -12,20 +12,20 @@ export default function LocationSchema({
   municipalityName, 
   municipalityType, 
   pageType = 'location',
-  latitude = "40.8751",
-  longitude = "-75.7321"
+  latitude = "38.7215",
+  longitude = "-75.0760"
 }: LocationSchemaProps) {
   useEffect(() => {
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": `Lackawanna County Golf Carts - ${municipalityName} ${municipalityType}`,
-      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Lackawanna County, Pennsylvania. Premium DENAGO and Evolution electric golf carts available.`,
-      "url": `https://lackawannagolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
-      "logo": "https://lackawannagolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
-      "image": "https://lackawannagolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+      "name": `Rehoboth Golf Carts - ${municipalityName} ${municipalityType}`,
+      "description": `Professional golf cart sales, service, and rentals serving ${municipalityName} ${municipalityType}, Sussex County, Delaware. Premium DENAGO and Evolution electric golf carts available.`,
+      "url": `https://rehobothgolfcarts.com/${municipalityName.toLowerCase().replace(/\s+/g, '-')}-${municipalityType.toLowerCase()}-golf-carts`,
+      "logo": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+      "image": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
       "telephone": "1-844-844-6638",
-      "email": "info@lackawannagolfcarts.com",
+      "email": "info@rehobothgolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": municipalityName,
@@ -42,10 +42,10 @@ export default function LocationSchema({
         "name": `${municipalityName} ${municipalityType}`,
         "containedInPlace": {
           "@type": "AdministrativeArea",
-          "name": "Luzerne County",
+          "name": "Sussex County",
           "containedInPlace": {
             "@type": "State",
-            "name": "Pennsylvania"
+            "name": "Delaware"
           }
         }
       },

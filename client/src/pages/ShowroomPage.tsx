@@ -5,7 +5,7 @@ import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "luc
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
-import { NEW_LACKAWANNA_COUNTY_MUNICIPALITIES } from "@/data/newLackawannaCountyMunicipalities";
+import { SUSSEX_COUNTY_MUNICIPALITIES } from "@/data/sussexCountyMunicipalities";
 
 export default function ShowroomPage() {
   const locations = [
@@ -248,11 +248,11 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">Areas We Serve</h2>
           <p className="text-xl text-gray-600 mb-8">
-            We proudly serve customers throughout all 19 Lackawanna County municipalities and surrounding Pennsylvania areas
+            We proudly serve customers throughout all Sussex County municipalities and surrounding Delaware areas
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 text-gray-700">
-            {NEW_LACKAWANNA_COUNTY_MUNICIPALITIES.map((municipality, index) => (
+            {SUSSEX_COUNTY_MUNICIPALITIES.map((municipality, index) => (
               <Link key={index} href={municipality.url}>
                 <div className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow cursor-pointer border border-gray-200 hover:border-theme-orange">
                   <div className="font-medium text-theme-primary hover:text-theme-orange transition-colors">
@@ -268,7 +268,7 @@ export default function ShowroomPage() {
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 mb-4">
-              Serving all of Luzerne County including boroughs, townships, and surrounding communities
+              Serving all of Sussex County including towns, cities, and surrounding Delaware communities
             </p>
             <Link href="/contact">
               <Button className="bg-theme-orange hover:bg-orange-600 text-white">

@@ -13,7 +13,7 @@ interface SEOHeadProps {
 export default function SEOHead({ 
   title, 
   description, 
-  keywords = "golf carts, Luzerne County, electric golf carts, golf cart sales, golf cart service", 
+  keywords = "golf carts, Sussex County, electric golf carts, golf cart sales, golf cart service, Rehoboth Beach golf carts, Delaware golf carts", 
   canonicalUrl,
   townName,
   ogImage = "/attached_assets/Lackawanna County Golf Carts_1753809066045.png",

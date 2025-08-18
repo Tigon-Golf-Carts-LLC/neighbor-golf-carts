@@ -1,7 +1,7 @@
-# Lackawanna County Golf Carts - Website Project
+# Rehoboth Golf Carts - Website Project
 
 ## Overview
-This project is for Lackawanna County Golf Carts (https://lackawannagolfcarts.com), Pennsylvania's premier golf cart dealership. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services within Lackawanna County. Key capabilities include complete inventory management, a rental system with location-based services for all 39 municipalities, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across the entire county.
+This project is for Rehoboth Golf Carts (https://rehobothgolfcarts.com), Delaware's premier golf cart dealership serving Sussex County. The platform aims to provide a comprehensive online presence for DENAGO and EVOLUTION electric golf cart sales, rentals, and services throughout Sussex County. Key capabilities include complete inventory management, a rental system with location-based services for all Sussex County municipalities, customer inquiry handling, and detailed business information. The business vision is to serve as a central hub for golf cart sales and rentals, enhancing market presence and customer accessibility across Sussex County, from Rehoboth Beach to Seaford, and from Lewes to Georgetown.
 
 ## User Preferences
 I want iterative development. Ask before making major changes.
@@ -20,14 +20,14 @@ I want iterative development. Ask before making major changes.
 - **Database**: PostgreSQL with Drizzle ORM for data persistence and PostgreSQL-backed user sessions.
 - **API**: RESTful endpoints with JSON responses.
 - **Code Structure**: Monorepo with clear separation of frontend, backend, and shared code (`shared/schema.ts` for consistent types).
-- **SEO**: Comprehensive sitemap.xml (100+ pages), robots.txt, full Schema Markup integration (Location, Vehicle, Service, Website, Person, Product, LocalBusiness, Organization), and individual pages for all 39 Lackawanna County municipalities for local SEO.
+- **SEO**: Comprehensive sitemap.xml (100+ pages), robots.txt, full Schema Markup integration (Location, Vehicle, Service, Website, Person, Product, LocalBusiness, Organization), and individual pages for all Sussex County municipalities for local SEO.
 - **PWA Configuration**: Progressive Web App enabled with `site.webmanifest` for enhanced user experience and app shortcuts.
 
 ### Feature Specifications
 - **Vehicle Inventory**: Detailed listings for DENAGO and EVOLUTION models with specifications and pricing.
-- **Rental System**: Location-specific rental services and pricing for all Lackawanna County municipalities.
+- **Rental System**: Location-specific rental services and pricing for all Sussex County municipalities.
 - **Contact Management**: Forms and systems for lead capture and customer inquiries.
-- **Location-based Services**: Integration of Google Maps embeds with accurate Lackawanna County coordinates.
+- **Location-based Services**: Integration of Google Maps embeds with accurate Sussex County coordinates.
 
 ## External Dependencies
 - **Google Tag Manager (GTM)**: Used for analytics and marketing tag deployment (GTM-NSN3ZJPP).

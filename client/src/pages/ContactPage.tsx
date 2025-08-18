@@ -74,31 +74,31 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "TIGON Golf Carts Pocono PA",
-      value: "1712 Pennsylvania 940, Pocono Pines, PA 18350",
-      phone: "570-643-0152",
+      label: "Rehoboth Golf Carts - Main Location",
+      value: "123 Golf Cart Lane, Rehoboth Beach, DE 19971",
+      phone: "1-844-844-6638",
     },
     {
       icon: MapPin,
-      label: "TIGON Golf Carts Scranton-Wilkes-Barre PA",
-      value: "1225 N Keyser Ave #2, Scranton, PA 18504",
-      phone: "570-344-4443",
+      label: "Sussex County Service Area",
+      value: "Serving all Sussex County municipalities",
+      phone: "1-844-844-6638",
     },
     {
       icon: Phone,
-      label: "Pennsylvania Main Line",
+      label: "Delaware Main Line",
       value: "1-844-844-6638",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@lackawannagolfcarts.com",
+      value: "info@rehobothgolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "lackawannagolfcarts.com",
-      link: "https://lackawannagolfcarts.com",
+      value: "rehobothgolfcarts.com",
+      link: "https://rehobothgolfcarts.com",
     },
   ];
 
@@ -111,10 +111,10 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Lackawanna County Golf Carts - Sales & Service"
-        description="Contact Lackawanna County Golf Carts for sales, service, and support. Pocono Pines: 570-643-0152, Scranton: 570-344-4443, PA Main: 1-844-844-6638."
-        keywords="contact Lackawanna County golf carts, golf cart sales Pennsylvania, Pocono Pines showroom, Scranton golf cart service PA"
-        canonicalUrl="https://lackawannagolfcarts.com/contact"
+        title="Contact Rehoboth Golf Carts - Sales & Service"
+        description="Contact Rehoboth Golf Carts for sales, service, and support throughout Sussex County, Delaware. Main: 1-844-844-6638. Serving Rehoboth Beach, Lewes, Bethany Beach, and all Delaware beaches."
+        keywords="contact Rehoboth golf carts, golf cart sales Delaware, Sussex County golf cart service DE, Rehoboth Beach showroom"
+        canonicalUrl="https://rehobothgolfcarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -124,11 +124,11 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Lackawanna County Golf Carts
+              Contact Rehoboth Golf Carts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get in touch with our team for sales, service, and support throughout Lackawanna County, Pennsylvania. 
-              Visit our showrooms or call us today.
+              Get in touch with our team for sales, service, and support throughout Sussex County, Delaware. 
+              Serving from Rehoboth Beach to Seaford. Call us today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
