@@ -26,9 +26,11 @@ export const pageBackgrounds = {
   about: image5,          // Welcoming dealership interior
   contact: image6,        // Professional customer service area
   showroom: image1,       // Same as home for consistency
-  denago: image2,         // Product-focused
-  evolution: image3,      // Alternative product view
-  default: image4,        // Fallback for other pages
+  denago: image5,         // Changed to welcoming dealership interior
+  evolution: image6,      // Changed to professional customer service area
+  vehicle: image4,        // Individual vehicle detail pages
+  vehicleDetail: image3,  // Alternative for vehicle details
+  default: image2,        // Changed fallback to multiple golf carts display
 };
 
 // Function to get background image for a specific page

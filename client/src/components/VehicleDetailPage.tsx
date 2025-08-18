@@ -125,7 +125,7 @@ export default function VehicleDetailPage({
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className={`relative py-20 px-4 bg-gradient-to-r ${brandColors[brand]} text-white overflow-hidden bg-cover bg-center bg-no-repeat`} style={getHeroBackgroundStyle("vehicle")}>
+        <section className={`relative py-20 px-4 bg-gradient-to-r ${brandColors[brand]} text-white overflow-hidden bg-cover bg-center bg-no-repeat`} style={getHeroBackgroundStyle("vehicleDetail")}>
           <div className="relative max-w-7xl mx-auto z-10">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
