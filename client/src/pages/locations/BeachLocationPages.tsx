@@ -7,6 +7,7 @@ import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { EASTERN_COASTLINE_STATES, generateAllBeachUrls, type Beach } from "@/data/easternCoastlineStates";
+import { generateBeachMapEmbed, generateDirectionsUrl } from "@/utils/easternCoastlineMaps";
 
 interface BeachLocationPageProps {
   beachSlug: string;
@@ -230,6 +231,45 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
                 </Link>
               )}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Location Map */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">
+              Find Us in {beach.name}
+            </h2>
+            <p className="text-xl text-gray-600">
+              Interactive map showing {beach.name} area
+            </p>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <iframe
+              src={generateBeachMapEmbed(stateSlug, beach.slug)}
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title={`${beach.name} Location Map`}
+            />
+          </div>
+          
+          <div className="mt-8 text-center">
+            <a 
+              href={generateDirectionsUrl(stateSlug, beach.slug)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center px-6 py-3 bg-theme-primary text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              <MapPin className="w-5 h-5 mr-2" />
+              Get Directions to {beach.name}
+            </a>
           </div>
         </div>
       </section>

@@ -219,6 +219,33 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         </div>
       </section>
 
+      {/* Map Section */}
+      <section className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold mb-4 text-gray-900">
+              {state.name} Coastal Coverage Map
+            </h2>
+            <p className="text-xl text-gray-600">
+              We serve all coastal areas throughout {state.name}
+            </p>
+          </div>
+          
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <iframe
+              src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d${state.slug === 'maine' ? '-69.2649' : state.slug === 'new-hampshire' ? '-70.7494' : state.slug === 'massachusetts' ? '-70.5171' : state.slug === 'rhode-island' ? '-71.4774' : state.slug === 'connecticut' ? '-72.5473' : state.slug === 'new-york' ? '-72.6851' : state.slug === 'new-jersey' ? '-74.4776' : state.slug === 'delaware' ? '-75.5277' : state.slug === 'maryland' ? '-75.8939' : state.slug === 'virginia' ? '-75.9776' : state.slug === 'north-carolina' ? '-75.5449' : state.slug === 'south-carolina' ? '-78.6569' : state.slug === 'georgia' ? '-81.0987' : '-82.6404'}!3d${state.slug === 'maine' ? '43.7844' : state.slug === 'new-hampshire' ? '43.0389' : state.slug === 'massachusetts' ? '41.9028' : state.slug === 'rhode-island' ? '41.5801' : state.slug === 'connecticut' ? '41.2033' : state.slug === 'new-york' ? '40.9176' : state.slug === 'new-jersey' ? '39.8283' : state.slug === 'delaware' ? '38.9108' : state.slug === 'maryland' ? '38.4192' : state.slug === 'virginia' ? '36.8508' : state.slug === 'north-carolina' ? '35.2271' : state.slug === 'south-carolina' ? '33.8361' : state.slug === 'georgia' ? '31.9986' : '27.7663'}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f8.1!3m3!1m2!1s0x0%3A0x0!2z${encodeURIComponent(state.name + ' coast beaches')}!5e0!3m2!1sen!2sus!4v${Date.now()}!5m2!1sen!2sus`}
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title={`${state.name} Coastal Areas Map`}
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="py-16 px-4 bg-theme-primary text-white">
         <div className="max-w-4xl mx-auto text-center">

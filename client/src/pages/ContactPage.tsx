@@ -15,6 +15,7 @@ import { MapPin, Phone, Mail, Globe, Clock } from "lucide-react";
 import { contactFormSchema, ContactForm } from "@shared/schema";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateEasternCoastlineMapEmbed } from "@/utils/easternCoastlineMaps";
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -74,31 +75,31 @@ export default function ContactPage() {
   const contactInfo = [
     {
       icon: MapPin,
-      label: "Delaware Golf Carts - Main Location",
-      value: "123 Golf Cart Lane, Delaware 19971",
+      label: "Shoreside Golf Carts - Eastern Coastline Headquarters",
+      value: "Serving all Eastern Coastline States",
       phone: "1-844-844-6638",
     },
     {
       icon: MapPin,
-      label: "Delaware Statewide Service Area",
-      value: "Serving all Delaware counties and municipalities",
+      label: "Complete Eastern Coastline Coverage",
+      value: "Maine to Florida - 14 States, 400+ Beach Locations",
       phone: "1-844-844-6638",
     },
     {
       icon: Phone,
-      label: "Delaware Main Line",
+      label: "Main Phone Line",
       value: "1-844-844-6638",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "info@delawaregolfcarts.com",
+      value: "info@shoresidegolfcarts.com",
     },
     {
       icon: Globe,
       label: "Website",
-      value: "delawaregolfcarts.com",
-      link: "https://delawaregolfcarts.com",
+      value: "shoresidegolfcarts.com",
+      link: "https://shoresidegolfcarts.com",
     },
   ];
 
@@ -111,10 +112,10 @@ export default function ContactPage() {
   return (
     <>
       <SEOHead 
-        title="Contact Delaware Golf Carts - Sales & Service"
-        description="Contact Delaware Golf Carts for sales, service, and support throughout all Delaware counties. Main: 1-844-844-6638. Serving Wilmington, Dover, Rehoboth Beach, and all Delaware communities."
-        keywords="contact Delaware golf carts, golf cart sales Delaware, Delaware golf cart service, Delaware showroom"
-        canonicalUrl="https://delawaregolfcarts.com/contact"
+        title="Contact Shoreside Golf Carts - Eastern Coastline Sales & Service"
+        description="Contact Shoreside Golf Carts for sales, service, and support throughout all Eastern Coastline states. Main: 1-844-844-6638. Serving Maine to Florida, 400+ beach locations."
+        keywords="contact Shoreside golf carts, eastern coastline golf cart sales, beach golf cart service, coastal golf cart dealer"
+        canonicalUrl="https://shoresidegolfcarts.com/contact"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
         ogType="website"
       />
@@ -124,11 +125,11 @@ export default function ContactPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Delaware Golf Carts
+              Contact Shoreside Golf Carts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
-              Get in touch with our team for sales, service, and support throughout all Delaware counties. 
-              Serving from Wilmington to Rehoboth Beach. Call us today.
+              Get in touch with the Eastern Coastline's premier golf cart dealership. We're here to help you 
+              find the perfect golf cart, schedule service, or answer any questions. Serving every shore and beach from Maine to Florida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -137,7 +138,7 @@ export default function ContactPage() {
                   Call 1-844-844-6638
                 </Button>
               </a>
-              <a href="mailto:info@delawaregolfcarts.com">
+              <a href="mailto:info@shoresidegolfcarts.com">
                 <Button size="lg" className="bg-white text-theme-primary hover:bg-gray-100">
                   <Mail className="w-5 h-5 mr-2" />
                   Email Us
@@ -332,6 +333,40 @@ export default function ContactPage() {
         </Card>
       </div>
         </div>
+
+        {/* Eastern Coastline Coverage Map */}
+        <section className="py-16 px-4 bg-gray-50">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold mb-4 text-gray-900">
+                Our Eastern Coastline Service Area
+              </h2>
+              <p className="text-xl text-gray-600">
+                Serving every shore and beach from Maine to Florida
+              </p>
+            </div>
+            
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <iframe
+                src={generateEasternCoastlineMapEmbed(5)}
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Eastern Coastline Service Area Map"
+              />
+            </div>
+            
+            <div className="mt-8 text-center">
+              <p className="text-lg text-gray-600">
+                <strong>14 States, 400+ Beach Locations:</strong> Maine, New Hampshire, Massachusetts, Rhode Island, 
+                Connecticut, New York, New Jersey, Delaware, Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </>
   );

@@ -42,20 +42,20 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
       <SEOHead 
-        title="About Lackawanna County Golf Carts - Premier Golf Cart Dealership Since 2008"
-        description="Learn about Lackawanna County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service."
-        keywords="about Lackawanna County Golf Carts, golf cart dealership Pennsylvania, Denago Evolution dealer, golf cart service team"
-        canonicalUrl="https://lackawannagolfcarts.com/about"
+        title="About Shoreside Golf Carts - Eastern Coastline Golf Cart Experts Since 2008"
+        description="Learn about Shoreside Golf Carts, the Eastern Coastline's premier golf cart dealership. Expert team, authorized Denago and Evolution dealer serving Maine to Florida."
+        keywords="about Shoreside Golf Carts, eastern coastline golf cart dealership, beach golf carts, Denago Evolution dealer, coastal golf cart service"
+        canonicalUrl="https://shoresidegolfcarts.com/about"
       />
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Lackawanna County Golf Carts",
-          description: "Learn about Lackawanna County Golf Carts, Pennsylvania's premier golf cart dealership since 2008. Expert team, authorized Denago and Evolution dealer with comprehensive service.",
-          url: "https://lackawannagolfcarts.com/about",
+          title: "About Shoreside Golf Carts",
+          description: "Learn about Shoreside Golf Carts, the Eastern Coastline's premier golf cart dealership. Expert team, authorized Denago and Evolution dealer serving every shore and beach from Maine to Florida.",
+          url: "https://shoresidegolfcarts.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://lackawannagolfcarts.com/" },
-            { name: "About", url: "https://lackawannagolfcarts.com/about" }
+            { name: "Home", url: "https://shoresidegolfcarts.com/" },
+            { name: "About", url: "https://shoresidegolfcarts.com/about" }
           ],
           people: [
             {
@@ -84,12 +84,12 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Lackawanna County Golf Carts
+            About Shoreside Golf Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Since 2008, we've been Lackawanna County's premier destination for premium golf carts, 
-            exceptional service, and unmatched customer care. Serving all 39 municipalities 
-            across northeastern Pennsylvania with pride and professionalism.
+            Since 2008, we've been the Eastern Coastline's premier destination for premium golf carts, 
+            exceptional service, and unmatched customer care. Serving 400+ beach locations 
+            across 14 states from Maine to Florida with pride and professionalism.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -109,18 +109,20 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2008 in Lackawanna County, Pennsylvania, Lackawanna County Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout northeastern Pennsylvania.
+                Founded in 2008, Shoreside Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout the entire Eastern Coastline.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Lackawanna County is home to the vibrant city of Scranton, along with thriving communities like 
-                Dunmore, Carbondale, and Clarks Summit. Our location in the heart of northeastern Pennsylvania drives our commitment to excellence 
-                and serves the outdoor recreation and residential communities throughout the area.
+                From the rugged shores of Maine to the pristine beaches of Florida, we serve vibrant coastal communities 
+                including Cape Cod, the Hamptons, Outer Banks, Myrtle Beach, and countless other iconic destinations. 
+                Our extensive coverage across 14 states drives our commitment to excellence and serves beach-goers, 
+                coastal resorts, and waterfront communities throughout the region.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                Our county is known for its rich history and scenic beauty, home to numerous parks and thriving 
-                business communities. This tradition of excellence continues in our approach to golf cart sales and service, where we 
-                combine cutting-edge technology with personalized customer care.
+                The Eastern Coastline is known for its stunning natural beauty, from Acadia National Park to the 
+                Everglades, and thriving beach communities that attract millions of visitors year-round. This tradition 
+                of coastal excellence continues in our approach to golf cart sales and service, where we combine 
+                cutting-edge electric vehicle technology with personalized customer care tailored to beach and shore environments.
               </p>
               <p className="text-lg text-gray-600 mb-8">
                 Today, we're proud to serve the diverse communities across Lackawanna County's 39 municipalities, from Scranton 
