@@ -24,22 +24,22 @@ interface LocalBusinessSchemaProps {
 }
 
 export default function LocalBusinessSchema({
-  name = "Lackawanna County Golf Carts",
-  description = "Premier golf cart dealership in Lackawanna County, Pennsylvania specializing in electric golf carts, sales, service, rentals, and financing.",
+  name = "Shoreside Golf Carts",
+  description = "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
-    streetAddress: "123 Golf Cart Lane",
-    addressLocality: "Scranton",
-    addressRegion: "PA",
-    postalCode: "18229",
+    streetAddress: "Eastern Coastline Service",
+    addressLocality: "Coastal Regions",
+    addressRegion: "ME-FL",
+    postalCode: "04401-33139",
     addressCountry: "US"
   },
   geo = {
-    latitude: "41.4084",
-    longitude: "-75.6624"
+    latitude: "39.0",
+    longitude: "-76.0"
   },
   telephone = "1-844-844-6638",
-  email = "info@lackawannagolfcarts.com",
-  url = "https://lackawannagolfcarts.com",
+  email = "info@shoresidegolfcarts.com",
+  url = "https://shoresidegolfcarts.com",
   openingHours = [
     "Mo-Fr 09:00-18:00",
     "Sa 09:00-17:00",
@@ -47,7 +47,7 @@ export default function LocalBusinessSchema({
   ],
   paymentAccepted = ["Cash", "Credit Card", "Debit Card", "Check", "Financing"],
   businessType = "Golf Cart Dealership",
-  areaServed = "Lackawanna County, PA"
+  areaServed = "Eastern Coastline, Maine to Florida"
 }: LocalBusinessSchemaProps) {
   useEffect(() => {
     const structuredData = {

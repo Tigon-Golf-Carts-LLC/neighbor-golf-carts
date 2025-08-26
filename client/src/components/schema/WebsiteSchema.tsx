@@ -7,9 +7,9 @@ interface WebsiteSchemaProps {
 }
 
 export default function WebsiteSchema({ 
-  url = "https://lackawannagolfcarts.com",
-  name = "Lackawanna County Golf Carts",
-  description = "Premier golf cart dealership in Lackawanna County, Pennsylvania"
+  url = "https://shoresidegolfcarts.com",
+  name = "Shoreside Golf Carts",
+  description = "Premier golf cart dealership serving the Eastern Coastline"
 }: WebsiteSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -20,10 +20,10 @@ export default function WebsiteSchema({
       "url": url,
       "publisher": {
         "@type": "Organization",
-        "name": "Lackawanna County Golf Carts",
+        "name": "Shoreside Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://lackawannagolfcarts.com/logo.png",
+          "url": "https://shoresidegolfcarts.com/logo.png",
           "width": 400,
           "height": 400
         }

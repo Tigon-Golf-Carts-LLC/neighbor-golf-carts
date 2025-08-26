@@ -9,25 +9,25 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Rehoboth Golf Carts",
-      "description": "Premier golf cart dealership in Sussex County, Delaware specializing in electric golf carts, sales, service, rentals, and financing serving Rehoboth Beach, Lewes, Bethany Beach, and all Delaware beaches.",
-      "url": "https://rehobothgolfcarts.com",
-      "logo": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
-      "image": "https://rehobothgolfcarts.com/attached_assets/Lackawanna County Golf Carts_1753809066045.png",
+      "name": "Shoreside Golf Carts",
+      "description": "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing serving 400+ beach locations from Maine to Florida.",
+      "url": "https://shoresidegolfcarts.com",
+      "logo": "https://shoresidegolfcarts.com/attached_assets/Delaware Golf Carts_1756222749921.png",
+      "image": "https://shoresidegolfcarts.com/attached_assets/Delaware Golf Carts_1756222749921.png",
       "telephone": "1-844-844-6638",
-      "email": "info@rehobothgolfcarts.com",
+      "email": "info@shoresidegolfcarts.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Golf Cart Lane",
-        "addressLocality": "Rehoboth Beach",
-        "addressRegion": "DE",
-        "postalCode": "19971",
+        "streetAddress": "Eastern Coastline Service",
+        "addressLocality": "Coastal Regions",
+        "addressRegion": "ME-FL",
+        "postalCode": "04401-33139",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "38.7215",
-        "longitude": "-75.0760"
+        "latitude": "39.0",
+        "longitude": "-76.0"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "AdministrativeArea",
-        "name": "Sussex County, Delaware"
+        "name": "Eastern Coastline, Maine to Florida"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",

@@ -15,7 +15,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing all Delaware counties with the best golf cart experience throughout the First State."
+      description: "Passionate about providing all Eastern Coastline communities with the best golf cart experience from Maine to Florida."
     },
     {
       name: "Sarah Martinez",
@@ -51,7 +51,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve all Delaware counties with personalized, community-focused service."
+      description: "Proud to serve all 400+ Eastern Coastline beach locations with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -63,10 +63,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Delaware Golf Carts - Your Premier Delaware Golf Cart Dealer"
-        description="Learn about Delaware Golf Carts, Delaware's trusted golf cart dealer serving all Delaware counties with premium DENAGO and EVOLUTION vehicles since 2010."
-        keywords="Delaware golf carts, about us, golf cart dealer Delaware, DENAGO dealer, EVOLUTION dealer, New Castle Kent Sussex County"
-        canonicalUrl="https://delawaregolfcarts.com/about"
+        title="About Shoreside Golf Carts - Your Premier Eastern Coastline Golf Cart Dealer"
+        description="Learn about Shoreside Golf Carts, the Eastern Coastline's trusted golf cart dealer serving 400+ beach locations with premium DENAGO and EVOLUTION vehicles since 2008."
+        keywords="Shoreside golf carts, about us, eastern coastline golf cart dealer, DENAGO dealer, EVOLUTION dealer, Maine to Florida beach locations"
+        canonicalUrl="https://shoresidegolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />

@@ -1,7 +1,7 @@
 {
-  "name": "Delaware Golf Carts",
-  "short_name": "Delaware Golf Carts",
-  "description": "Delaware's premier electric golf cart dealership. DENAGO & Evolution vehicles, sales, service, rentals statewide.",
+  "name": "Shoreside Golf Carts",
+  "short_name": "Shoreside Golf Carts",
+  "description": "Eastern Coastline's premier electric golf cart dealership. DENAGO & Evolution vehicles, sales, service, rentals Maine to Florida.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e2e55",
@@ -62,7 +62,7 @@
     {
       "name": "Visit Showroom",
       "short_name": "Showroom",
-      "description": "Find our Dover, DE showroom location and contact information",
+      "description": "Find our Eastern Coastline showroom locations and contact information",
       "url": "/showroom",
       "icons": [
         {
@@ -74,7 +74,7 @@
     {
       "name": "Golf Cart Rentals",
       "short_name": "Rentals",
-      "description": "Rent golf carts for Delaware beach destinations",
+      "description": "Rent golf carts for Eastern Coastline beach destinations",
       "url": "/rentals",
       "icons": [
         {
@@ -118,8 +118,8 @@
   },
   
   "scope_extensions": [
-    {"origin": "https://www.rehobothgolfcarts.com"},
-    {"origin": "https://rehobothgolfcarts.com"}
+    {"origin": "https://www.shoresidegolfcarts.com"},
+    {"origin": "https://shoresidegolfcarts.com"}
   ],
   
   "protocol_handlers": [
@@ -145,7 +145,7 @@
       "sizes": "1920x1080",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "Delaware Golf Carts Showroom"
+      "label": "Shoreside Golf Carts Showroom"
     },
     {
       "src": "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_BmkjJPKgRKmt_qykvK10yQ_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg",

@@ -39,10 +39,10 @@ export default function ShowroomPage() {
   return (
     <>
       <SEOHead 
-        title="Rehoboth Golf Carts Showroom | Premier Delaware Golf Cart Dealer"
-        description="Visit Rehoboth Golf Carts, Delaware's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup serving all Sussex County municipalities from Rehoboth Beach to Seaford."
-        keywords="Rehoboth golf carts showroom, golf cart dealership Delaware, DENAGO EVOLUTION Sussex County, Delaware golf cart sales, Rehoboth Beach"
-        canonicalUrl="https://rehobothgolfcarts.com/showroom"
+        title="Shoreside Golf Carts Showroom | Premier Eastern Coastline Golf Cart Dealer"
+        description="Visit Shoreside Golf Carts, the Eastern Coastline's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup serving 400+ beach locations from Maine to Florida."
+        keywords="Shoreside golf carts showroom, eastern coastline golf cart dealership, DENAGO EVOLUTION beach locations, coastal golf cart sales"
+        canonicalUrl="https://shoresidegolfcarts.com/showroom"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
         ogType="website"
       />
@@ -51,7 +51,7 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Rehoboth Golf Carts Delaware Showroom
+            Shoreside Golf Carts Eastern Coastline Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Visit our premier Delaware showroom featuring the complete lineup of DENAGO and EVOLUTION electric vehicles. 
