@@ -61,7 +61,7 @@ export default function FinancingPage() {
       subtitle: "The lowest APR without hidden fees",
       description: "Competitive rates with transparent pricing",
       buttonText: "Quick Apply⟶",
-      url: "#",
+      url: "tel:1-844-844-6638",
       image: gllFinancialImage,
       bgColor: "bg-white",
       borderColor: "border-orange-200"
@@ -69,9 +69,9 @@ export default function FinancingPage() {
     {
       title: "Roadrunner Financial",
       subtitle: "Consumer Financing",
-      description: "Streamlined financing for personal purchases",
+      description: "Get Ready To Ride With Consumer Financing",
       buttonText: "Quick Apply⟶",
-      url: "#",
+      url: "https://octane.co/flex/034170",
       image: roadrunnerImage,
       bgColor: "bg-white",
       borderColor: "border-red-200"
@@ -81,7 +81,7 @@ export default function FinancingPage() {
       subtitle: "UNIVEST CAPITAL",
       description: "Comprehensive financing solutions for your needs",
       buttonText: "Quick Apply⟶",
-      url: "#",
+      url: "https://form.jotform.com/UnivestCapital/credit-application-bakos?utm_source=Delaware+Golf+Carts&utm_medium=Financing&utm_campaign=Business&utm_term=Best+Golf+Cart+Financing",
       image: univestImage,
       bgColor: "bg-white",
       borderColor: "border-indigo-200"
@@ -91,7 +91,7 @@ export default function FinancingPage() {
       subtitle: "Buy Now, Pay with Direct Financing",
       description: "Work directly with our financing team for personalized solutions",
       buttonText: "Quick Apply⟶",
-      url: "#",
+      url: "tel:1-844-844-6638",
       image: dealerDirectImage,
       bgColor: "bg-white",
       borderColor: "border-gray-200"
