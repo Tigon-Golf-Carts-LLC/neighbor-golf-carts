@@ -5,7 +5,7 @@ import { Phone, ExternalLink, Check, Star, MapPin, Shield, Zap } from "lucide-re
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { getRandomVehicleBackground } from "@/utils/backgroundImages";
 
 interface VehicleDetailPageProps {
   // Vehicle Information
@@ -86,8 +86,8 @@ export default function VehicleDetailPage({
           description: seoDescription,
           url: canonicalUrl,
           breadcrumbs: [
-            { name: "Home", url: "https://lackawannagolfcarts.com/" },
-            { name: "Inventory", url: "https://lackawannagolfcarts.com/inventory" },
+            { name: "Home", url: "https://shoresidegolfcarts.com/" },
+            { name: "Inventory", url: "https://shoresidegolfcarts.com/inventory" },
             { name: vehicleName, url: canonicalUrl }
           ],
           vehicleName,
@@ -125,7 +125,12 @@ export default function VehicleDetailPage({
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <section className={`relative py-20 px-4 bg-gradient-to-r ${brandColors[brand]} text-white overflow-hidden bg-cover bg-center bg-no-repeat`} style={getHeroBackgroundStyle("vehicleDetail")}>
+        <section className={`relative py-20 px-4 bg-gradient-to-r ${brandColors[brand]} text-white overflow-hidden bg-cover bg-center bg-no-repeat`} style={{
+          backgroundImage: `linear-gradient(rgba(14, 46, 85, 0.75), rgba(14, 46, 85, 0.75)), url(${getRandomVehicleBackground()})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}>
           <div className="relative max-w-7xl mx-auto z-10">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>

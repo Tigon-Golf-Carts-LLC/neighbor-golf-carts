@@ -5,6 +5,7 @@ import { Link } from "wouter";
 import { Zap, Shield, Settings, Award, Phone, MapPin, Clock, Users, Battery, Gauge, Car } from "lucide-react";
 import SEOHead from "@/components/SEOHead";
 import vehicleImage from "@assets/EVOLUTIOND5MAVERICK4PLUS_1751893115781_1753135231312.jpg";
+import { getRandomVehicleBackground } from "@/utils/backgroundImages";
 
 export default function EvolutionD5Maverick4Plus() {
   return (
@@ -30,7 +31,12 @@ export default function EvolutionD5Maverick4Plus() {
           </div>
         </nav>
 
-        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{backgroundImage: "linear-gradient(rgba(255, 255, 255, 0.9)), url('/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OO82J1mtQEyokt1GsD08YQ_vk-WDImPSSq1axdn5SN7Mw_1753301595303.png')"}}>
+        <section className="relative py-12 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{
+          backgroundImage: `linear-gradient(rgba(14, 46, 85, 0.75), rgba(14, 46, 85, 0.75)), url(${getRandomVehicleBackground()})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}>
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">

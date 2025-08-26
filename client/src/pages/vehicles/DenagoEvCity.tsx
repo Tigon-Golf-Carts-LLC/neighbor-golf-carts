@@ -6,7 +6,7 @@ import { ArrowLeft, Zap, Shield, Settings, Award, Phone, MapPin, Clock, Users, B
 import SEOHead from "@/components/SEOHead";
 import VehicleSchema from "@/components/VehicleSchema";
 import cityImage from "@assets/DENAGONEVCITY_1751893047472_1753135231313.jpg";
-import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { getRandomVehicleBackground } from "@/utils/backgroundImages";
 
 export default function DenagoEvCity() {
   return (
@@ -45,7 +45,12 @@ export default function DenagoEvCity() {
         </nav>
 
         {/* Vehicle Hero Section */}
-        <section className="relative py-20 px-4 bg-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("vehicle-city")}>
+        <section className="relative py-20 px-4 bg-white bg-cover bg-center bg-no-repeat" style={{
+          backgroundImage: `linear-gradient(rgba(14, 46, 85, 0.75), rgba(14, 46, 85, 0.75)), url(${getRandomVehicleBackground()})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}>
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="order-2 lg:order-1">
