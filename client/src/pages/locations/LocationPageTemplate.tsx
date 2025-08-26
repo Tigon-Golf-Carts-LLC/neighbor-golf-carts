@@ -5,6 +5,7 @@ import { MapPin, Phone, Mail, Clock, Star, Shield, Truck, ArrowRight } from "luc
 import { Link } from "wouter";
 import SEOHead from "@/components/SEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
+import { generateSimpleDelawareMapsEmbed } from "@/utils/delawareGoogleMaps";
 import type { Municipality } from "@/data/sussexCountyMunicipalities";
 
 interface LocationPageProps {
@@ -152,7 +153,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
                       <Mail className="w-5 h-5 text-theme-orange mr-3" />
                       <div>
                         <p className="font-semibold">Email</p>
-                        <p className="text-gray-600">info@rehobothgolfcarts.com</p>
+                        <p className="text-gray-600">info@delawaregolfcarts.com</p>
                       </div>
                     </div>
                     <div className="flex items-center">
@@ -166,7 +167,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
                       <MapPin className="w-5 h-5 text-theme-orange mr-3" />
                       <div>
                         <p className="font-semibold">Service Area</p>
-                        <p className="text-gray-600">{name} & Sussex County, DE</p>
+                        <p className="text-gray-600">{name} & Delaware</p>
                       </div>
                     </div>
                   </div>
@@ -184,7 +185,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
                 Find Us in {name}
               </h2>
               <p className="text-xl text-gray-600">
-                We serve {name} and all surrounding areas in Sussex County, Delaware
+                We serve {name} and all surrounding areas in Delaware
               </p>
             </div>
             
@@ -214,7 +215,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
                         <Star className="w-5 h-5 text-theme-orange mr-3" />
                         <div>
                           <p className="font-semibold">Coverage Area</p>
-                          <p className="text-gray-600">All of Sussex County, Delaware</p>
+                          <p className="text-gray-600">All of Delaware</p>
                         </div>
                       </div>
                     </div>
@@ -224,14 +225,14 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
               
               <div className="w-full h-96 rounded-lg shadow-lg overflow-hidden">
                 <iframe
-                  src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.0!2d${municipality.coordinates.lng}!3d${municipality.coordinates.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${encodeURIComponent(name + ', Delaware')}!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus`}
+                  src={generateSimpleDelawareMapsEmbed(name, municipality.coordinates)}
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title={`Map of ${name}, Delaware`}
+                  title={`Map of ${name}, Delaware - Delaware Golf Carts Service Area`}
                 />
               </div>
             </div>
@@ -245,8 +246,8 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
               Ready to Get Started in {name}?
             </h2>
             <p className="text-xl mb-8">
-              Contact Rehoboth Golf Carts today for expert golf cart sales, rentals, and service 
-              throughout {name} and Sussex County, Delaware.
+              Contact Delaware Golf Carts today for expert golf cart sales, rentals, and service 
+              throughout {name} and all of Delaware.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
