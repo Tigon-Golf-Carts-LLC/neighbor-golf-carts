@@ -47,9 +47,9 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
     <>
       <SEOHead 
         title={`${name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals Delaware`}
-        description={`Professional golf cart sales, rentals, and service in ${name}, Delaware. DENAGO and EVOLUTION electric vehicles with expert service throughout Sussex County.`}
-        keywords={`${name} golf carts, ${slug} golf cart sales, Delaware golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, Sussex County golf carts`}
-        canonicalUrl={`https://rehobothgolfcarts.com${municipality.url}`}
+        description={`Professional golf cart sales, rentals, and service in ${name}, Delaware. DENAGO and EVOLUTION electric vehicles with expert service throughout Delaware.`}
+        keywords={`${name} golf carts, ${slug} golf cart sales, Delaware golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, Delaware golf carts`}
+        canonicalUrl={`https://delawaregolfcarts.com${municipality.url}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
         ogType="website"
       />
@@ -69,7 +69,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
               Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service 
-              in {name}, Delaware. Your trusted Sussex County golf cart specialists.
+              in {name}, Delaware. Your trusted Delaware golf cart specialists.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">
@@ -96,7 +96,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 Comprehensive golf cart solutions for residents and businesses in {name}, Delaware. 
-                From sales to service, we're your local Sussex County experts.
+                From sales to service, we're your local Delaware golf cart experts.
               </p>
             </div>
 

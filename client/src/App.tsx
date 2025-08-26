@@ -27,6 +27,47 @@ import NewCastleCountyPage from "@/pages/counties/NewCastleCountyPage";
 import KentCountyPage from "@/pages/counties/KentCountyPage";
 import SussexCountyPage from "@/pages/counties/SussexCountyPage";
 
+// New Castle County Location Pages
+import {
+  ArdenPage,
+  ArdencroftPage,
+  ArdentownPage,
+  BellefontePage,
+  ClaytonPage,
+  DelawareCityPage,
+  ElsmerePage,
+  MiddletownPage,
+  NewCastlePage,
+  NewarkPage,
+  NewportPage,
+  OdessaPage,
+  SmyrnaPage,
+  TownsendPage,
+  WilmingtonPage
+} from "@/pages/locations/NewCastleCountyLocationPages";
+
+// Kent County Location Pages
+import {
+  BowersPage,
+  CamdenPage,
+  CheswoldPage,
+  DoverPage,
+  FarmingtonPage,
+  FeltonPage,
+  FredericaPage,
+  HarringtonPage,
+  HartlyPage,
+  HoustonPage,
+  KentonPage,
+  LeipsicPage,
+  LittleCreekPage,
+  MagnoliaPage,
+  MilfordKentPage,
+  ViolaPage,
+  WoodsidePage,
+  WyomingPage
+} from "@/pages/locations/KentCountyLocationPages";
+
 // Sussex County Location Pages
 import {
   BethanyBeachPage,
@@ -140,7 +181,44 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
 
-            {/* Sussex County Municipality Pages - All 27 locations */}
+            {/* New Castle County Municipality Pages - All 15 locations */}
+            <Route path="/arden-golf-carts" component={ArdenPage} />
+            <Route path="/ardencroft-golf-carts" component={ArdencroftPage} />
+            <Route path="/ardentown-golf-carts" component={ArdentownPage} />
+            <Route path="/bellefonte-golf-carts" component={BellefontePage} />
+            <Route path="/clayton-golf-carts" component={ClaytonPage} />
+            <Route path="/delaware-city-golf-carts" component={DelawareCityPage} />
+            <Route path="/elsmere-golf-carts" component={ElsmerePage} />
+            <Route path="/middletown-golf-carts" component={MiddletownPage} />
+            <Route path="/new-castle-golf-carts" component={NewCastlePage} />
+            <Route path="/newark-golf-carts" component={NewarkPage} />
+            <Route path="/newport-golf-carts" component={NewportPage} />
+            <Route path="/odessa-golf-carts" component={OdessaPage} />
+            <Route path="/smyrna-golf-carts" component={SmyrnaPage} />
+            <Route path="/townsend-golf-carts" component={TownsendPage} />
+            <Route path="/wilmington-golf-carts" component={WilmingtonPage} />
+
+            {/* Kent County Municipality Pages - All 18 locations */}
+            <Route path="/bowers-golf-carts" component={BowersPage} />
+            <Route path="/camden-golf-carts" component={CamdenPage} />
+            <Route path="/cheswold-golf-carts" component={CheswoldPage} />
+            <Route path="/dover-golf-carts" component={DoverPage} />
+            <Route path="/farmington-golf-carts" component={FarmingtonPage} />
+            <Route path="/felton-golf-carts" component={FeltonPage} />
+            <Route path="/frederica-golf-carts" component={FredericaPage} />
+            <Route path="/harrington-golf-carts" component={HarringtonPage} />
+            <Route path="/hartly-golf-carts" component={HartlyPage} />
+            <Route path="/houston-golf-carts" component={HoustonPage} />
+            <Route path="/kenton-golf-carts" component={KentonPage} />
+            <Route path="/leipsic-golf-carts" component={LeipsicPage} />
+            <Route path="/little-creek-golf-carts" component={LittleCreekPage} />
+            <Route path="/magnolia-golf-carts" component={MagnoliaPage} />
+            <Route path="/milford-golf-carts-kent" component={MilfordKentPage} />
+            <Route path="/viola-golf-carts" component={ViolaPage} />
+            <Route path="/woodside-golf-carts" component={WoodsidePage} />
+            <Route path="/wyoming-golf-carts" component={WyomingPage} />
+
+            {/* Sussex County Municipality Pages - All 24 locations */}
             <Route path="/bethany-beach-golf-carts" component={BethanyBeachPage} />
             <Route path="/bethel-golf-carts" component={BethelPage} />
             <Route path="/blades-golf-carts" component={BladesPage} />
