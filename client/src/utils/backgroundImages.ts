@@ -1,12 +1,13 @@
-// Rehoboth Golf Carts - Professional Dealership Background Images
-// 6 new professional golf cart dealership images for dynamic backgrounds
+// Delaware Golf Carts - Professional Dealership Background Images
+// 7 new professional Delaware golf cart dealership images for dynamic backgrounds
 
-import image1 from "@assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg";
-import image2 from "@assets/a-photograph-of-a-modern-golf-cart-deale_HQLrBC_STwCeCd7iep9YOA_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg";
-import image3 from "@assets/a-photograph-of-a-modern-golf-cart-deale_dw-CxZw4SSq1umi72SC6bw_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg";
-import image4 from "@assets/a-photograph-of-a-modern-golf-cart-deale_BmkjJPKgRKmt_qykvK10yQ_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg";
-import image5 from "@assets/a-photograph-of-a-modern-golf-cart-deale_Bqa4S713QQqktKcOLRa_wg_eJnoFKA0TtWJ--h6aqGbvw_1755541056711.jpeg";
-import image6 from "@assets/a-photograph-of-a-modern-golf-cart-deale_9KgglZ9VRFSOpjjp3ewMxA_eJnoFKA0TtWJ--h6aqGbvw_1755541056711.jpeg";
+import image1 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership_1756222327804.jpeg";
+import image2 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership 2_1756222327804.jpeg";
+import image3 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership 3_1756222327805.jpeg";
+import image4 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership 4_1756222327805.jpeg";
+import image5 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership 5_1756222327805.jpeg";
+import image6 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership 6_1756222327806.jpeg";
+import image7 from "@assets/Delaware Golf Carts -Delaware Golf Cart Dealership 7_1756222327806.jpeg";
 
 export const backgroundImages = [
   image1,
@@ -15,22 +16,25 @@ export const backgroundImages = [
   image4,
   image5,
   image6,
+  image7,
 ];
 
 // Page-specific background image assignments for consistency
 export const pageBackgrounds = {
-  home: image1,           // Professional showroom for homepage
-  inventory: image2,      // Multiple golf carts display
-  rentals: image3,        // Service-focused dealership view
-  services: image4,       // Professional service area
-  about: image5,          // Welcoming dealership interior
-  contact: image6,        // Professional customer service area
-  showroom: image1,       // Same as home for consistency
-  denago: image5,         // Changed to welcoming dealership interior
-  evolution: image6,      // Changed to professional customer service area
-  vehicle: image4,        // Individual vehicle detail pages
-  vehicleDetail: image3,  // Alternative for vehicle details
-  default: image2,        // Changed fallback to multiple golf carts display
+  home: image1,           // Delaware Golf Carts main dealership for homepage
+  inventory: image2,      // Delaware Golf Carts showroom display
+  rentals: image3,        // Delaware Golf Carts service-focused view
+  services: image4,       // Delaware Golf Carts professional service area
+  about: image5,          // Delaware Golf Carts welcoming interior
+  contact: image6,        // Delaware Golf Carts customer service area
+  showroom: image7,       // Delaware Golf Carts premium showroom
+  denago: image4,         // Delaware Golf Carts service area for Denago vehicles
+  evolution: image5,      // Delaware Golf Carts interior for Evolution vehicles
+  vehicle: image3,        // Delaware Golf Carts individual vehicle display
+  vehicleDetail: image7,  // Delaware Golf Carts premium vehicle showcase
+  counties: image2,       // Delaware Golf Carts for county pages
+  locations: image6,      // Delaware Golf Carts for location pages
+  default: image1,        // Delaware Golf Carts main dealership as fallback
 };
 
 // Function to get background image for a specific page
