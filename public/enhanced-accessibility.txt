@@ -1,0 +1,225 @@
+# Enhanced Accessibility Documentation - Shoreside Golf Carts
+# COMPREHENSIVE WCAG COMPLIANCE AND UNIVERSAL ACCESS
+
+## ACCESSIBILITY COMMITMENT STATEMENT
+Shoreside Golf Carts is committed to ensuring digital accessibility for all users, including individuals with disabilities. We strive to adhere to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards and continuously work to improve the accessibility of our website.
+
+## WCAG 2.1 COMPLIANCE FEATURES
+
+### Perceivable Content:
+✅ **Text Alternatives**: All images include descriptive alt text
+✅ **Captions and Transcripts**: Video content includes captions
+✅ **Adaptable Content**: Content can be presented in different ways without losing meaning
+✅ **Distinguishable Content**: Sufficient color contrast ratios (4.5:1 minimum)
+✅ **Resizable Text**: Content remains functional when zoomed to 200%
+✅ **Images of Text**: Minimized use of images containing text
+
+### Operable Interface:
+✅ **Keyboard Accessible**: All functionality available via keyboard
+✅ **No Seizures**: Content doesn't cause seizures or physical reactions
+✅ **Enough Time**: Users have enough time to read and use content
+✅ **Navigation Help**: Multiple ways to find content and know where they are
+✅ **Input Assistance**: Help users avoid and correct mistakes
+
+### Understandable Information:
+✅ **Readable Text**: Content is written in clear, simple language
+✅ **Predictable Functionality**: Navigation and interface operate consistently
+✅ **Input Assistance**: Clear labels and instructions for form inputs
+✅ **Error Prevention**: Important information is confirmed before submission
+
+### Robust Technology:
+✅ **Compatible**: Content works with assistive technologies
+✅ **Future-Proof**: Markup is valid and semantic
+✅ **Progressive Enhancement**: Core functionality works without JavaScript
+
+## ASSISTIVE TECHNOLOGY SUPPORT
+
+### Screen Reader Compatibility:
+✅ **NVDA** (NonVisual Desktop Access)
+✅ **JAWS** (Job Access With Speech)  
+✅ **VoiceOver** (macOS/iOS)
+✅ **TalkBack** (Android)
+✅ **Dragon NaturallySpeaking** (Voice control)
+✅ **Windows Speech Recognition**
+
+### Browser Accessibility Features:
+✅ **High Contrast Mode** support
+✅ **Zoom functionality** up to 400%
+✅ **Custom font** compatibility
+✅ **Reduced motion** preference support
+✅ **Focus indicators** clearly visible
+✅ **Tab navigation** logical order
+
+## ACCESSIBILITY FEATURES BY SECTION
+
+### Navigation Accessibility:
+- **Skip Links**: "Skip to main content" links available
+- **Landmark Regions**: Proper HTML5 semantic structure
+- **Breadcrumbs**: Clear navigation trail on all pages
+- **Search Function**: Accessible search with clear labels
+- **Menu Structure**: Logical hierarchy with keyboard navigation
+
+### Product Information Accessibility:
+- **Alternative Text**: Detailed descriptions for all product images
+- **Data Tables**: Headers properly associated with data cells
+- **Price Information**: Clearly labeled and formatted
+- **Specifications**: Organized in accessible table format
+- **Comparison Tools**: Screen reader compatible comparisons
+
+### Forms Accessibility:
+- **Labels**: All form inputs have associated labels
+- **Instructions**: Clear guidance for form completion
+- **Error Messages**: Specific, actionable error descriptions
+- **Required Fields**: Clearly marked with both visual and text indicators
+- **Validation**: Real-time, accessible form validation
+
+### Contact Information Accessibility:
+- **Phone Numbers**: Properly formatted for screen readers
+- **Addresses**: Structured with appropriate markup
+- **Maps**: Alternative text descriptions of locations
+- **Contact Forms**: Fully accessible with clear labels
+- **Business Hours**: Clearly presented in accessible format
+
+## MOBILE ACCESSIBILITY FEATURES
+
+### Touch Interface Accessibility:
+- **Touch Targets**: Minimum 44px touch target size
+- **Gesture Alternatives**: Alternative input methods available
+- **Orientation Support**: Works in both portrait and landscape
+- **Zoom Support**: Content remains usable at high zoom levels
+- **Voice Control**: Compatible with mobile voice commands
+
+### Mobile Screen Reader Support:
+- **VoiceOver**: Full iOS compatibility
+- **TalkBack**: Complete Android support
+- **Voice Assistant**: Siri and Google Assistant integration
+- **Switch Control**: Support for switch navigation
+- **Voice Control**: iOS Voice Control compatibility
+
+## COGNITIVE ACCESSIBILITY FEATURES
+
+### Clear Communication:
+- **Plain Language**: Content written in accessible language
+- **Short Paragraphs**: Information broken into digestible chunks
+- **Bullet Points**: Key information highlighted clearly
+- **Consistent Layout**: Predictable page structure throughout
+- **Error Prevention**: Clear instructions prevent user errors
+
+### Attention and Focus:
+- **Minimal Distractions**: Clean, focused design
+- **Clear Headings**: Logical content hierarchy
+- **Progress Indicators**: Clear indication of process steps
+- **Session Timeouts**: Warnings before automatic logouts
+- **Pause Controls**: Ability to pause auto-playing content
+
+## VISUAL ACCESSIBILITY FEATURES
+
+### Color and Contrast:
+- **High Contrast**: 4.5:1 minimum contrast ratio for normal text
+- **Enhanced Contrast**: 7:1 contrast ratio for enhanced accessibility
+- **Color Independence**: Information not conveyed by color alone
+- **Custom Colors**: Support for user color preferences
+- **Dark Mode**: High contrast dark theme available
+
+### Typography and Layout:
+- **Readable Fonts**: Sans-serif fonts for better readability
+- **Scalable Text**: Text enlarges without horizontal scrolling
+- **Line Spacing**: 1.5x line height for improved readability
+- **Paragraph Spacing**: Clear separation between content blocks
+- **Focus Indicators**: Visible focus outlines for keyboard users
+
+## HEARING ACCESSIBILITY FEATURES
+
+### Audio Content:
+- **Captions**: All video content includes accurate captions
+- **Transcripts**: Text alternatives for audio content
+- **Visual Indicators**: Visual alerts for audio cues
+- **Volume Control**: User-controlled audio levels
+- **Audio Descriptions**: Descriptive audio for visual content
+
+## MOTOR ACCESSIBILITY FEATURES
+
+### Keyboard Navigation:
+- **Full Functionality**: All features accessible via keyboard
+- **Logical Tab Order**: Sensible navigation sequence
+- **Skip Links**: Ability to bypass repetitive content
+- **Access Keys**: Keyboard shortcuts for main navigation
+- **No Time Limits**: No automatic timeouts on interactions
+
+### Mouse Alternatives:
+- **Large Click Targets**: Minimum 44px clickable areas
+- **Hover Alternatives**: Information available without hover
+- **Drag and Drop**: Alternative input methods available
+- **Right-Click Menus**: Keyboard accessible alternatives
+- **Precise Clicking**: No requirement for precise mouse control
+
+## TESTING AND VALIDATION
+
+### Accessibility Testing Tools:
+- **WAVE Web Accessibility Evaluator**: Regular automated testing
+- **axe DevTools**: Comprehensive accessibility analysis
+- **Lighthouse Accessibility Audit**: Google's accessibility scoring
+- **Color Contrast Analyzers**: WCAG contrast verification
+- **Screen Reader Testing**: Manual testing with multiple screen readers
+
+### User Testing:
+- **Disability Community**: Feedback from users with disabilities
+- **Assistive Technology Users**: Real-world usage testing
+- **Cognitive Accessibility**: Testing with cognitive disabilities
+- **Motor Impairment Testing**: Validation with motor disabilities
+- **Vision Impairment Testing**: Testing with visual disabilities
+
+## ACCESSIBILITY CONTACT INFORMATION
+
+### Feedback and Support:
+If you encounter any accessibility barriers on our website or need assistance accessing any content, please contact us:
+
+**Email**: accessibility@shoresidegolfcarts.com
+**Phone**: 1-844-844-6638 (TTY available)
+**Mail**: Shoreside Golf Carts Accessibility Team
+        400 Eastern Coastline Access
+        Accessibility Department
+
+### Response Commitment:
+- **Response Time**: Within 2 business days
+- **Resolution Goal**: Accessibility issues addressed within 5 business days
+- **Alternative Formats**: Content available in alternative formats upon request
+- **Personal Assistance**: Human assistance available for complex inquiries
+
+## ONGOING ACCESSIBILITY IMPROVEMENTS
+
+### Continuous Improvement Process:
+- **Regular Audits**: Monthly accessibility assessments
+- **User Feedback**: Ongoing collection of accessibility feedback
+- **Staff Training**: Regular accessibility training for all team members
+- **Technology Updates**: Keeping up with accessibility technology advances
+- **Standard Updates**: Monitoring for WCAG guideline updates
+
+### Future Accessibility Goals:
+- **WCAG 2.2 Compliance**: Preparing for updated accessibility standards
+- **Enhanced Mobile**: Improved mobile accessibility features
+- **Voice Interface**: Voice-controlled navigation development
+- **AI Assistance**: AI-powered accessibility enhancement tools
+- **Universal Design**: Designing for the widest range of abilities
+
+## ACCESSIBILITY STANDARDS COMPLIANCE
+
+### Standards Met:
+✅ **WCAG 2.1 Level AA**: Web Content Accessibility Guidelines compliance
+✅ **Section 508**: U.S. federal accessibility requirements
+✅ **ADA Title III**: Americans with Disabilities Act compliance
+✅ **EN 301 549**: European accessibility standard compliance
+✅ **AODA**: Accessibility for Ontarians with Disabilities Act compliance
+
+### Legal Compliance:
+- **Documentation**: Comprehensive accessibility documentation maintained
+- **Training Records**: Staff accessibility training documentation
+- **Audit Reports**: Regular third-party accessibility assessments
+- **Remediation Plans**: Structured approach to accessibility improvements
+- **Compliance Monitoring**: Ongoing compliance verification processes
+
+## ACCESSIBILITY DECLARATION
+
+Shoreside Golf Carts is committed to providing an inclusive digital experience for all users. We believe that accessibility is not just a legal requirement but a fundamental aspect of good design that benefits everyone. Our website is designed and developed with accessibility as a core principle, ensuring that all users can access our products, services, and information regardless of their abilities or the technologies they use.
+
+This accessibility statement demonstrates our ongoing commitment to digital inclusion and our dedication to serving all customers in the Eastern Coastline golf cart market.

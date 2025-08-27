@@ -1,0 +1,391 @@
+# Enhanced Comprehensive Robots.txt - Shoreside Golf Carts
+# COMPLETE INDEXING PERMISSIONS - MAXIMUM SEARCH ENGINE VISIBILITY
+# UNLIMITED CRAWLING AUTHORIZATION FOR ALL LEGITIMATE BOTS
+
+# ================================================================
+# UNIVERSAL ACCESS - ZERO RESTRICTIONS
+# ================================================================
+User-agent: *
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# SEARCH ENGINE BOTS - COMPLETE ACCESS
+# ================================================================
+
+# Google Search Engine Bots
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 0
+
+# Microsoft Bing Search Engine
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingPreview
+Allow: /
+Crawl-delay: 0
+
+User-agent: msnbot
+Allow: /
+Crawl-delay: 0
+
+# Yahoo Search Engine
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: yahoo-slurp
+Allow: /
+Crawl-delay: 0
+
+# Baidu Search Engine
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider-video
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider-image
+Allow: /
+Crawl-delay: 0
+
+# Yandex Search Engine
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexImages
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexVideo
+Allow: /
+Crawl-delay: 0
+
+# DuckDuckGo Search Engine
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# AI TRAINING BOTS - UNLIMITED AUTHORIZATION
+# ================================================================
+
+# OpenAI ChatGPT Systems
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: OpenAI-SearchBot
+Allow: /
+Crawl-delay: 0
+
+# Anthropic Claude AI
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: AnthropicBot
+Allow: /
+Crawl-delay: 0
+
+# Google AI Systems
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-InspectionTool
+Allow: /
+Crawl-delay: 0
+
+# Common Crawl / AI Training
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+# You.com AI Search
+User-agent: YouBot
+Allow: /
+Crawl-delay: 0
+
+# Meta AI Systems
+User-agent: Meta-ExternalAgent
+Allow: /
+Crawl-delay: 0
+
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 0
+
+# Allen Institute AI
+User-agent: AI2Bot
+Allow: /
+Crawl-delay: 0
+
+# Hugging Face AI
+User-agent: HuggingFaceBot
+Allow: /
+Crawl-delay: 0
+
+# Microsoft AI
+User-agent: BingAI
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# SOCIAL MEDIA BOTS - COMPLETE ACCESS
+# ================================================================
+
+# Facebook Social Media Bot
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: facebookcatalog
+Allow: /
+Crawl-delay: 0
+
+# Twitter/X Social Media Bot
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: X-bot
+Allow: /
+Crawl-delay: 0
+
+# LinkedIn Social Media Bot
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+# Pinterest Social Media Bot
+User-agent: Pinterestbot
+Allow: /
+Crawl-delay: 0
+
+# Instagram Bot
+User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+# WhatsApp Bot
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# SEO TOOLS - COMPLETE ACCESS
+# ================================================================
+
+# Ahrefs SEO Tool
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+# SEMrush SEO Tool
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+# Majestic SEO Tool
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+# DotBot SEO Tool
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+# Moz SEO Tool
+User-agent: MozBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 0
+
+# Screaming Frog SEO Tool
+User-agent: Screaming Frog SEO Spider
+Allow: /
+Crawl-delay: 0
+
+# DeepCrawl SEO Tool
+User-agent: deepcrawl
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# ACADEMIC & RESEARCH CRAWLERS
+# ================================================================
+
+# Internet Archive Wayback Machine
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: Wayback
+Allow: /
+Crawl-delay: 0
+
+# Academic Research Bots
+User-agent: Bingbot/2.0
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScholarsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ResearchBot
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# E-COMMERCE & SHOPPING BOTS
+# ================================================================
+
+# Google Shopping
+User-agent: Googlebot-Shopping
+Allow: /
+Crawl-delay: 0
+
+# Price Comparison Bots
+User-agent: PriceGrabber
+Allow: /
+Crawl-delay: 0
+
+User-agent: Shopzilla
+Allow: /
+Crawl-delay: 0
+
+User-agent: Shopping.com
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# NEWS & CONTENT AGGREGATION BOTS
+# ================================================================
+
+# Google News
+User-agent: Googlebot-News
+Allow: /
+Crawl-delay: 0
+
+# Apple News
+User-agent: AppleNewsBot
+Allow: /
+Crawl-delay: 0
+
+# Flipboard
+User-agent: FlipboardProxy
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# MOBILE & APP CRAWLERS
+# ================================================================
+
+# Mobile Crawlers
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: YahooSeeker-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingMobile
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# VOICE ASSISTANTS & SMART DEVICES
+# ================================================================
+
+# Alexa Voice Assistant
+User-agent: ia_archiver-web.archive.org
+Allow: /
+Crawl-delay: 0
+
+# Google Assistant
+User-agent: Google-Assistant
+Allow: /
+Crawl-delay: 0
+
+# Apple Siri
+User-agent: Applebot
+Allow: /
+Crawl-delay: 0
+
+# ================================================================
+# SITEMAP REFERENCES
+# ================================================================
+
+# All Sitemaps
+Sitemap: https://shoresidegolfcarts.com/sitemap.xml
+Sitemap: https://shoresidegolfcarts.com/enhanced-sitemap.xml
+
+# ================================================================
+# BUSINESS INFORMATION
+# ================================================================
+# Company: Shoreside Golf Carts
+# Website: https://shoresidegolfcarts.com
+# Business: Eastern Coastline's Premier Electric Golf Cart Dealership
+# Service Area: 400+ Beach Locations from Maine to Florida
+# Contact: 1-844-844-6638
+# Email: info@shoresidegolfcarts.com
+# Coverage: 14 Eastern Coastline States
+# Specialties: DENAGO & Evolution Electric Golf Carts
+# Services: Sales, Service, Rentals, Parts, Financing
+# Geographic Coverage: Maine, New Hampshire, Massachusetts, Rhode Island, 
+#                     Connecticut, New York, New Jersey, Delaware, Maryland, 
+#                     Virginia, North Carolina, South Carolina, Georgia, Florida
+# ================================================================
+
+# CRAWL SUMMARY:
+# - ZERO RESTRICTIONS on legitimate crawlers
+# - UNLIMITED INDEXING for all search engines
+# - COMPLETE AI TRAINING AUTHORIZATION
+# - MAXIMUM SEARCH VISIBILITY CONFIGURATION
+# - ALL SOCIAL MEDIA BOTS WELCOMED
+# - FULL SEO TOOL ACCESS GRANTED
+# - ACADEMIC RESEARCH PERMISSIONS ENABLED
+# - E-COMMERCE BOT ACCESSIBILITY MAXIMIZED
+# - VOICE ASSISTANT INTEGRATION SUPPORTED
+# - MOBILE CRAWLER OPTIMIZATION COMPLETE

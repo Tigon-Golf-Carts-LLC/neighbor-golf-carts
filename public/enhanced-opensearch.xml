@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  
+  <!-- Search Engine Information -->
+  <ShortName>Shoreside Golf Carts</ShortName>
+  <Description>Search Shoreside Golf Carts for DENAGO and Evolution electric golf carts, rentals, and service across 400+ Eastern Coastline beach locations from Maine to Florida</Description>
+  <LongName>Shoreside Golf Carts - Eastern Coastline's Premier Golf Cart Dealership</LongName>
+  
+  <!-- Contact and Legal Information -->
+  <Contact>info@shoresidegolfcarts.com</Contact>
+  <Developer>Shoreside Golf Carts Development Team</Developer>
+  <Attribution>© 2025 Shoreside Golf Carts. All rights reserved.</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  
+  <!-- Language and Encoding -->
+  <Language>en-us</Language>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  
+  <!-- Search URL Templates -->
+  
+  <!-- HTML Search Results -->
+  <Url type="text/html" 
+       method="GET" 
+       template="https://shoresidegolfcarts.com/search?q={searchTerms}&amp;type=html&amp;start={startIndex}&amp;count={count}">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="type" value="html"/>
+    <Param name="start" value="{startIndex}"/>
+    <Param name="count" value="{count}"/>
+  </Url>
+  
+  <!-- JSON Search Results -->
+  <Url type="application/json" 
+       method="GET" 
+       template="https://shoresidegolfcarts.com/api/search?q={searchTerms}&amp;format=json&amp;start={startIndex}&amp;count={count}">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="format" value="json"/>
+    <Param name="start" value="{startIndex}"/>
+    <Param name="count" value="{count}"/>
+  </Url>
+  
+  <!-- RSS Search Results -->
+  <Url type="application/rss+xml" 
+       method="GET" 
+       template="https://shoresidegolfcarts.com/search/rss?q={searchTerms}&amp;start={startIndex}&amp;count={count}">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="start" value="{startIndex}"/>
+    <Param name="count" value="{count}"/>
+  </Url>
+  
+  <!-- Atom Search Results -->
+  <Url type="application/atom+xml" 
+       method="GET" 
+       template="https://shoresidegolfcarts.com/search/atom?q={searchTerms}&amp;start={startIndex}&amp;count={count}">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="start" value="{startIndex}"/>
+    <Param name="count" value="{count}"/>
+  </Url>
+  
+  <!-- Search Suggestions -->
+  <Url type="application/x-suggestions+json" 
+       method="GET" 
+       template="https://shoresidegolfcarts.com/api/suggestions?q={searchTerms}">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  
+  <!-- Self-Description URL -->
+  <Url type="application/opensearchdescription+xml" 
+       rel="self" 
+       template="https://shoresidegolfcarts.com/opensearch.xml"/>
+  
+  <!-- Query Examples -->
+  <Query role="example" searchTerms="DENAGO EV City"/>
+  <Query role="example" searchTerms="Evolution golf cart"/>
+  <Query role="example" searchTerms="beach golf cart rental"/>
+  <Query role="example" searchTerms="electric golf cart Delaware"/>
+  <Query role="example" searchTerms="golf cart service Cape Cod"/>
+  <Query role="example" searchTerms="6 passenger golf cart"/>
+  <Query role="example" searchTerms="street legal golf cart"/>
+  <Query role="example" searchTerms="golf cart financing"/>
+  <Query role="example" searchTerms="Outer Banks golf cart"/>
+  <Query role="example" searchTerms="Key West golf cart rental"/>
+  
+  <!-- Search Categories and Tags -->
+  <Tags>golf carts electric vehicles DENAGO Evolution beach transportation Eastern Coastline LSV low speed vehicle recreational utility commercial rental service sales financing parts accessories Maine New Hampshire Massachusetts Rhode Island Connecticut New York New Jersey Delaware Maryland Virginia North Carolina South Carolina Georgia Florida</Tags>
+  
+  <!-- Website and Image Information -->
+  <Image height="64" width="64" type="image/png">https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png</Image>
+  <Image height="16" width="16" type="image/x-icon">https://shoresidegolfcarts.com/favicon.ico</Image>
+  
+  <!-- Mozilla-Specific Extensions -->
+  <moz:SearchForm>https://shoresidegolfcarts.com/search</moz:SearchForm>
+  <moz:UpdateUrl>https://shoresidegolfcarts.com/opensearch.xml</moz:UpdateUrl>
+  <moz:UpdateInterval>7</moz:UpdateInterval>
+  <moz:IconUpdateUrl>https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png</moz:IconUpdateUrl>
+  
+</OpenSearchDescription>

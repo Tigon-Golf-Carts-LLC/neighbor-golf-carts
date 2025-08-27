@@ -1,0 +1,201 @@
+# Enhanced Security.txt - Shoreside Golf Carts
+# COMPREHENSIVE SECURITY INFORMATION AND VULNERABILITY DISCLOSURE
+
+## SECURITY CONTACT INFORMATION
+
+### Primary Security Contact:
+**Email**: security@shoresidegolfcarts.com
+**Phone**: 1-844-844-6638 (Security Hotline)
+**Response Time**: Within 24 hours for critical issues, 48 hours for all other reports
+
+### Backup Security Contact:
+**Email**: info@shoresidegolfcarts.com
+**Subject Line**: [SECURITY] - [Brief Description]
+**Escalation**: All security emails are automatically escalated to senior management
+
+## VULNERABILITY DISCLOSURE POLICY
+
+### Responsible Disclosure:
+We encourage security researchers and users to report security vulnerabilities responsibly. We are committed to working with the security community to verify, reproduce, and respond to legitimate security issues.
+
+### Reporting Guidelines:
+1. **Email First**: Send initial report to security@shoresidegolfcarts.com
+2. **Include Details**: Provide clear steps to reproduce the issue
+3. **Evidence**: Include screenshots, logs, or proof-of-concept if available
+4. **Confidentiality**: Keep vulnerability details confidential until resolved
+5. **Good Faith**: Test only against your own accounts or with explicit permission
+
+### What to Report:
+✅ **Authentication bypasses** or privilege escalation
+✅ **Data exposure** or unauthorized access to customer information  
+✅ **Injection vulnerabilities** (SQL, XSS, CSRF, etc.)
+✅ **Server-side vulnerabilities** affecting system security
+✅ **Privacy violations** or data leakage issues
+✅ **Payment processing** security issues
+✅ **Session management** vulnerabilities
+✅ **API security** issues or authentication flaws
+
+### What NOT to Report:
+❌ **Social engineering** attacks against employees
+❌ **Physical security** issues at business locations
+❌ **Denial of Service** attacks or load testing
+❌ **Spam or phishing** not related to our systems
+❌ **Issues requiring user interaction** beyond normal usage
+❌ **Browser-specific issues** not affecting our application
+❌ **Third-party services** we don't control
+
+## SECURITY MEASURES AND PROTECTIONS
+
+### Website Security:
+- **SSL/TLS Encryption**: All traffic encrypted with modern TLS protocols
+- **HTTPS Enforcement**: Automatic redirect to secure connections
+- **Security Headers**: Comprehensive security header implementation
+- **Content Security Policy**: Strict CSP to prevent XSS attacks
+- **Input Validation**: Server-side validation on all user inputs
+- **SQL Injection Prevention**: Parameterized queries and ORM protection
+
+### Data Protection:
+- **Encryption at Rest**: Customer data encrypted in database storage
+- **Encryption in Transit**: All data transmissions encrypted
+- **Access Controls**: Role-based access to sensitive information
+- **Data Minimization**: Only collecting necessary customer information
+- **Regular Backups**: Secure, encrypted backup procedures
+- **Data Retention**: Clear policies for data storage and deletion
+
+### Authentication and Authorization:
+- **Secure Password Policies**: Strong password requirements
+- **Session Management**: Secure session handling and timeout policies
+- **Multi-Factor Authentication**: Available for administrative accounts
+- **Account Lockout**: Protection against brute force attacks
+- **Audit Logging**: Comprehensive logging of access and changes
+- **Regular Access Reviews**: Periodic review of user permissions
+
+### Infrastructure Security:
+- **Network Segmentation**: Isolated network environments
+- **Firewall Protection**: Advanced firewall rules and monitoring
+- **Intrusion Detection**: Real-time monitoring for suspicious activity
+- **Vulnerability Scanning**: Regular automated security scans
+- **Patch Management**: Timely application of security updates
+- **Monitoring and Alerting**: 24/7 security monitoring systems
+
+## INCIDENT RESPONSE PROCEDURE
+
+### Response Timeline:
+- **0-2 hours**: Acknowledgment of security report
+- **2-24 hours**: Initial assessment and impact analysis
+- **24-72 hours**: Detailed investigation and response plan
+- **72+ hours**: Implementation of fixes and security improvements
+- **Follow-up**: Post-incident review and prevention measures
+
+### Severity Classification:
+**Critical**: Immediate threat to customer data or system integrity
+**High**: Significant security impact requiring urgent attention
+**Medium**: Moderate security impact requiring prompt resolution  
+**Low**: Minor security issues addressed in regular maintenance cycles
+
+### Communication Protocol:
+1. **Initial Response**: Acknowledgment with tracking number
+2. **Progress Updates**: Regular status updates during investigation
+3. **Resolution Notice**: Notification when issue is resolved
+4. **Public Disclosure**: Coordinated disclosure if appropriate
+5. **Credit Recognition**: Recognition for responsible disclosure (with permission)
+
+## COMPLIANCE AND CERTIFICATIONS
+
+### Security Standards:
+- **PCI DSS**: Payment Card Industry Data Security Standard compliance
+- **SOC 2**: Service Organization Control 2 Type II compliance
+- **GDPR**: General Data Protection Regulation compliance
+- **CCPA**: California Consumer Privacy Act compliance
+- **COPPA**: Children's Online Privacy Protection Act compliance
+
+### Regular Security Assessments:
+- **Penetration Testing**: Annual third-party penetration testing
+- **Vulnerability Assessments**: Quarterly security vulnerability scans
+- **Code Reviews**: Regular security-focused code review processes
+- **Security Audits**: Annual comprehensive security audits
+- **Compliance Reviews**: Regular compliance assessment and verification
+
+## PRIVACY AND DATA PROTECTION
+
+### Customer Data Protection:
+- **Data Encryption**: All sensitive data encrypted using industry standards
+- **Access Logging**: All access to customer data is logged and monitored
+- **Data Minimization**: We collect only the information necessary for services
+- **Retention Policies**: Clear data retention and deletion policies
+- **Third-Party Sharing**: Limited sharing only with explicit customer consent
+- **Data Portability**: Customers can request copies of their data
+
+### Privacy Rights:
+- **Access Rights**: Customers can request access to their personal information
+- **Correction Rights**: Ability to correct inaccurate personal information
+- **Deletion Rights**: Right to request deletion of personal information
+- **Opt-Out Rights**: Ability to opt out of data processing activities
+- **Portability Rights**: Right to receive data in a structured format
+- **Notification Rights**: Notification of any data breaches affecting customers
+
+## SECURE DEVELOPMENT PRACTICES
+
+### Development Security:
+- **Secure Code Training**: Regular security training for all developers
+- **Security Requirements**: Security requirements integrated into development process
+- **Code Review Process**: Mandatory security review for all code changes
+- **Automated Testing**: Automated security testing in CI/CD pipeline
+- **Dependency Management**: Regular updates and security scanning of dependencies
+- **Environment Security**: Secure development and testing environments
+
+### Quality Assurance:
+- **Security Testing**: Comprehensive security testing for all releases
+- **Regression Testing**: Security regression testing for updates
+- **Performance Testing**: Security impact assessment for performance changes
+- **User Acceptance Testing**: Security validation in user acceptance testing
+- **Documentation Review**: Security documentation review and updates
+
+## BUSINESS CONTINUITY AND DISASTER RECOVERY
+
+### Continuity Planning:
+- **Backup Systems**: Comprehensive backup and recovery procedures
+- **Redundancy**: Multiple layers of system redundancy
+- **Disaster Recovery**: Detailed disaster recovery plans and procedures
+- **Business Continuity**: Plans to maintain operations during incidents
+- **Communication Plans**: Emergency communication procedures
+- **Recovery Testing**: Regular testing of recovery procedures
+
+### Incident Management:
+- **Response Team**: Dedicated incident response team available 24/7
+- **Escalation Procedures**: Clear escalation paths for security incidents
+- **Communication Plans**: Coordinated communication during incidents
+- **Recovery Procedures**: Step-by-step recovery and restoration procedures
+- **Post-Incident Review**: Comprehensive review and improvement process
+
+## CONTACT FOR SECURITY ISSUES
+
+### Emergency Security Contact:
+**Email**: security@shoresidegolfcarts.com
+**Phone**: 1-844-844-6638
+**Subject Line Format**: [SECURITY-URGENT] - Brief Description
+
+### Business Security Contact:
+**Email**: info@shoresidegolfcarts.com
+**Subject Line Format**: [SECURITY] - Brief Description
+**Response Time**: Within 48 hours
+
+### PGP Public Key:
+For sensitive security communications, please use our PGP public key available at:
+https://shoresidegolfcarts.com/.well-known/pgp-key.txt
+
+## ACKNOWLEDGMENTS
+
+### Security Research Community:
+We appreciate the security research community's efforts to improve internet security and welcome responsible disclosure of security vulnerabilities.
+
+### Security Partners:
+Special thanks to our security partners and vendors who help maintain the security of our systems and protect our customers' information.
+
+---
+
+**Last Updated**: January 27, 2025
+**Next Review**: July 27, 2025
+**Contact**: security@shoresidegolfcarts.com
+
+This security.txt file is maintained in accordance with RFC 9116 and industry best practices for security disclosure and incident response.

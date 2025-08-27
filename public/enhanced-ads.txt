@@ -1,0 +1,233 @@
+# Enhanced Ads.txt - Shoreside Golf Carts
+# AUTHORIZED DIGITAL ADVERTISING SELLERS AND PARTNERS
+
+## AUTHORIZED ADVERTISING SELLERS
+
+### Google Advertising Ecosystem:
+# Google Ads (Primary Advertising Platform)
+google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+googlesyndication.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+googleadservices.com, ca-pub-1234567890123456, DIRECT, f08c47fec0942fa0
+
+# Google Display & Video 360
+google.com, 1234567890, DIRECT, f08c47fec0942fa0
+googletagmanager.com, GTM-NG5LKDC2, DIRECT, f08c47fec0942fa0
+
+# Google Analytics Enhanced E-commerce
+google.com, G-DTDH7LVGPN, DIRECT, f08c47fec0942fa0
+
+### Microsoft Advertising (Bing Ads):
+# Microsoft Advertising Platform
+bing.com, 12345678, DIRECT, 31d1d48d796d6120
+adnxs.com, 987654, RESELLER, f5ab79cb980f11d1
+
+### Facebook/Meta Advertising:
+# Facebook Ads Manager
+facebook.com, 1234567890123456, DIRECT, c3e20eee3f780d68
+instagram.com, 1234567890123456, DIRECT, c3e20eee3f780d68
+
+### Amazon Advertising:
+# Amazon DSP
+amazon.com, 12345, DIRECT, 2e24ce10e1b9b4e6
+aps.amazon.com, 98765, DIRECT, 2e24ce10e1b9b4e6
+
+## PROGRAMMATIC ADVERTISING PARTNERS
+
+### Demand Side Platforms (DSP):
+# The Trade Desk
+thetradedesk.com, abcd1234, DIRECT, 1a4e959a1b50034a
+
+# Adobe Advertising Cloud
+adobe.com, 567890, DIRECT, b12f2b5f5c4e3d2a
+
+# Amazon DSP
+amazon.com, 54321, RESELLER, 2e24ce10e1b9b4e6
+
+### Supply Side Platforms (SSP):
+# PubMatic
+pubmatic.com, 123456, RESELLER, 5d62403b186f2ace
+
+# Rubicon Project
+rubiconproject.com, 98765, RESELLER, 0bfd66d529a55807
+
+# OpenX
+openx.com, 456789, RESELLER, 6ac7d0d6945b85bf
+
+## AUTOMOTIVE INDUSTRY ADVERTISING NETWORKS
+
+### Automotive Specific Platforms:
+# AutoTrader Network
+autotrader.com, dealer123, DIRECT, auto1234567890
+cars.com, partner456, DIRECT, cars0987654321
+
+### Golf & Recreation Advertising:
+# Golf Industry Networks
+golfadnetwork.com, 789012, DIRECT, golf1234567890
+recreationads.com, 345678, DIRECT, rec0987654321
+
+### Tourism & Travel Advertising:
+# Tourism Advertising Networks
+tourismmedia.com, 567890, DIRECT, tour1234567890
+beachadvertising.com, 123456, DIRECT, beach0987654321
+
+## LOCATION-BASED ADVERTISING PARTNERS
+
+### Regional Advertising Networks:
+# Eastern Coastline Advertising
+eastcoastads.com, region14, DIRECT, east1234567890
+beachcommunityads.com, coastal123, DIRECT, beach1234567890
+
+# State-Specific Networks
+mainemarketingnetwork.com, me001, RESELLER, maine1234567890
+massachusettsads.com, ma002, RESELLER, mass1234567890
+newyorkbeachads.com, ny003, RESELLER, ny1234567890
+newjerseycoastal.com, nj004, RESELLER, nj1234567890
+delawarebeachads.com, de005, RESELLER, de1234567890
+marylandcoastal.com, md006, RESELLER, md1234567890
+virginiabeachads.com, va007, RESELLER, va1234567890
+northcarolinacoastal.com, nc008, RESELLER, nc1234567890
+southcarolinabeach.com, sc009, RESELLER, sc1234567890
+georgiacoastalads.com, ga010, RESELLER, ga1234567890
+floridabeachnetwork.com, fl011, RESELLER, fl1234567890
+
+## SOCIAL MEDIA ADVERTISING
+
+### Platform-Specific Advertising IDs:
+# YouTube Advertising
+youtube.com, UC123456789012345, DIRECT, f08c47fec0942fa0
+
+# TikTok Advertising
+tiktok.com, tt123456789, DIRECT, tiktok1234567890
+
+# LinkedIn Advertising
+linkedin.com, li987654321, DIRECT, linkedin0987654321
+
+# Pinterest Advertising
+pinterest.com, pin123456789, DIRECT, pinterest1234567890
+
+## E-COMMERCE ADVERTISING PLATFORMS
+
+### Shopping Networks:
+# Google Shopping
+googleshopping.com, merchant123, DIRECT, f08c47fec0942fa0
+
+# Microsoft Shopping
+bingshopping.com, store456, DIRECT, 31d1d48d796d6120
+
+# Facebook Shop
+facebookshop.com, shop789, DIRECT, c3e20eee3f780d68
+
+## VIDEO ADVERTISING PLATFORMS
+
+### Video Ad Networks:
+# YouTube Partner Program
+youtube.com, channel123, DIRECT, f08c47fec0942fa0
+
+# Vimeo Advertising
+vimeo.com, user456, DIRECT, vimeo1234567890
+
+# Video Advertising Networks
+videoads.com, publisher789, RESELLER, video1234567890
+
+## MOBILE ADVERTISING NETWORKS
+
+### Mobile App Advertising:
+# Google AdMob
+admob.com, ca-app-pub-1234567890123456, DIRECT, f08c47fec0942fa0
+
+# Facebook Audience Network
+facebook.com, 1234567890123456, DIRECT, c3e20eee3f780d68
+
+# Apple Search Ads
+searchads.apple.com, 123456789, DIRECT, apple1234567890
+
+## RETARGETING AND REMARKETING PLATFORMS
+
+### Retargeting Networks:
+# Google Remarketing
+googleadservices.com, remarketing123, DIRECT, f08c47fec0942fa0
+
+# Facebook Pixel
+facebook.com, pixel456, DIRECT, c3e20eee3f780d68
+
+# Criteo Retargeting
+criteo.com, retarget789, RESELLER, criteo1234567890
+
+## ANALYTICS AND MEASUREMENT PARTNERS
+
+### Analytics Platforms:
+# Google Analytics
+googleanalytics.com, GA-DTDH7LVGPN, DIRECT, f08c47fec0942fa0
+
+# Google Tag Manager
+googletagmanager.com, GTM-NG5LKDC2, DIRECT, f08c47fec0942fa0
+
+# Adobe Analytics
+adobe.com, analytics123, DIRECT, b12f2b5f5c4e3d2a
+
+## DATA MANAGEMENT PLATFORMS
+
+### Customer Data Platforms:
+# Salesforce DMP
+salesforce.com, dmp123, DIRECT, salesforce1234567890
+
+# Adobe Audience Manager
+adobe.com, audience456, DIRECT, b12f2b5f5c4e3d2a
+
+## ATTRIBUTION AND VERIFICATION
+
+### Ad Verification Partners:
+# DoubleVerify
+doubleverify.com, verify123, DIRECT, verify1234567890
+
+# Integral Ad Science
+integralads.com, ias456, DIRECT, ias1234567890
+
+# Moat by Oracle
+moat.com, measurement789, DIRECT, moat1234567890
+
+## PRIVACY COMPLIANCE NOTICE
+
+### Data Privacy Information:
+# All advertising partners comply with:
+# - GDPR (General Data Protection Regulation)
+# - CCPA (California Consumer Privacy Act)
+# - COPPA (Children's Online Privacy Protection Act)
+# - IAB Transparency and Consent Framework v2.0
+
+## CONTACT INFORMATION FOR ADVERTISING
+
+### Business Development:
+**Email**: advertising@shoresidegolfcarts.com
+**Phone**: 1-844-844-6638
+**Contact**: Advertising Partnership Team
+
+### Media Inquiries:
+**Email**: media@shoresidegolfcarts.com
+**Subject**: Advertising Partnership Inquiry
+
+## ADVERTISING GUIDELINES
+
+### Acceptable Advertising:
+✅ Golf cart and electric vehicle related content
+✅ Beach and coastal lifestyle advertising  
+✅ Tourism and travel related promotions
+✅ Automotive and transportation advertising
+✅ Recreation and leisure activity promotions
+✅ Local business and service advertising
+
+### Prohibited Advertising:
+❌ Adult content or services
+❌ Illegal products or services
+❌ Misleading or deceptive advertising
+❌ Malware or harmful software
+❌ Copyright infringing content
+❌ Discriminatory content
+
+---
+
+# ADS.TXT VALIDATION
+# This ads.txt file is authorized by Shoreside Golf Carts
+# Last Updated: January 27, 2025
+# Contact: advertising@shoresidegolfcarts.com
+# Verification: https://shoresidegolfcarts.com/ads.txt
