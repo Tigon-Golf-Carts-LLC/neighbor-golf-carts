@@ -57,13 +57,13 @@ export default function LocalBusinessSchema({
       "description": description,
       "image": {
         "@type": "ImageObject",
-        "url": "https://lackawannagolfcarts.com/logo.png",
+        "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts_1756300319737.png",
         "width": 400,
         "height": 400
       },
       "logo": {
         "@type": "ImageObject",
-        "url": "https://lackawannagolfcarts.com/logo.png",
+        "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts_1756300319737.png",
         "width": 400,
         "height": 400
       },

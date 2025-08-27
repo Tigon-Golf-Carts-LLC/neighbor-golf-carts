@@ -16,7 +16,7 @@ export default function SEOHead({
   keywords = "golf carts, Sussex County, electric golf carts, golf cart sales, golf cart service, Rehoboth Beach golf carts, Delaware golf carts", 
   canonicalUrl,
   townName,
-  ogImage = "/attached_assets/Delaware Golf Carts (1)_1756223019614.png",
+  ogImage = "/attached_assets/Shoreside Golf Carts_1756300319737.png",
   ogType = "website"
 }: SEOHeadProps) {
   useEffect(() => {
@@ -61,23 +61,23 @@ export default function SEOHead({
     // Set favicon
     const existingFavicon = document.querySelector('link[rel="icon"]');
     if (existingFavicon) {
-      existingFavicon.setAttribute("href", "/attached_assets/Delaware Golf Carts (1)_1756223019614.png");
+      existingFavicon.setAttribute("href", "/attached_assets/Shoreside Golf Carts_1756300319737.png");
     } else {
       const favicon = document.createElement("link");
       favicon.rel = "icon";
       favicon.type = "image/png";
-      favicon.href = "/attached_assets/Delaware Golf Carts (1)_1756223019614.png";
+      favicon.href = "/attached_assets/Shoreside Golf Carts_1756300319737.png";
       document.head.appendChild(favicon);
     }
 
     // Set apple touch icon
     const existingAppleIcon = document.querySelector('link[rel="apple-touch-icon"]');
     if (existingAppleIcon) {
-      existingAppleIcon.setAttribute("href", "/attached_assets/Delaware Golf Carts (1)_1756223019614.png");
+      existingAppleIcon.setAttribute("href", "/attached_assets/Shoreside Golf Carts_1756300319737.png");
     } else {
       const appleIcon = document.createElement("link");
       appleIcon.rel = "apple-touch-icon";
-      appleIcon.href = "/attached_assets/Delaware Golf Carts (1)_1756223019614.png";
+      appleIcon.href = "/attached_assets/Shoreside Golf Carts_1756300319737.png";
       document.head.appendChild(appleIcon);
     }
 
@@ -140,7 +140,7 @@ export default function SEOHead({
         "telephone": "1-844-844-6638",
         "email": "info@delawaregolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://delawaregolfcarts.com/attached_assets/Delaware Golf Carts (1)_1756223019614.png",
+        "logo": "https://delawaregolfcarts.com/attached_assets/Shoreside Golf Carts_1756300319737.png",
         "image": `https://delawaregolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",

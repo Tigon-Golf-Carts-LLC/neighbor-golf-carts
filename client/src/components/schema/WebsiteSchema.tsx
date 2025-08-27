@@ -23,7 +23,7 @@ export default function WebsiteSchema({
         "name": "Shoreside Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://shoresidegolfcarts.com/logo.png",
+          "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts_1756300319737.png",
           "width": 400,
           "height": 400
         }

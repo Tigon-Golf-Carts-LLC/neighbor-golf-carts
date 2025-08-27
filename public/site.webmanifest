@@ -1,7 +1,7 @@
 {
-  "name": "Rehoboth Golf Carts - Delaware's Premier Electric Golf Cart Dealership",
-  "short_name": "Rehoboth Golf Carts",
-  "description": "Delaware's premier electric golf cart dealership serving Sussex County. DENAGO & Evolution vehicles, sales, service, rentals, financing. Call 1-844-844-6638.",
+  "name": "Shoreside Golf Carts - Eastern Coastline's Premier Electric Golf Cart Dealership",
+  "short_name": "Shoreside Golf Carts",
+  "description": "Eastern Coastline's premier electric golf cart dealership serving 400+ beach locations from Maine to Florida. DENAGO & Evolution vehicles, sales, service, rentals, financing. Call 1-844-844-6638.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0e2e55",
@@ -13,53 +13,53 @@
   
   "icons": [
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+      "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -88,8 +88,8 @@
   },
   
   "scope_extensions": [
-    {"origin": "https://www.rehobothgolfcarts.com"},
-    {"origin": "https://rehobothgolfcarts.com"}
+    {"origin": "https://www.shoresidegolfcarts.com"},
+    {"origin": "https://shoresidegolfcarts.com"}
   ],
   
   "protocol_handlers": [
@@ -121,7 +121,7 @@
       "url": "/inventory",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
           "sizes": "96x96"
         }
       ]
@@ -133,7 +133,7 @@
       "url": "/showroom",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
           "sizes": "96x96"
         }
       ]
@@ -145,7 +145,7 @@
       "url": "/rentals",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
           "sizes": "96x96"
         }
       ]
@@ -157,7 +157,7 @@
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/Rehoboth Golf Carts transparent_1755544314824.png",
+          "src": "/attached_assets/Shoreside Golf Carts_1756300319737.png",
           "sizes": "96x96"
         }
       ]
@@ -170,7 +170,7 @@
       "sizes": "1920x1080",
       "type": "image/jpeg",
       "form_factor": "wide",
-      "label": "Rehoboth Golf Carts Delaware Dealership Showroom"
+      "label": "Shoreside Golf Carts Eastern Coastline Dealership Showroom"
     },
     {
       "src": "/attached_assets/a-photograph-of-a-modern-golf-cart-deale_BmkjJPKgRKmt_qykvK10yQ_qUKFPYosR52Nhi9vhPGJ5A_1755541056711.jpeg",
