@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, Award, MapPin, Clock, Heart, Target } from "lucide-react";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import OrganizationSchema from "@/components/OrganizationSchema";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
@@ -41,12 +41,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
-      <SEOHead 
-        title="About Shoreside Golf Carts - Eastern Coastline Golf Cart Experts Since 2008"
-        description="Learn about Shoreside Golf Carts, the Eastern Coastline's premier golf cart dealership. Expert team, authorized Denago and Evolution dealer serving Maine to Florida."
-        keywords="about Shoreside Golf Carts, eastern coastline golf cart dealership, beach golf carts, Denago Evolution dealer, coastal golf cart service"
-        canonicalUrl="https://shoresidegolfcarts.com/about"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.about()} />
       <AllSchemas 
         pageType="about" 
         pageData={{
@@ -84,7 +79,7 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Shoreside Golf Carts
+            About Shoreside Golf Carts - Eastern Coastline Golf Cart Experts Since 2008
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Since 2008, we've been the Eastern Coastline's premier destination for premium golf carts, 

@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, CreditCard, Calculator, DollarSign, CheckCircle } from "lucide-react";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 // Import financing option images
@@ -109,14 +109,7 @@ export default function FinancingPage() {
 
   return (
     <>
-      <SEOHead 
-        title="Golf Cart Financing | Delaware Golf Carts | Street Legal LSV & NEV Financing"
-        description="Apply for flexible golf cart financing with Delaware Golf Carts. Multiple financing options available for DENAGO and EVOLUTION electric vehicles. Quick approval and competitive rates."
-        keywords="golf cart financing, Delaware golf cart loans, LSV financing, NEV financing, electric vehicle financing, golf cart payment plans"
-        canonicalUrl="https://delawaregolfcarts.com/financing"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
-        ogType="website"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.financing()} />
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
@@ -126,7 +119,7 @@ export default function FinancingPage() {
         >
           <div className="relative max-w-7xl mx-auto text-center z-10">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Apply For Street Legal LSV, NEV &<br />Golf Cart Financing
+              Golf Cart Financing - Easy Payment Plans & Options
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
               At Delaware Golf Carts, we understand that financing your purchase is an important aspect of the buying process. 

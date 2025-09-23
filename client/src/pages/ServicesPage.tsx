@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Wrench, Settings, Battery, Truck, Shield, Star } from "lucide-react";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
@@ -86,12 +86,7 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* SEO and Schema Markup */}
-      <SEOHead 
-        title="Lackawanna County Golf Cart Services - Expert Maintenance & Repair in PA"
-        description="Professional golf cart maintenance, repair, customization, and warranty services in Lackawanna County, Pennsylvania. Certified technicians, quality parts, and comprehensive care."
-        keywords="golf cart service Lackawanna County PA, golf cart repair Pennsylvania, golf cart maintenance, battery service, customization"
-        canonicalUrl="https://lackawannagolfcarts.com/services"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.services()} />
       <AllSchemas 
         pageType="services" 
         pageData={{
@@ -117,7 +112,7 @@ export default function ServicesPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("services")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Services in Lackawanna County
+              Professional Golf Cart Services - Sales, Service & Rentals
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Professional maintenance, repair, and customization services for all golf cart brands throughout Lackawanna County, Pennsylvania.

@@ -8,7 +8,7 @@ import type { Vehicle } from "@shared/schema";
 import InventorySection from "@/components/InventorySection";
 import BrandsSection from "@/components/BrandsSection";
 import OrganizationSchema from "@/components/OrganizationSchema";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { EASTERN_COASTLINE_STATES, generateAllBeachUrls } from "@/data/easternCoastlineStates";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
@@ -23,14 +23,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
-      <SEOHead 
-        title="Shoreside Golf Carts - Premier Electric Golf Cart Dealership on the Eastern Coast"
-        description="Discover premium electric golf carts from Denago and Evolution at Shoreside Golf Carts. Expert sales, service, rentals, and financing throughout the entire Eastern Coastline from Maine to Florida."
-        keywords="golf carts eastern coast, beach golf carts, coastal golf carts, Denago golf carts, Evolution golf carts, Maine New Hampshire Massachusetts Rhode Island Connecticut New York New Jersey Delaware Maryland Virginia North Carolina South Carolina Georgia Florida"
-        canonicalUrl="https://shoresidegolfcarts.com/"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
-        ogType="website"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.home()} />
       <AllSchemas 
         pageType="home" 
         pageData={{

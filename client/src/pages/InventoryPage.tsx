@@ -10,7 +10,7 @@ import SchemaMarkup, {
   generateBreadcrumbSchema,
   generateOfferCatalogSchema
 } from "@/components/SchemaMarkup";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
@@ -55,12 +55,7 @@ export default function InventoryPage() {
   return (
     <div className="min-h-screen">
       {/* SEO and Schema Markup */}
-      <SEOHead 
-        title="Golf Cart Inventory - Lackawanna County Golf Carts | New Electric Golf Carts PA"
-        description="Browse our extensive inventory of new electric golf carts from DENAGO and Evolution. Premium quality golf carts available in Lackawanna County, Pennsylvania with expert service."
-        keywords="golf cart inventory Lackawanna County PA, electric golf carts for sale, DENAGO golf carts, Evolution golf carts, new golf carts Pennsylvania"
-        canonicalUrl="https://lackawannagolfcarts.com/inventory"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.inventory()} />
       <AllSchemas 
         pageType="inventory" 
         pageData={{
@@ -114,7 +109,7 @@ export default function InventoryPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("inventory")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Golf Cart Inventory
+            Golf Cart Inventory - Premium DENAGO & Evolution Electric Carts
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Browse our extensive collection of premium electric golf carts from DENAGO and EVOLUTION. 

@@ -13,7 +13,7 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { useToast } from "@/hooks/use-toast";
 import { MapPin, Phone, Mail, Globe, Clock } from "lucide-react";
 import { contactFormSchema, ContactForm } from "@shared/schema";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { generateEasternCoastlineMapEmbed } from "@/utils/easternCoastlineMaps";
 
@@ -111,21 +111,14 @@ export default function ContactPage() {
 
   return (
     <>
-      <SEOHead 
-        title="Contact Shoreside Golf Carts - Eastern Coastline Sales & Service"
-        description="Contact Shoreside Golf Carts for sales, service, and support throughout all Eastern Coastline states. Main: 1-844-844-6638. Serving Maine to Florida, 400+ beach locations."
-        keywords="contact Shoreside golf carts, eastern coastline golf cart sales, beach golf cart service, coastal golf cart dealer"
-        canonicalUrl="https://shoresidegolfcarts.com/contact"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_OlTDU4v9StGOZo5AygNb9A_bbx-4nIbSSGW4LKOIV9o3w_1753383770677.png"
-        ogType="website"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.contact()} />
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("contact")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Contact Shoreside Golf Carts
+              Contact Shoreside Golf Carts - Your Eastern Coastline Golf Cart Experts
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Get in touch with the Eastern Coastline's premier golf cart dealership. We're here to help you 
