@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function FeedbackPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Feedback Policy | Lackawanna County Golf Carts"
-        description="Learn how to provide feedback to Lackawanna County Golf Carts. Our commitment to customer feedback, review process, and continuous improvement in Pennsylvania."
-        keywords="feedback policy, customer feedback, Lackawanna County golf carts, customer service policy"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.feedbackPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-feedback")}>

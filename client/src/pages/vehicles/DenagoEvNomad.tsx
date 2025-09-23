@@ -3,21 +3,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";
 import { ArrowLeft, Zap, Shield, Settings, Award, Phone, MapPin, Clock, Users, Battery, Gauge, Car } from "lucide-react";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import nomadImage from "@assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg";
 import { getRandomVehicleBackground } from "@/utils/backgroundImages";
 
 export default function DenagoEvNomad() {
   return (
     <>
-      <SEOHead 
-        title="DENAGO® EV NOMAD - Adventure Electric Vehicle | Lackawanna County Golf Carts"
-        description="Discover the DENAGO® EV NOMAD designed for outdoor adventures and off-road capability. Perfect for camping, hunting, and recreational activities."
-        keywords="DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Luzerne County"
-        canonicalUrl="https://lackawannagolfcarts.com/vehicles/denago-ev-nomad"
-        ogImage="/attached_assets/DENAGONEVNOMAD_1751893047472_1753135231313.jpg"
-        ogType="product"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.denagoEvNomad()} />
       
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         {/* Breadcrumb */}

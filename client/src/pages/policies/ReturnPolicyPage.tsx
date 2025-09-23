@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function ReturnPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Return Policy | Lackawanna County Golf Carts"
-        description="Learn about Lackawanna County Golf Carts return policy for golf cart purchases, accessories, and parts. Understand return conditions, timelines, and procedures."
-        keywords="return policy, golf cart returns, Lackawanna County golf carts, refund policy Pennsylvania"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.returnPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-return")}>

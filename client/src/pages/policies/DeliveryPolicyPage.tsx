@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function DeliveryPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Delivery Policy | Lackawanna County Golf Carts"
-        description="Learn about delivery options, fees, and policies for golf cart purchases and rentals in Lackawanna County, Pennsylvania. Free delivery zones and scheduling information."
-        keywords="delivery policy, golf cart delivery, Lackawanna County delivery, Pennsylvania golf cart shipping"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.deliveryPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-delivery")}>

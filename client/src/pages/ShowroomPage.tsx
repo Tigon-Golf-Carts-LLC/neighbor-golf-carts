@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, Phone, Clock, Star, Facebook, ExternalLink, Youtube } from "lucide-react";
 import { Link } from "wouter";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 import { SUSSEX_COUNTY_MUNICIPALITIES } from "@/data/sussexCountyMunicipalities";
 
@@ -38,14 +38,7 @@ export default function ShowroomPage() {
 
   return (
     <>
-      <SEOHead 
-        title="Shoreside Golf Carts Showroom | Premier Eastern Coastline Golf Cart Dealer"
-        description="Visit Shoreside Golf Carts, the Eastern Coastline's premier golf cart showroom. Complete DENAGO and EVOLUTION lineup serving 400+ beach locations from Maine to Florida."
-        keywords="Shoreside golf carts showroom, eastern coastline golf cart dealership, DENAGO EVOLUTION beach locations, coastal golf cart sales"
-        canonicalUrl="https://shoresidegolfcarts.com/showroom"
-        ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_7zUe5Lu4Q5y7tCLWthTNUg_X4G12-7lSBK0VDHDYkTBEA_1753809417448.png"
-        ogType="website"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.showroom()} />
       <div className="min-h-screen bg-gray-50">
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>

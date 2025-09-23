@@ -2,17 +2,13 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, Phone, Clock, Mail } from "lucide-react";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gray-50">
-      <SEOHead 
-        title="Thank You - Lackawanna County Golf Carts"
-        description="Thank you for contacting Lackawanna County Golf Carts. We'll respond to your inquiry within 24 hours. Serving all Luzerne County municipalities."
-        keywords="thank you, contact confirmation, Lackawanna County Golf Carts, TIGON Golf Carts"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.thankYou()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-green-600 to-green-800 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("thankyou")}>

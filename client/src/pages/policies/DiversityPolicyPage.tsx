@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function DiversityPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Diversity Policy | Lackawanna County Golf Carts"
-        description="Learn about Lackawanna County Golf Carts' commitment to diversity, equity, and inclusion in our Pennsylvania workplace and customer service practices."
-        keywords="diversity policy, equity inclusion, Lackawanna County golf carts, workplace diversity Pennsylvania"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.diversityPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-diversity")}>

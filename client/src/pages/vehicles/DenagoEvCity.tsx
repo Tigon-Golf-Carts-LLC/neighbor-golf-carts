@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "wouter";
 import { ArrowLeft, Zap, Shield, Settings, Award, Phone, MapPin, Clock, Users, Battery, Gauge, Car } from "lucide-react";
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import VehicleSchema from "@/components/VehicleSchema";
 import cityImage from "@assets/DENAGONEVCITY_1751893047472_1753135231313.jpg";
 import { getRandomVehicleBackground } from "@/utils/backgroundImages";
@@ -11,14 +11,7 @@ import { getRandomVehicleBackground } from "@/utils/backgroundImages";
 export default function DenagoEvCity() {
   return (
     <>
-      <SEOHead 
-        title="DENAGO® EV CITY - Urban Electric Vehicle | Lehigh County Golf Carts"
-        description="Discover the DENAGO EV CITY lineup and its unique features designed for urban mobility. Street-legal NEV perfect for city transportation and neighborhood use in Lehigh County, PA."
-        keywords="DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Lehigh County PA"
-        canonicalUrl="https://lackawannagolfcarts.com/vehicle/denago-ev-city"
-        ogImage="/attached_assets/DENAGONEVCITY_1751893047472_1753135231313.jpg"
-        ogType="product"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.denagoEvCityPage()} />
       <VehicleSchema 
         name="DENAGO EV CITY"
         brand="DENAGO"

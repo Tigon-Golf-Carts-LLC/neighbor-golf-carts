@@ -1,13 +1,9 @@
-import SEOHead from '@/components/SEOHead';
+import EnhancedSEOHead, { createPageSEOConfig } from '@/components/EnhancedSEOHead';
 
 export function TermsOfServicePage() {
   return (
     <>
-      <SEOHead 
-        title="Terms of Service | Shoreside Golf Carts"
-        description="Terms of Service for Shoreside Golf Carts. Review our terms and conditions for purchasing golf carts, rental services, and using our website."
-        keywords="terms of service, terms and conditions, golf cart purchase, rental agreement, Shoreside Golf Carts"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.termsOfService()} />
       <div className="min-h-screen bg-gray-50 py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-lg p-8">

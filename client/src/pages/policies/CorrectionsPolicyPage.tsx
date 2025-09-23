@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function CorrectionsPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Corrections Policy | Lackawanna County Golf Carts"
-        description="Learn about Lackawanna County Golf Carts' commitment to accuracy and our process for handling corrections to published content and information."
-        keywords="corrections policy, content accuracy, Lackawanna County golf carts, information corrections"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.correctionsPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-corrections")}>

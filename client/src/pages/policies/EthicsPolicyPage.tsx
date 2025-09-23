@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function EthicsPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Ethics Policy | Lackawanna County Golf Carts"
-        description="Learn about Lackawanna County Golf Carts' code of ethics and business conduct standards for employees, customers, and partners in Pennsylvania."
-        keywords="ethics policy, business ethics, Lackawanna County golf carts, code of conduct Pennsylvania"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.ethicsPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-ethics")}>

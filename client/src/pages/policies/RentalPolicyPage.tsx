@@ -1,14 +1,10 @@
-import SEOHead from "@/components/SEOHead";
+import EnhancedSEOHead, { createPageSEOConfig } from "@/components/EnhancedSEOHead";
 import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 export default function RentalPolicyPage() {
   return (
     <>
-      <SEOHead 
-        title="Rental Policy | Lackawanna County Golf Carts"
-        description="Complete golf cart rental policy for Lackawanna County Golf Carts. Learn about rental requirements, responsibilities, insurance, and terms for Pennsylvania golf cart rentals."
-        keywords="rental policy, golf cart rental, Lackawanna County rentals, Pennsylvania golf cart rental policy"
-      />
+      <EnhancedSEOHead config={createPageSEOConfig.rentalPolicy()} />
       
       {/* Hero Section */}
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("policy-rental")}>
