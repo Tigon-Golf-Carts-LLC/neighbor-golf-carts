@@ -18,16 +18,16 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       "email": "info@shoresidegolfcarts.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Eastern Coastline Service",
-        "addressLocality": "Coastal Regions",
-        "addressRegion": "ME-FL",
-        "postalCode": "04401-33139",
+        "streetAddress": "642 NJ-35",
+        "addressLocality": "Neptune City",
+        "addressRegion": "NJ",
+        "postalCode": "07753",
         "addressCountry": "US"
       },
       "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "39.0",
-        "longitude": "-76.0"
+        "latitude": "40.2005",
+        "longitude": "-74.0313"
       },
       "openingHours": [
         "Mo-Fr 09:00-18:00",

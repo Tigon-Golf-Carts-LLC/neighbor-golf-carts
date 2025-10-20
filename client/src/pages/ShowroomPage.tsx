@@ -10,28 +10,28 @@ import { SUSSEX_COUNTY_MUNICIPALITIES } from "@/data/sussexCountyMunicipalities"
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "TIGON Golf Carts",
-      address: "5158 N Dupont Hwy, Dover, DE 19901",
-      phone: "302-546-0010",
-      coordinates: "39.22044318468275, -75.57452048907642",
-      googleMapsUrl: "https://www.google.com/maps?cid=12843447677705895190",
+      name: "Shoreside Golf Carts",
+      address: "642 NJ-35, Neptune City, NJ 07753",
+      phone: "1-844-844-6638",
+      coordinates: "40.2005, -74.0313",
+      googleMapsUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       facebookUrl: "https://www.facebook.com/TigonGolfCartsDover/",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDoverDE",
-      websiteUrl: "https://tigongolfcarts.com/dover/",
-      reviewUrl: "https://g.page/r/CRa9-YidFz2yEBM/review",
-      city: "Dover",
+      websiteUrl: "https://shoresidegolfcarts.com",
+      reviewUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
+      city: "Neptune City",
       type: "physical"
     },
     {
-      name: "TIGON Golf Carts Delaware",
-      address: "Delaware",
+      name: "Shoreside Golf Carts - Online Services",
+      address: "Serving Eastern Coastline from Maine to Florida",
       phone: "1-844-844-6638",
-      coordinates: "39.145324,-75.386594",
-      googleMapsUrl: "https://www.google.com/maps?cid=11044789483047204293",
+      coordinates: "40.2005,-74.0313",
+      googleMapsUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDelaware",
-      websiteUrl: "https://tigongolfcarts.com/delaware/",
-      reviewUrl: "https://g.page/r/CcW1_1uE-UaZEBM/review",
-      city: "Delaware",
+      websiteUrl: "https://shoresidegolfcarts.com",
+      reviewUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
+      city: "Eastern Coastline",
       type: "online"
     }
   ];
@@ -47,7 +47,7 @@ export default function ShowroomPage() {
             Shoreside Golf Carts Eastern Coastline Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Visit our premier Delaware showroom featuring the complete lineup of DENAGO and EVOLUTION electric vehicles. 
+            Visit our premier Neptune City, New Jersey showroom featuring the complete lineup of DENAGO and EVOLUTION electric vehicles. 
             Serving the entire Eastern Coastline from Maine to Florida with 400+ beach locations.
           </p>
           <div className="flex justify-center">
@@ -64,7 +64,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Serving all of Delaware with expert golf cart sales and service</p>
+            <p className="text-xl text-gray-600">Serving the entire Eastern Coastline with expert golf cart sales and service</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

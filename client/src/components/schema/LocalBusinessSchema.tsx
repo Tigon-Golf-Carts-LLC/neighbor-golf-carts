@@ -27,15 +27,15 @@ export default function LocalBusinessSchema({
   name = "Shoreside Golf Carts",
   description = "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing.",
   address = {
-    streetAddress: "Eastern Coastline Service",
-    addressLocality: "Coastal Regions",
-    addressRegion: "ME-FL",
-    postalCode: "04401-33139",
+    streetAddress: "642 NJ-35",
+    addressLocality: "Neptune City",
+    addressRegion: "NJ",
+    postalCode: "07753",
     addressCountry: "US"
   },
   geo = {
-    latitude: "39.0",
-    longitude: "-76.0"
+    latitude: "40.2005",
+    longitude: "-74.0313"
   },
   telephone = "1-844-844-6638",
   email = "info@shoresidegolfcarts.com",
