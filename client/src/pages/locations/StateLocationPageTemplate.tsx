@@ -15,7 +15,7 @@ interface StateLocationPageTemplateProps {
 export default function StateLocationPageTemplate({ state }: StateLocationPageTemplateProps) {
   const [location] = useLocation();
 
-  const pageTitle = `${state.name} Golf Carts - Neighborhood Golf Carts | Beach & Coastal Golf Cart Sales`;
+  const pageTitle = `${state.name} Neighborhood Vehicle`;
   const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} coastal communities. Premium DENAGO and Evolution electric golf carts available throughout ${state.name} shores and beaches.`;
   const pageUrl = `https://neighborgolfcarts.com/${state.slug}-golf-carts`;
 
