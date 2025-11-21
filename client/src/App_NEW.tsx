@@ -36,12 +36,19 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// all 50 states State Pages
+// All 50 States Pages
 import {
-  MainePage, NewHampshirePage, MassachusettsPage, RhodeIslandPage, ConnecticutPage,
-  NewYorkPage, NewJerseyPage, DelawarePage, MarylandPage, VirginiaPage,
-  NorthCarolinaPage, SouthCarolinaPage, GeorgiaPage, FloridaPage
-} from "@/pages/locations/EasternCoastlineStatePages";
+  AlabamaPage, AlaskaPage, ArizonaPage, ArkansasPage, CaliforniaPage,
+  ColoradoPage, ConnecticutPage, DelawarePage, FloridaPage, GeorgiaPage,
+  HawaiiPage, IdahoPage, IllinoisPage, IndianaPage, IowaPage,
+  KansasPage, KentuckyPage, LouisianaPage, MainePage, MarylandPage,
+  MassachusettsPage, MichiganPage, MinnesotaPage, MississippiPage, MissouriPage,
+  MontanaPage, NebraskaPage, NevadaPage, NewHampshirePage, NewJerseyPage,
+  NewMexicoPage, NewYorkPage, NorthCarolinaPage, NorthDakotaPage, OhioPage,
+  OklahomaPage, OregonPage, PennsylvaniaPage, RhodeIslandPage, SouthCarolinaPage,
+  SouthDakotaPage, TennesseePage, TexasPage, UtahPage, VermontPage,
+  VirginiaPage, WashingtonPage, WestVirginiaPage, WisconsinPage, WyomingPage
+} from "@/pages/locations/All50StatePages";
 
 // All Beach Location Pages
 import {
@@ -181,21 +188,57 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
             
-            {/* all 50 states State Pages */}
-            <Route path="/maine-golf-carts" component={MainePage} />
-            <Route path="/new-hampshire-golf-carts" component={NewHampshirePage} />
-            <Route path="/massachusetts-golf-carts" component={MassachusettsPage} />
-            <Route path="/rhode-island-golf-carts" component={RhodeIslandPage} />
+            {/* All 50 States Pages */}
+            <Route path="/alabama-golf-carts" component={AlabamaPage} />
+            <Route path="/alaska-golf-carts" component={AlaskaPage} />
+            <Route path="/arizona-golf-carts" component={ArizonaPage} />
+            <Route path="/arkansas-golf-carts" component={ArkansasPage} />
+            <Route path="/california-golf-carts" component={CaliforniaPage} />
+            <Route path="/colorado-golf-carts" component={ColoradoPage} />
             <Route path="/connecticut-golf-carts" component={ConnecticutPage} />
-            <Route path="/new-york-golf-carts" component={NewYorkPage} />
-            <Route path="/new-jersey-golf-carts" component={NewJerseyPage} />
             <Route path="/delaware-golf-carts" component={DelawarePage} />
-            <Route path="/maryland-golf-carts" component={MarylandPage} />
-            <Route path="/virginia-golf-carts" component={VirginiaPage} />
-            <Route path="/north-carolina-golf-carts" component={NorthCarolinaPage} />
-            <Route path="/south-carolina-golf-carts" component={SouthCarolinaPage} />
-            <Route path="/georgia-golf-carts" component={GeorgiaPage} />
             <Route path="/florida-golf-carts" component={FloridaPage} />
+            <Route path="/georgia-golf-carts" component={GeorgiaPage} />
+            <Route path="/hawaii-golf-carts" component={HawaiiPage} />
+            <Route path="/idaho-golf-carts" component={IdahoPage} />
+            <Route path="/illinois-golf-carts" component={IllinoisPage} />
+            <Route path="/indiana-golf-carts" component={IndianaPage} />
+            <Route path="/iowa-golf-carts" component={IowaPage} />
+            <Route path="/kansas-golf-carts" component={KansasPage} />
+            <Route path="/kentucky-golf-carts" component={KentuckyPage} />
+            <Route path="/louisiana-golf-carts" component={LouisianaPage} />
+            <Route path="/maine-golf-carts" component={MainePage} />
+            <Route path="/maryland-golf-carts" component={MarylandPage} />
+            <Route path="/massachusetts-golf-carts" component={MassachusettsPage} />
+            <Route path="/michigan-golf-carts" component={MichiganPage} />
+            <Route path="/minnesota-golf-carts" component={MinnesotaPage} />
+            <Route path="/mississippi-golf-carts" component={MississippiPage} />
+            <Route path="/missouri-golf-carts" component={MissouriPage} />
+            <Route path="/montana-golf-carts" component={MontanaPage} />
+            <Route path="/nebraska-golf-carts" component={NebraskaPage} />
+            <Route path="/nevada-golf-carts" component={NevadaPage} />
+            <Route path="/new-hampshire-golf-carts" component={NewHampshirePage} />
+            <Route path="/new-jersey-golf-carts" component={NewJerseyPage} />
+            <Route path="/new-mexico-golf-carts" component={NewMexicoPage} />
+            <Route path="/new-york-golf-carts" component={NewYorkPage} />
+            <Route path="/north-carolina-golf-carts" component={NorthCarolinaPage} />
+            <Route path="/north-dakota-golf-carts" component={NorthDakotaPage} />
+            <Route path="/ohio-golf-carts" component={OhioPage} />
+            <Route path="/oklahoma-golf-carts" component={OklahomaPage} />
+            <Route path="/oregon-golf-carts" component={OregonPage} />
+            <Route path="/pennsylvania-golf-carts" component={PennsylvaniaPage} />
+            <Route path="/rhode-island-golf-carts" component={RhodeIslandPage} />
+            <Route path="/south-carolina-golf-carts" component={SouthCarolinaPage} />
+            <Route path="/south-dakota-golf-carts" component={SouthDakotaPage} />
+            <Route path="/tennessee-golf-carts" component={TennesseePage} />
+            <Route path="/texas-golf-carts" component={TexasPage} />
+            <Route path="/utah-golf-carts" component={UtahPage} />
+            <Route path="/vermont-golf-carts" component={VermontPage} />
+            <Route path="/virginia-golf-carts" component={VirginiaPage} />
+            <Route path="/washington-golf-carts" component={WashingtonPage} />
+            <Route path="/west-virginia-golf-carts" component={WestVirginiaPage} />
+            <Route path="/wisconsin-golf-carts" component={WisconsinPage} />
+            <Route path="/wyoming-golf-carts" component={WyomingPage} />
             
             {/* Maine Beach Pages */}
             <Route path="/maine/old-orchard-beach-golf-carts" component={MaineOldOrchardBeachPage} />

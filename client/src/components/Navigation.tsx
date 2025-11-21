@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { ALL_50_STATES } from "@/data/all50States";
 
 export default function Navigation() {
   const [location] = useLocation();
@@ -74,76 +75,13 @@ export default function Navigation() {
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="max-h-96 overflow-y-auto">
-                  <DropdownMenuItem asChild>
-                    <Link href="/maine-golf-carts" className="w-full">
-                      Maine
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/new-hampshire-golf-carts" className="w-full">
-                      New Hampshire
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/massachusetts-golf-carts" className="w-full">
-                      Massachusetts
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/rhode-island-golf-carts" className="w-full">
-                      Rhode Island
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/connecticut-golf-carts" className="w-full">
-                      Connecticut
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/new-york-golf-carts" className="w-full">
-                      New York
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/new-jersey-golf-carts" className="w-full">
-                      New Jersey
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/delaware-golf-carts" className="w-full">
-                      Delaware
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/maryland-golf-carts" className="w-full">
-                      Maryland
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/virginia-golf-carts" className="w-full">
-                      Virginia
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/north-carolina-golf-carts" className="w-full">
-                      North Carolina
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/south-carolina-golf-carts" className="w-full">
-                      South Carolina
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/georgia-golf-carts" className="w-full">
-                      Georgia
-                    </Link>
-                  </DropdownMenuItem>
-                  <DropdownMenuItem asChild>
-                    <Link href="/florida-golf-carts" className="w-full">
-                      Florida
-                    </Link>
-                  </DropdownMenuItem>
+                  {ALL_50_STATES.map((state) => (
+                    <DropdownMenuItem key={state.slug} asChild>
+                      <Link href={`/${state.slug}-golf-carts`} className="w-full">
+                        {state.name}
+                      </Link>
+                    </DropdownMenuItem>
+                  ))}
                 </DropdownMenuContent>
               </DropdownMenu>
               

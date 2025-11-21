@@ -6,23 +6,23 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
-import { CoastalState } from "@/data/easternCoastlineStates";
+import { State } from "@/data/all50States";
 
 interface StateLocationPageTemplateProps {
-  state: CoastalState;
+  state: State;
 }
 
 export default function StateLocationPageTemplate({ state }: StateLocationPageTemplateProps) {
   const [location] = useLocation();
 
-  const pageTitle = `${state.name} Neighborhood Vehicle`;
-  const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} coastal communities. Premium DENAGO and Evolution electric golf carts available throughout ${state.name} shores and beaches.`;
+  const pageTitle = `${state.name} Neighborhood Golf Carts`;
+  const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} neighborhoods and communities. Premium DENAGO and Evolution street-legal electric golf carts available throughout ${state.name}.`;
   const pageUrl = `https://neighborgolfcarts.com/${state.slug}-golf-carts`;
 
   const breadcrumbs = [
     { name: "Home", url: "https://neighborgolfcarts.com/" },
-    { name: "States", url: "https://neighborgolfcarts.com/coastal-states" },
-    { name: `${state.name} Golf Carts`, url: pageUrl }
+    { name: "States", url: "https://neighborgolfcarts.com/states" },
+    { name: `${state.name} Neighborhood Golf Carts`, url: pageUrl }
   ];
 
   return (
@@ -30,7 +30,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
       <SEOHead 
         title={pageTitle}
         description={pageDescription}
-        keywords={`golf carts ${state.name}, ${state.name} neighborhood golf carts, street-legal golf carts ${state.name}, ${state.beaches.slice(0, 5).map(b => b.name).join(', ')}`}
+        keywords={`golf carts ${state.name}, ${state.name} neighborhood golf carts, street-legal golf carts ${state.name}, ${state.cities?.slice(0, 5).map(c => c.name).join(', ') || state.name}`}
         canonicalUrl={pageUrl}
         ogType="website"
       />
@@ -50,12 +50,11 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              {state.name} Golf Carts - Neighborhood Golf Carts
+              {state.name} Neighborhood Golf Carts
             </h1>
             <p className="text-xl mb-8 text-gray-100 max-w-4xl mx-auto">
-              Professional golf cart sales, service, and rentals serving all {state.name} coastal communities. 
-              From {state.beaches[0]?.name} to {state.beaches[state.beaches.length - 1]?.name}, we deliver premium 
-              golf cart solutions to every shore and beach in {state.name}.
+              Professional golf cart sales, service, and rentals serving all {state.name} neighborhoods and communities. 
+              Street-legal electric golf carts perfect for residential areas, retirement communities, and local transportation throughout {state.name}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/inventory">
@@ -81,7 +80,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
               Complete Golf Cart Services in {state.name}
             </h2>
             <p className="text-xl text-gray-600">
-              Comprehensive golf cart solutions for all {state.name} coastal communities
+              Comprehensive golf cart solutions for all {state.name} neighborhoods and communities
             </p>
           </div>
           
@@ -111,7 +110,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
               <CardContent>
                 <p className="text-gray-600">
                   Professional maintenance and repair services by certified technicians, 
-                  serving all {state.name} coastal areas.
+                  serving all {state.name} neighborhoods.
                 </p>
               </CardContent>
             </Card>
@@ -125,8 +124,8 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600">
-                  Short-term and long-term golf cart rentals perfect for beach vacations 
-                  and events throughout {state.name}.
+                  Short-term and long-term golf cart rentals perfect for neighborhoods, events, 
+                  and personal transportation throughout {state.name}.
                 </p>
               </CardContent>
             </Card>
@@ -139,29 +138,29 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              {state.name} Coastal Locations We Serve
+              {state.name} Cities We Serve
             </h2>
             <p className="text-xl text-gray-600">
-              Professional golf cart services delivered to every shore and beach in {state.name}
+              Professional neighborhood golf cart services delivered throughout {state.name}
             </p>
           </div>
           
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {state.beaches.map((beach) => (
+            {state.cities?.map((city) => (
               <Link 
-                key={beach.slug} 
-                href={`/${state.slug}/${beach.slug}-golf-carts`}
+                key={city.slug} 
+                href={`/${state.slug}/${city.slug}-golf-carts`}
                 className="bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-shadow"
               >
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-5 h-5 text-theme-primary flex-shrink-0" />
                   <div>
-                    <div className="font-semibold text-gray-900">{beach.name}</div>
-                    <div className="text-sm text-gray-500 capitalize">{beach.type.replace('-', ' ')}</div>
+                    <div className="font-semibold text-gray-900">{city.name}</div>
+                    <div className="text-sm text-gray-500 capitalize">{city.type}</div>
                   </div>
                 </div>
               </Link>
-            ))}
+            )) || <p className="text-gray-600">Serving all neighborhoods in {state.name}</p>}
           </div>
         </div>
       </section>
@@ -182,7 +181,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
               </div>
               <h3 className="text-xl font-semibold mb-3 text-gray-900">Local Expertise</h3>
               <p className="text-gray-600">
-                Deep knowledge of {state.name} coastal communities and terrain requirements.
+                Deep knowledge of {state.name} neighborhoods and local terrain requirements.
               </p>
             </div>
             
@@ -224,23 +223,23 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              {state.name} Coastal Coverage Map
+              {state.name} Service Area Map
             </h2>
             <p className="text-xl text-gray-600">
-              We serve all coastal areas throughout {state.name}
+              We serve neighborhoods throughout {state.name}
             </p>
           </div>
           
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <iframe
-              src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50000!2d${state.slug === 'maine' ? '-69.2649' : state.slug === 'new-hampshire' ? '-70.7494' : state.slug === 'massachusetts' ? '-70.5171' : state.slug === 'rhode-island' ? '-71.4774' : state.slug === 'connecticut' ? '-72.5473' : state.slug === 'new-york' ? '-72.6851' : state.slug === 'new-jersey' ? '-74.4776' : state.slug === 'delaware' ? '-75.5277' : state.slug === 'maryland' ? '-75.8939' : state.slug === 'virginia' ? '-75.9776' : state.slug === 'north-carolina' ? '-75.5449' : state.slug === 'south-carolina' ? '-78.6569' : state.slug === 'georgia' ? '-81.0987' : '-82.6404'}!3d${state.slug === 'maine' ? '43.7844' : state.slug === 'new-hampshire' ? '43.0389' : state.slug === 'massachusetts' ? '41.9028' : state.slug === 'rhode-island' ? '41.5801' : state.slug === 'connecticut' ? '41.2033' : state.slug === 'new-york' ? '40.9176' : state.slug === 'new-jersey' ? '39.8283' : state.slug === 'delaware' ? '38.9108' : state.slug === 'maryland' ? '38.4192' : state.slug === 'virginia' ? '36.8508' : state.slug === 'north-carolina' ? '35.2271' : state.slug === 'south-carolina' ? '33.8361' : state.slug === 'georgia' ? '31.9986' : '27.7663'}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f8.1!3m3!1m2!1s0x0%3A0x0!2z${encodeURIComponent(state.name + ' coast beaches')}!5e0!3m2!1sen!2sus!4v${Date.now()}!5m2!1sen!2sus`}
+              src={`https://www.google.com/maps/embed/v1/place?key=&q=${encodeURIComponent(state.name)}`}
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title={`${state.name} Coastal Areas Map`}
+              title={`${state.name} Service Area Map`}
             />
           </div>
         </div>

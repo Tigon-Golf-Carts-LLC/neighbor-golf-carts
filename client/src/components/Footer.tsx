@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { EASTERN_COASTLINE_STATES, generateAllBeachUrls } from "@/data/easternCoastlineStates";
+import { ALL_50_STATES } from "@/data/all50States";
 
 export default function Footer() {
   return (
@@ -140,30 +140,16 @@ export default function Footer() {
         {/* All States Served */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            States We Serve Nationwide
+            All 50 States We Serve Nationwide
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-7 gap-3 text-center mb-6">
-            {EASTERN_COASTLINE_STATES.map((state, index) => (
+          <div className="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-10 gap-3 text-center mb-6">
+            {ALL_50_STATES.map((state, index) => (
               <Link 
                 key={`${state.slug}-${index}`}
                 href={`/${state.slug}-golf-carts`} 
                 className="text-gray-600 text-sm hover:text-blue-600 transition-colors font-semibold"
               >
                 {state.name}
-              </Link>
-            ))}
-          </div>
-          <h4 className="text-md font-semibold text-gray-700 mb-4 text-center">
-            Featured Neighborhood Locations
-          </h4>
-          <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-2 text-center">
-            {generateAllBeachUrls().slice(0, 40).map((beach, index) => (
-              <Link 
-                key={`${beach.slug}-${index}`}
-                href={beach.url} 
-                className="text-gray-600 text-xs hover:text-blue-600 transition-colors"
-              >
-                {beach.name}
               </Link>
             ))}
           </div>
