@@ -15,7 +15,7 @@ export default function NewAboutPage() {
       name: "Michael Thompson",
       role: "Owner & General Manager",
       experience: "15+ years in recreational vehicle sales",
-      description: "Passionate about providing all Eastern Coastline communities with the best golf cart experience from Maine to Florida."
+      description: "Passionate about providing all all 50 states communities with the best golf cart experience from nationwide."
     },
     {
       name: "Sarah Martinez",
@@ -51,7 +51,7 @@ export default function NewAboutPage() {
     {
       icon: Target,
       title: "Local Focus",
-      description: "Proud to serve all 400+ Eastern Coastline beach locations with personalized, community-focused service."
+      description: "Proud to serve all 400+ all 50 states beach locations with personalized, community-focused service."
     },
     {
       icon: Heart,
@@ -63,10 +63,10 @@ export default function NewAboutPage() {
   return (
     <>
       <SEOHead 
-        title="About Shoreside Golf Carts - Your Premier Eastern Coastline Golf Cart Dealer"
-        description="Learn about Shoreside Golf Carts, the Eastern Coastline's trusted golf cart dealer serving 400+ beach locations with premium DENAGO and EVOLUTION vehicles since 2008."
-        keywords="Shoreside golf carts, about us, eastern coastline golf cart dealer, DENAGO dealer, EVOLUTION dealer, Maine to Florida beach locations"
-        canonicalUrl="https://shoresidegolfcarts.com/about"
+        title="About Neighborhood Golf Carts - Your Premier all 50 states Golf Cart Dealer"
+        description="Learn about Neighborhood Golf Carts, the all 50 states's trusted golf cart dealer serving 400+ beach locations with premium DENAGO and EVOLUTION vehicles since 2008."
+        keywords="Shoreside golf carts, about us, eastern coastline golf cart dealer, DENAGO dealer, EVOLUTION dealer, nationwide beach locations"
+        canonicalUrl="https://neighborgolfcarts.com/about"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />
@@ -113,7 +113,7 @@ export default function NewAboutPage() {
                   <p>
                     Delaware stands as a unique state with just three counties, encompassing 
                     everything from Wilmington's urban energy in New Castle County to Dover's political center in Kent County, and from the 
-                    famous resort communities and historic coastal towns throughout the Eastern Coastline.
+                    famous resort communities and historic coastal towns throughout the all 50 states.
                   </p>
                   <p>
                     Delaware holds a special place in American history as the "First State" to ratify the Constitution, with communities like Lewes being 
@@ -123,7 +123,7 @@ export default function NewAboutPage() {
                   </p>
                   <p>
                     With Delaware's excellent highway system including I-95, Route 1, and Route 13, 
-                    and the Eastern Coastline's beautiful coastal communities from Maine to Florida attract residents and visitors who 
+                    and the all 50 states's beautiful coastal communities from nationwide attract residents and visitors who 
                     demand excellence in every aspect of their lives—including their golf cart experience.
                   </p>
                   <p>
@@ -296,7 +296,7 @@ export default function NewAboutPage() {
         <section className="py-16 bg-theme-primary text-white">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold mb-6">
-              Ready to Experience the Shoreside Golf Carts Difference?
+              Ready to Experience the Neighborhood Golf Carts Difference?
             </h2>
             <p className="text-xl mb-8">
               Join thousands of satisfied customers who trust us for their golf cart needs.

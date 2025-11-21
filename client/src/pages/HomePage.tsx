@@ -27,14 +27,14 @@ export default function HomePage() {
       <AllSchemas 
         pageType="home" 
         pageData={{
-          title: "Shoreside Golf Carts - Premier Electric Golf Cart Dealership on the Eastern Coast",
-          description: "Discover premium electric golf carts from Denago and Evolution at Shoreside Golf Carts. Expert sales, service, rentals, and financing throughout the entire Eastern Coastline from Maine to Florida.",
-          url: "https://shoresidegolfcarts.com/",
-          breadcrumbs: [{ name: "Home", url: "https://shoresidegolfcarts.com/" }],
+          title: "Neighborhood Golf Carts - Premier Electric Golf Cart Dealership on the Eastern Coast",
+          description: "Discover premium electric golf carts from Denago and Evolution at Neighborhood Golf Carts. Expert sales, service, rentals, and financing throughout the entire all 50 states from nationwide.",
+          url: "https://neighborgolfcarts.com/",
+          breadcrumbs: [{ name: "Home", url: "https://neighborgolfcarts.com/" }],
           reviews: [
             {
               author: "John Smith",
-              reviewBody: "Excellent service and quality golf carts. The team at Shoreside Golf Carts helped me find the perfect cart for my needs in Virginia Beach.",
+              reviewBody: "Excellent service and quality golf carts. The team at Neighborhood Golf Carts helped me find the perfect cart for my needs in Virginia Beach.",
               reviewRating: 5,
               datePublished: "2025-01-15",
               headline: "Outstanding service and selection"
@@ -62,10 +62,10 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-5xl font-bold mb-6 leading-tight">
-                Shoreside Golf Carts - Eastern Coastline Premier Dealership
+                Neighborhood Golf Carts - all 50 states Premier Dealership
               </h1>
               <p className="text-xl mb-8 text-gray-100">
-                Serving the entire Eastern Coastline with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from Maine to Florida. 
+                Serving the entire all 50 states with premium electric golf carts from Evolution and Denago. Professional sales, service, and rental solutions from nationwide. 
                 Covering all shores, beaches, and coastal communities from Bar Harbor to Miami Beach.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -96,7 +96,7 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Choose Shoreside Golf Carts?
+            Why Choose Neighborhood Golf Carts?
           </h2>
           <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
             We're more than just a dealership - we're your coastline partner in golf cart ownership 
@@ -151,10 +151,10 @@ export default function HomePage() {
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Shoreside Golf Carts - Top Golf Cart and LSV Brands
+            Neighborhood Golf Carts - Top Golf Cart and LSV Brands
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            We carry the most trusted names in Golf Carts and Low Speed Vehicles across the Eastern Coastline
+            We carry the most trusted names in Golf Carts and Low Speed Vehicles across the all 50 states
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-6 gap-6 mb-12">
@@ -325,16 +325,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* About Shoreside Golf Carts Section */}
+      {/* About Neighborhood Golf Carts Section */}
       <section className="py-12 md:py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="order-2 lg:order-1">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900">
-                About Shoreside Golf Carts
+                About Neighborhood Golf Carts
               </h2>
               <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8">
-                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout the entire Eastern Coastline from Maine to Florida.
+                With over 15 years of experience in the golf cart industry, we've built our reputation on providing exceptional service and quality products to customers throughout the entire all 50 states from nationwide.
               </p>
               
               <div className="grid grid-cols-2 gap-4 md:gap-8 mb-6 md:mb-8">
@@ -364,7 +364,7 @@ export default function HomePage() {
                   allowFullScreen={true} 
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Eastern Coastline Map"
+                  title="all 50 states Map"
                 />
               </div>
             </div>
@@ -372,14 +372,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Eastern Coastline States and Beaches Section */}
+      {/* all 50 states States and Beaches Section */}
       <section className="py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
             Golf Carts for Every Eastern Coast Beach & Shore
           </h2>
           <p className="text-xl text-gray-600 mb-12">
-            Professional golf cart services delivered to every shore, beach, and coastal community from Maine to Florida
+            Professional golf cart services delivered to every shore, beach, and coastal community from nationwide
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-12">
             {/* Featured coastal locations from all states */}
@@ -440,7 +440,7 @@ export default function HomePage() {
 
           <div className="bg-white p-8 rounded-lg shadow-sm">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Main Contact</h3>
-            <p className="text-gray-600 mb-4">For general inquiries and support throughout the entire Eastern Coastline</p>
+            <p className="text-gray-600 mb-4">For general inquiries and support throughout the entire all 50 states</p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-4">
               <a href="tel:1-844-844-6638" className="text-2xl font-bold text-theme-orange hover:underline">1-844-844-6638</a>
               <Link href="/contact">

@@ -1,4 +1,4 @@
-// Shoreside Golf Carts - Professional Shore-Side Background Images
+// Neighborhood Golf Carts - Professional Shore-Side Background Images
 // 9 new professional Shoreside golf cart shore-side images for dynamic backgrounds
 
 import image1 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side_1756238208000.jpeg";
@@ -25,22 +25,22 @@ export const backgroundImages = [
 
 // Page-specific background image assignments for consistency
 export const pageBackgrounds = {
-  home: image1,           // Shoreside Golf Carts main shore-side scene for homepage
-  inventory: image2,      // Shoreside Golf Carts shore display
-  rentals: image3,        // Shoreside Golf Carts beach-focused view
-  services: image4,       // Shoreside Golf Carts professional shore service
-  about: image5,          // Shoreside Golf Carts welcoming shore scene
-  contact: image6,        // Shoreside Golf Carts customer shore area
-  showroom: image7,       // Shoreside Golf Carts premium shore showroom
-  denago: image8,         // Shoreside Golf Carts shore area for Denago vehicles
-  evolution: image9,      // Shoreside Golf Carts shore scene for Evolution vehicles
-  vehicle: image3,        // Shoreside Golf Carts individual vehicle shore display
-  vehicleDetail: image7,  // Shoreside Golf Carts premium vehicle shore showcase
-  counties: image2,       // Shoreside Golf Carts for county/state pages
-  locations: image6,      // Shoreside Golf Carts for location pages
-  financing: image4,      // Shoreside Golf Carts for financing pages
-  policies: image5,       // Shoreside Golf Carts for policy pages
-  default: image1,        // Shoreside Golf Carts main shore scene as fallback
+  home: image1,           // Neighborhood Golf Carts main shore-side scene for homepage
+  inventory: image2,      // Neighborhood Golf Carts shore display
+  rentals: image3,        // Neighborhood Golf Carts beach-focused view
+  services: image4,       // Neighborhood Golf Carts professional shore service
+  about: image5,          // Neighborhood Golf Carts welcoming shore scene
+  contact: image6,        // Neighborhood Golf Carts customer shore area
+  showroom: image7,       // Neighborhood Golf Carts premium shore showroom
+  denago: image8,         // Neighborhood Golf Carts shore area for Denago vehicles
+  evolution: image9,      // Neighborhood Golf Carts shore scene for Evolution vehicles
+  vehicle: image3,        // Neighborhood Golf Carts individual vehicle shore display
+  vehicleDetail: image7,  // Neighborhood Golf Carts premium vehicle shore showcase
+  counties: image2,       // Neighborhood Golf Carts for county/state pages
+  locations: image6,      // Neighborhood Golf Carts for location pages
+  financing: image4,      // Neighborhood Golf Carts for financing pages
+  policies: image5,       // Neighborhood Golf Carts for policy pages
+  default: image1,        // Neighborhood Golf Carts main shore scene as fallback
 };
 
 // Function to get background image for a specific page

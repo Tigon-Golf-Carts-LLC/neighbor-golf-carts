@@ -228,8 +228,8 @@ export default function EvolutionPage() {
       <SEOHead 
         title="EVOLUTION Golf Carts Sussex County | Premium Electric Vehicles Delaware"
         description="Discover EVOLUTION golf carts in Sussex County, Delaware. Complete lineup of D5 RANGER, MAVERICK, CLASSIC, CARRIER, FORESTER, TURFMAN, and D6 MAX series. Expert sales & service."
-        keywords="EVOLUTION golf carts Eastern Coastline, electric golf carts shore side, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales coastal, beach golf carts"
-        canonicalUrl="https://shoresidegolfcarts.com/evolution"
+        keywords="EVOLUTION golf carts all 50 states, electric golf carts shore side, EVOLUTION D5 RANGER, EVOLUTION MAVERICK, EVOLUTION CLASSIC, golf cart sales coastal, neighborhood golf carts"
+        canonicalUrl="https://neighborgolfcarts.com/evolution"
         ogImage="/attached_assets/EVOLUTIOND6MAXXT4_1751893159005_1753135437836.jpg"
         ogType="product.group"
       />

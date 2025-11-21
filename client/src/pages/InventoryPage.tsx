@@ -48,8 +48,8 @@ export default function InventoryPage() {
   }
 
   const breadcrumbItems = [
-    { name: "Home", url: "https://shoresidegolfcarts.com" },
-    { name: "Inventory", url: "https://shoresidegolfcarts.com/inventory" }
+    { name: "Home", url: "https://neighborgolfcarts.com" },
+    { name: "Inventory", url: "https://neighborgolfcarts.com/inventory" }
   ];
 
   return (

@@ -140,8 +140,8 @@ export default function DenagoPage() {
       <SEOHead 
         title="DENAGO Electric Golf Carts Sussex County | Premium Off-Road Vehicles Delaware"
         description="Discover DENAGO electric golf carts in Sussex County, Delaware. Premium EV CITY, EV NOMAD, and EV ROVER series with advanced all-wheel drive technology. Sales, service & delivery."
-        keywords="DENAGO golf carts Eastern Coastline, electric golf carts shore side, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, beach golf carts"
-        canonicalUrl="https://shoresidegolfcarts.com/denago"
+        keywords="DENAGO golf carts all 50 states, electric golf carts shore side, DENAGO EV CITY, DENAGO EV NOMAD, DENAGO EV ROVER, off-road golf carts, neighborhood golf carts"
+        canonicalUrl="https://neighborgolfcarts.com/denago"
         ogImage="/attached_assets/DENAGONEVROVERXL_1751893047473_1753135231313.jpg"
         ogType="product.group"
       />

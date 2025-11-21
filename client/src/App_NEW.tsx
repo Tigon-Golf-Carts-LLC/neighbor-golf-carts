@@ -36,7 +36,7 @@ import DiversityPolicyPage from "@/pages/policies/DiversityPolicyPage";
 import EthicsPolicyPage from "@/pages/policies/EthicsPolicyPage";
 import StaffingReportPage from "@/pages/policies/StaffingReportPage";
 
-// Eastern Coastline State Pages
+// all 50 states State Pages
 import {
   MainePage, NewHampshirePage, MassachusettsPage, RhodeIslandPage, ConnecticutPage,
   NewYorkPage, NewJerseyPage, DelawarePage, MarylandPage, VirginiaPage,
@@ -181,7 +181,7 @@ export default function App() {
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
             
-            {/* Eastern Coastline State Pages */}
+            {/* all 50 states State Pages */}
             <Route path="/maine-golf-carts" component={MainePage} />
             <Route path="/new-hampshire-golf-carts" component={NewHampshirePage} />
             <Route path="/massachusetts-golf-carts" component={MassachusettsPage} />

@@ -10,8 +10,8 @@ export default function Footer() {
           {/* Company Description */}
           <div className="md:hidden">
             <p className="text-gray-600 text-sm leading-relaxed">
-              Eastern Coastline's premier golf cart dealership serving customers across 
-              all coastal states from Maine to Florida with quality carts and expert service.
+              America's premier neighborhood golf cart dealership serving customers across 
+              all 50 states nationwide with quality street-legal carts and expert service.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
           <div className="md:hidden">
             <div className="space-y-2">
               <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-              <p className="text-gray-600 text-sm">Email: info@shoresidegolfcarts.com</p>
+              <p className="text-gray-600 text-sm">Email: info@neighborgolfcarts.com</p>
               <div className="text-gray-600 text-sm">
                 <p>Mon-Fri: 9AM-5PM</p>
                 <p>Sat: 9AM-5PM</p>
@@ -65,8 +65,8 @@ export default function Footer() {
             {/* Company Description */}
             <div className="md:col-span-1">
               <p className="text-gray-600 text-sm leading-relaxed">
-                Eastern Coastline's premier golf cart dealership serving customers across 
-                all coastal states from Maine to Florida with quality carts and expert service.
+                America's premier neighborhood golf cart dealership serving customers across 
+                all 50 states nationwide with quality street-legal carts and expert service.
               </p>
             </div>
 
@@ -126,7 +126,7 @@ export default function Footer() {
               </ul>
               <div className="space-y-2">
                 <p className="text-gray-900 font-semibold text-sm">Phone: <a href="tel:1-844-844-6638" className="hover:text-blue-600">1-844-844-6638</a></p>
-                <p className="text-gray-600 text-sm">Email: info@shoresidegolfcarts.com</p>
+                <p className="text-gray-600 text-sm">Email: info@neighborgolfcarts.com</p>
                 <div className="text-gray-600 text-sm">
                   <p>Mon-Fri: 9AM-5PM</p>
                   <p>Sat: 9AM-5PM</p>
@@ -137,10 +137,10 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Coastal States Served */}
+        {/* All States Served */}
         <div className="border-t border-gray-200 pt-8 mb-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6 text-center">
-            Eastern Coastline States We Serve
+            States We Serve Nationwide
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-7 lg:grid-cols-7 gap-3 text-center mb-6">
             {EASTERN_COASTLINE_STATES.map((state, index) => (
@@ -154,7 +154,7 @@ export default function Footer() {
             ))}
           </div>
           <h4 className="text-md font-semibold text-gray-700 mb-4 text-center">
-            Featured Coastal Locations
+            Featured Neighborhood Locations
           </h4>
           <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-2 text-center">
             {generateAllBeachUrls().slice(0, 40).map((beach, index) => (
@@ -173,12 +173,12 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-600 text-sm">
-              © 2025 Shoreside Golf Carts. All rights reserved. | 
+              © 2025 Neighborhood Golf Carts. All rights reserved. | 
               <Link href="/privacy-policy" className="hover:text-gray-900 ml-1">Privacy Policy</Link> | 
               <Link href="/terms-of-service" className="hover:text-gray-900 ml-1">Terms of Service</Link>
             </div>
             <div className="text-gray-600 text-sm">
-              Shoreside Golf Carts - Serving all Eastern Coastline locations from Maine to Florida with premium golf carts and exceptional service.
+              Neighborhood Golf Carts - Serving all 50 states nationwide with premium street-legal golf carts and exceptional service.
             </div>
           </div>
         </div>

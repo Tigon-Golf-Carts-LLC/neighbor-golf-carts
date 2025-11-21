@@ -47,10 +47,10 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
   return (
     <>
       <SEOHead 
-        title={`${name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals | Shoreside Golf Carts`}
-        description={`Professional golf cart sales, rentals, and service in ${name}. DENAGO and EVOLUTION electric vehicles with expert service from Shoreside Golf Carts.`}
+        title={`${name} Golf Carts | DENAGO & EVOLUTION Sales & Rentals | Neighborhood Golf Carts`}
+        description={`Professional golf cart sales, rentals, and service in ${name}. DENAGO and EVOLUTION electric vehicles with expert service from Neighborhood Golf Carts.`}
         keywords={`${name} golf carts, ${slug} golf cart sales, beach golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, Shoreside golf carts`}
-        canonicalUrl={`https://shoresidegolfcarts.com${municipality.url}`}
+        canonicalUrl={`https://neighborgolfcarts.com${municipality.url}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
         ogType="website"
       />
@@ -70,7 +70,7 @@ export default function LocationPageTemplate({ municipality }: LocationPageProps
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
               Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service 
-              in {name}. Your trusted Shoreside Golf Carts specialists serving the Eastern Coastline.
+              in {name}. Your trusted Neighborhood Golf Carts specialists serving the all 50 states.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">

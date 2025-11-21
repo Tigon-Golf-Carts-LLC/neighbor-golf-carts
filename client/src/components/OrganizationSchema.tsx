@@ -9,13 +9,13 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
     const baseStructuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Shoreside Golf Carts",
-      "description": "Premier golf cart dealership serving the Eastern Coastline specializing in electric golf carts, sales, service, rentals, and financing serving 400+ beach locations from Maine to Florida.",
-      "url": "https://shoresidegolfcarts.com",
-      "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
-      "image": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "name": "Neighborhood Golf Carts",
+      "description": "Premier golf cart dealership specializing in street-legal electric golf carts for neighborhoods, sales, service, rentals, and financing serving all 50 states across the United States.",
+      "url": "https://neighborgolfcarts.com",
+      "logo": "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "image": "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
       "telephone": "1-844-844-6638",
-      "email": "info@shoresidegolfcarts.com",
+      "email": "info@neighborgolfcarts.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "642 NJ-35",
@@ -35,7 +35,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
       ],
       "serviceArea": {
         "@type": "AdministrativeArea",
-        "name": "Eastern Coastline, Maine to Florida"
+        "name": "United States - All 50 States"
       },
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -45,16 +45,16 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
-              "name": "Denago Electric Golf Carts",
-              "category": "Electric Golf Carts"
+              "name": "Denago Street-Legal Electric Golf Carts",
+              "category": "Street-Legal Golf Carts"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Product",
-              "name": "Evolution Electric Golf Carts",
-              "category": "Electric Golf Carts"
+              "name": "Evolution Street-Legal Electric Golf Carts",
+              "category": "Street-Legal Golf Carts"
             }
           },
           {
@@ -132,7 +132,7 @@ export default function OrganizationSchema({ pageType = "home" }: OrganizationSc
         "@type": "Organization",
         "provider": {
           "@type": "Organization",
-          "name": "Lehigh County Golf Carts"
+          "name": "Neighborhood Golf Carts"
         }
       } as any;
     }

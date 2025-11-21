@@ -36,14 +36,14 @@ export default function Navigation() {
             <div className="rounded-lg">
               <img 
                 src="/attached_assets/Shoreside Golf Carts_1756300319737.png" 
-                alt="Shoreside Golf Carts Logo" 
+                alt="Neighborhood Golf Carts Logo" 
                 className="h-20 w-20 object-contain"
               />
             </div>
             <Link href="/">
               <div className="cursor-pointer">
                 <div className="text-lg font-bold text-theme-primary" style={{lineHeight: '1.1'}}>
-                  SHORESIDE<br />
+                  NEIGHBORHOOD<br />
                   GOLF CARTS
                 </div>
               </div>
@@ -70,7 +70,7 @@ export default function Navigation() {
               {/* States Dropdown */}
               <DropdownMenu>
                 <DropdownMenuTrigger className="flex items-center px-3 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
-                  Coastal States
+                  All States
                   <ChevronDown className="ml-1 h-4 w-4" />
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="max-h-96 overflow-y-auto">
@@ -208,10 +208,10 @@ export default function Navigation() {
                     </Link>
                   ))}
                   
-                  {/* Mobile Coastal States Section */}
+                  {/* Mobile All States Section */}
                   <div className="border-t pt-4">
                     <div className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">
-                      Coastal States
+                      All States
                     </div>
                     <div className="max-h-40 overflow-y-auto">
                       <Link

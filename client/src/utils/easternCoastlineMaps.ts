@@ -5,7 +5,7 @@ export interface CoordinateLocation {
   lng: number;
 }
 
-// Eastern Coastline state center coordinates for map display
+// all 50 states state center coordinates for map display
 export const EASTERN_COASTLINE_COORDINATES: Record<string, CoordinateLocation> = {
   "maine": { lat: 43.7844, lng: -69.2649 },
   "new-hampshire": { lat: 43.0389, lng: -70.7494 },
@@ -247,7 +247,7 @@ export function generateBeachMapEmbed(stateSlug: string, beachSlug: string, zoom
 }
 
 /**
- * Generate overview map for entire Eastern Coastline
+ * Generate overview map for entire all 50 states
  */
 export function generateEasternCoastlineMapEmbed(zoomLevel: number = 5): string {
   // Center on Mid-Atlantic coast to show entire eastern coastline

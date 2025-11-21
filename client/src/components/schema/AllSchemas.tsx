@@ -125,10 +125,10 @@ interface AllSchemasProps {
 
 export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps) {
   const {
-    title = "Shoreside Golf Carts",
-    description = "Premier golf cart dealership serving the Eastern Coastline from Maine to Florida",
-    url = "https://shoresidegolfcarts.com",
-    breadcrumbs = [{ name: "Home", url: "https://shoresidegolfcarts.com/" }],
+    title = "Neighborhood Golf Carts",
+    description = "Premier street-legal golf cart dealership serving all 50 states across the United States",
+    url = "https://neighborgolfcarts.com",
+    breadcrumbs = [{ name: "Home", url: "https://neighborgolfcarts.com/" }],
     vehicleName,
     vehicleBrand,
     vehicleModel,
@@ -166,9 +166,9 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       
       {/* Auto Dealer Schema for all pages */}
       <AutoDealerSchema
-        name="Shoreside Golf Carts"
-        description="Premier electric golf cart dealership serving the Eastern Coastline with sales, service, rentals, and financing"
-        url="https://shoresidegolfcarts.com"
+        name="Neighborhood Golf Carts"
+        description="Premier street-legal electric golf cart dealership serving all 50 states with sales, service, rentals, and financing"
+        url="https://neighborgolfcarts.com"
         address={{
           streetAddress: "642 NJ-35",
           addressLocality: "Neptune City",
@@ -177,7 +177,7 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
           addressCountry: "US"
         }}
         telephone="1-844-844-6638"
-        email="info@shoresidegolfcarts.com"
+        email="info@neighborgolfcarts.com"
         brands={["DENAGO", "EVOLUTION"]}
         services={["Golf Cart Sales", "Golf Cart Service", "Golf Cart Rentals", "Financing", "Parts & Accessories"]}
         openingHours={[
@@ -195,8 +195,8 @@ export default function AllSchemas({ pageType, pageData = {} }: AllSchemasProps)
       <ContactPointSchema
         contactType="customer service"
         telephone="1-844-844-6638"
-        email="info@shoresidegolfcarts.com"
-        areaServed="Eastern Coastline from Maine to Florida"
+        email="info@neighborgolfcarts.com"
+        areaServed="United States - All 50 States"
         availableLanguage={["English"]}
         hoursAvailable={[
           { dayOfWeek: "Monday", opens: "09:00", closes: "18:00" },

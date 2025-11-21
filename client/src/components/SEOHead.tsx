@@ -97,8 +97,8 @@ export default function SEOHead({
     updateOGTag("og:title", title);
     updateOGTag("og:description", description);
     updateOGTag("og:type", ogType);
-    updateOGTag("og:image", ogImage || "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png");
-    updateOGTag("og:site_name", "Shoreside Golf Carts");
+    updateOGTag("og:image", ogImage || "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png");
+    updateOGTag("og:site_name", "Neighborhood Golf Carts");
     updateOGTag("og:locale", "en_US");
     if (canonicalUrl) {
       updateOGTag("og:url", canonicalUrl);
@@ -120,16 +120,16 @@ export default function SEOHead({
     updateTwitterTag("twitter:card", "summary_large_image");
     updateTwitterTag("twitter:title", title);
     updateTwitterTag("twitter:description", description);
-    updateTwitterTag("twitter:image", `https://delawaregolfcarts.com${ogImage}`);
-    updateTwitterTag("twitter:site", "@delawaregolfcarts");
-    updateTwitterTag("twitter:creator", "@delawaregolfcarts");
+    updateTwitterTag("twitter:image", `https://neighborgolfcarts.com${ogImage}`);
+    updateTwitterTag("twitter:site", "@neighborgolfcarts");
+    updateTwitterTag("twitter:creator", "@neighborgolfcarts");
 
     // Structured Data (JSON-LD)
     if (townName) {
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": `Delaware Golf Carts - ${townName}`,
+        "name": `Neighborhood Golf Carts - ${townName}`,
         "description": description,
         "address": {
           "@type": "PostalAddress",
@@ -138,10 +138,10 @@ export default function SEOHead({
           "addressCountry": "US"
         },
         "telephone": "1-844-844-6638",
-        "email": "info@delawaregolfcarts.com",
+        "email": "info@neighborgolfcarts.com",
         "url": canonicalUrl,
-        "logo": "https://delawaregolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
-        "image": `https://delawaregolfcarts.com${ogImage}`,
+        "logo": "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+        "image": `https://neighborgolfcarts.com${ogImage}`,
         "serviceArea": {
           "@type": "GeoCircle",
           "geoMidpoint": {

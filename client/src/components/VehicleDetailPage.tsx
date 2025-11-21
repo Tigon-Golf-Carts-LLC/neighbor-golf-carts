@@ -86,8 +86,8 @@ export default function VehicleDetailPage({
           description: seoDescription,
           url: canonicalUrl,
           breadcrumbs: [
-            { name: "Home", url: "https://shoresidegolfcarts.com/" },
-            { name: "Inventory", url: "https://shoresidegolfcarts.com/inventory" },
+            { name: "Home", url: "https://neighborgolfcarts.com/" },
+            { name: "Inventory", url: "https://neighborgolfcarts.com/inventory" },
             { name: vehicleName, url: canonicalUrl }
           ],
           vehicleName,

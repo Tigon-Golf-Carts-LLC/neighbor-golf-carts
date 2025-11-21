@@ -22,13 +22,13 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
     return <div>Location not found</div>;
   }
 
-  const pageTitle = `Golf Carts in ${beach.name}, ${state.name} | Shoreside Golf Carts`;
-  const pageDescription = `Premium golf cart sales, rentals, and service in ${beach.name}, ${state.name}. Shoreside Golf Carts delivers DENAGO and EVOLUTION electric vehicles to every shore and beach.`;
-  const pageUrl = `https://shoresidegolfcarts.com/${stateSlug}/${beachSlug}-golf-carts`;
+  const pageTitle = `Golf Carts in ${beach.name}, ${state.name} | Neighborhood Golf Carts`;
+  const pageDescription = `Premium golf cart sales, rentals, and service in ${beach.name}, ${state.name}. Neighborhood Golf Carts delivers DENAGO and EVOLUTION electric vehicles to every shore and beach.`;
+  const pageUrl = `https://neighborgolfcarts.com/${stateSlug}/${beachSlug}-golf-carts`;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://shoresidegolfcarts.com/" },
-    { name: `${state.name} Golf Carts`, url: `https://shoresidegolfcarts.com/${stateSlug}-golf-carts` },
+    { name: "Home", url: "https://neighborgolfcarts.com/" },
+    { name: `${state.name} Golf Carts`, url: `https://neighborgolfcarts.com/${stateSlug}-golf-carts` },
     { name: beach.name, url: pageUrl }
   ];
 
@@ -44,7 +44,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
       <SEOHead 
         title={pageTitle}
         description={pageDescription}
-        keywords={`golf carts ${beach.name} ${state.name}, electric golf carts ${beach.name}, beach golf carts, coastal golf carts, DENAGO, EVOLUTION`}
+        keywords={`golf carts ${beach.name} ${state.name}, electric golf carts ${beach.name}, neighborhood golf carts, street-legal golf carts, DENAGO, EVOLUTION`}
         canonicalUrl={pageUrl}
         ogType="website"
       />
@@ -80,7 +80,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
             
             <p className="text-xl md:text-2xl mb-8 text-blue-100">
               Premium electric golf carts delivered to {beach.name}, {state.name}. 
-              Shoreside Golf Carts serves every shore and beach with expert sales, service, and rentals.
+              Neighborhood Golf Carts serves every shore and beach with expert sales, service, and rentals.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -175,7 +175,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
                 Serving {beach.name} & All {state.name} Coastal Areas
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-                Shoreside Golf Carts is proud to serve {beach.name} and every coastal community throughout {state.name}. 
+                Neighborhood Golf Carts is proud to serve {beach.name} and every coastal community throughout {state.name}. 
                 Our team delivers premium electric golf carts directly to your location, whether you're at the beach, 
                 a coastal resort, or your waterfront home.
               </p>
@@ -281,7 +281,7 @@ export function BeachLocationPageTemplate({ beachSlug, stateSlug }: BeachLocatio
             Ready for Your {beach.name} Golf Cart?
           </h2>
           <p className="text-xl mb-8 text-blue-100">
-            Contact Shoreside Golf Carts today for expert advice and delivery to {beach.name}, {state.name}
+            Contact Neighborhood Golf Carts today for expert advice and delivery to {beach.name}, {state.name}
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">

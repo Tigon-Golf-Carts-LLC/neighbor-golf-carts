@@ -42,7 +42,7 @@ export function buildSEOMetadata(config: PageSEOConfig): SEOMetadata {
   return {
     title,
     description,
-    keywords: config.keywords || "golf carts, Eastern Coastline, beach golf carts, Denago, Evolution, electric golf carts, coastal transportation, Maine to Florida",
+    keywords: config.keywords || "neighborhood golf carts, street legal golf carts, Denago, Evolution, electric golf carts, golf carts for neighborhoods, all 50 states",
     canonicalUrl: config.canonicalUrl,
     heroImage,
     pageName: config.pageName,
@@ -58,7 +58,7 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
   const metadata = buildSEOMetadata(config);
   const fullImageUrl = metadata.heroImage?.startsWith('http') 
     ? metadata.heroImage 
-    : `https://shoresidegolfcarts.com${metadata.heroImage}`;
+    : `https://neighborgolfcarts.com${metadata.heroImage}`;
 
   return (
     <Helmet>
@@ -79,7 +79,7 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
       <meta property="og:image" content={fullImageUrl} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:site_name" content="Shoreside Golf Carts" />
+      <meta property="og:site_name" content="Neighborhood Golf Carts" />
       <meta property="og:locale" content="en_US" />
       {metadata.canonicalUrl && <meta property="og:url" content={metadata.canonicalUrl} />}
       
@@ -88,22 +88,22 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
       <meta name="twitter:title" content={metadata.title} />
       <meta name="twitter:description" content={metadata.description} />
       <meta name="twitter:image" content={fullImageUrl} />
-      <meta name="twitter:site" content="@shoresidegolfcarts" />
-      <meta name="twitter:creator" content="@shoresidegolfcarts" />
+      <meta name="twitter:site" content="@neighborgolfcarts" />
+      <meta name="twitter:creator" content="@neighborgolfcarts" />
       
       {/* Additional SEO Tags */}
       <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-      <meta name="author" content="Shoreside Golf Carts" />
-      <meta name="publisher" content="Shoreside Golf Carts" />
+      <meta name="author" content="Neighborhood Golf Carts" />
+      <meta name="publisher" content="Neighborhood Golf Carts" />
       <meta name="theme-color" content="#0e2e55" />
       <meta name="msapplication-navbutton-color" content="#0e2e55" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#0e2e55" />
       
       {/* Business Information */}
-      <meta name="contact" content="info@shoresidegolfcarts.com" />
+      <meta name="contact" content="info@neighborgolfcarts.com" />
       <meta name="phone" content="1-844-844-6638" />
-      <meta name="geography" content="Eastern Coastline, Maine to Florida" />
-      <meta name="region" content="US-East Coast" />
+      <meta name="geography" content="United States - All 50 States" />
+      <meta name="region" content="US-National" />
     </Helmet>
   );
 }
@@ -111,213 +111,213 @@ export default function EnhancedSEOHead({ config }: EnhancedSEOHeadProps) {
 // Helper function to create SEO config for different page types
 export const createPageSEOConfig = {
   home: (): PageSEOConfig => ({
-    h1Text: "Shoreside Golf Carts - Eastern Coastline Premier Dealership",
-    benefitSentence: "Discover premium electric golf carts from DENAGO and Evolution serving the entire Eastern Coastline from Maine to Florida with expert sales, service, and rentals.",
-    keywords: "golf carts Eastern Coastline, beach golf carts, coastal golf carts, DENAGO Evolution dealer, Maine New Hampshire Massachusetts Rhode Island Connecticut New York New Jersey Delaware Maryland Virginia North Carolina South Carolina Georgia Florida",
+    h1Text: "Neighborhood Golf Carts - America's Premier Street-Legal Golf Cart Dealership",
+    benefitSentence: "Discover premium street-legal electric golf carts from DENAGO and Evolution serving all 50 states nationwide with expert sales, service, and rentals for neighborhoods.",
+    keywords: "neighborhood golf carts, street legal golf carts, golf carts for neighborhoods, DENAGO Evolution dealer, electric golf carts all 50 states, LSV low speed vehicles, golf cart sales nationwide",
     pageName: "home",
-    canonicalUrl: "https://shoresidegolfcarts.com/",
+    canonicalUrl: "https://neighborgolfcarts.com/",
     ogType: "website"
   }),
   
   about: (): PageSEOConfig => ({
-    h1Text: "About Shoreside Golf Carts - Eastern Coastline Golf Cart Experts Since 2008",
-    benefitSentence: "Learn about the Eastern Coastline's premier golf cart dealership with expert team, authorized DENAGO and Evolution dealer serving every shore and beach from Maine to Florida.",
-    keywords: "about Shoreside Golf Carts, Eastern Coastline golf cart dealership, beach golf carts, DENAGO Evolution dealer, coastal golf cart service",
+    h1Text: "About Neighborhood Golf Carts - America's Street-Legal Golf Cart Experts Since 2008",
+    benefitSentence: "Learn about America's premier neighborhood golf cart dealership with expert team, authorized DENAGO and Evolution dealer serving all 50 states nationwide.",
+    keywords: "about Neighborhood Golf Carts, street legal golf cart dealership, neighborhood golf carts, DENAGO Evolution dealer, golf cart service nationwide",
     pageName: "about",
-    canonicalUrl: "https://shoresidegolfcarts.com/about",
+    canonicalUrl: "https://neighborgolfcarts.com/about",
     ogType: "website"
   }),
   
   contact: (): PageSEOConfig => ({
-    h1Text: "Contact Shoreside Golf Carts - Your Eastern Coastline Golf Cart Experts",
-    benefitSentence: "Contact the Eastern Coastline's premier golf cart dealership for sales, service, and rentals throughout Maine to Florida beach communities.",
-    keywords: "contact Shoreside Golf Carts, Eastern Coastline golf cart dealer, beach golf cart service, DENAGO Evolution sales",
+    h1Text: "Contact Neighborhood Golf Carts - Your Nationwide Golf Cart Experts",
+    benefitSentence: "Contact America's premier neighborhood golf cart dealership for street-legal cart sales, service, and rentals throughout all 50 states.",
+    keywords: "contact Neighborhood Golf Carts, street legal golf cart dealer, neighborhood golf cart service, DENAGO Evolution sales nationwide",
     pageName: "contact",
-    canonicalUrl: "https://shoresidegolfcarts.com/contact",
+    canonicalUrl: "https://neighborgolfcarts.com/contact",
     ogType: "website"
   }),
   
   inventory: (): PageSEOConfig => ({
-    h1Text: "Golf Cart Inventory - Premium DENAGO & Evolution Electric Carts",
-    benefitSentence: "Browse our premium DENAGO and Evolution electric golf cart inventory serving the entire Eastern Coastline from Maine to Florida.",
-    keywords: "golf cart inventory, DENAGO Evolution electric carts, Eastern Coastline golf carts, beach golf carts for sale",
+    h1Text: "Street-Legal Golf Cart Inventory - Premium DENAGO & Evolution Electric Carts",
+    benefitSentence: "Browse our premium DENAGO and Evolution street-legal electric golf cart inventory serving all 50 states nationwide.",
+    keywords: "street legal golf cart inventory, DENAGO Evolution electric carts, neighborhood golf carts for sale, LSV low speed vehicles all 50 states",
     pageName: "inventory",
-    canonicalUrl: "https://shoresidegolfcarts.com/inventory",
+    canonicalUrl: "https://neighborgolfcarts.com/inventory",
     ogType: "website"
   }),
   
   services: (): PageSEOConfig => ({
-    h1Text: "Professional Golf Cart Services - Sales, Service & Rentals",
-    benefitSentence: "Professional golf cart sales, service, and rental solutions throughout the Eastern Coastline from Maine to Florida beach communities.",
-    keywords: "golf cart services, Eastern Coastline golf cart service, beach golf cart maintenance, DENAGO Evolution service",
+    h1Text: "Professional Street-Legal Golf Cart Services - Sales, Service & Rentals",
+    benefitSentence: "Professional street-legal golf cart sales, service, and rental solutions for neighborhoods throughout all 50 states nationwide.",
+    keywords: "street legal golf cart services, neighborhood golf cart service, LSV maintenance, DENAGO Evolution service nationwide",
     pageName: "services",
-    canonicalUrl: "https://shoresidegolfcarts.com/services",
+    canonicalUrl: "https://neighborgolfcarts.com/services",
     ogType: "website"
   }),
   
   rentals: (): PageSEOConfig => ({
-    h1Text: "Golf Cart Rentals - Eastern Coastline Beach Transportation",
-    benefitSentence: "Premium golf cart rentals for Eastern Coastline beach communities from Maine to Florida with daily, weekly, and monthly options.",
-    keywords: "golf cart rentals, Eastern Coastline beach rentals, vacation golf carts, beach transportation Maine to Florida",
+    h1Text: "Street-Legal Golf Cart Rentals - Neighborhood Transportation Nationwide",
+    benefitSentence: "Premium street-legal golf cart rentals for neighborhoods across all 50 states with daily, weekly, and monthly options.",
+    keywords: "street legal golf cart rentals, neighborhood golf cart rentals, LSV rentals, golf cart transportation nationwide",
     pageName: "rentals",
-    canonicalUrl: "https://shoresidegolfcarts.com/rentals",
+    canonicalUrl: "https://neighborgolfcarts.com/rentals",
     ogType: "website"
   }),
   
   financing: (): PageSEOConfig => ({
-    h1Text: "Golf Cart Financing - Easy Payment Plans & Options",
-    benefitSentence: "Flexible golf cart financing options and payment plans for DENAGO and Evolution electric carts throughout the Eastern Coastline.",
-    keywords: "golf cart financing, Eastern Coastline golf cart loans, beach golf cart payment plans, DENAGO Evolution financing",
+    h1Text: "Street-Legal Golf Cart Financing - Easy Payment Plans & Options",
+    benefitSentence: "Flexible street-legal golf cart financing options and payment plans for DENAGO and Evolution electric carts across all 50 states.",
+    keywords: "street legal golf cart financing, neighborhood golf cart loans, LSV payment plans, DENAGO Evolution financing nationwide",
     pageName: "financing",
-    canonicalUrl: "https://shoresidegolfcarts.com/financing",
+    canonicalUrl: "https://neighborgolfcarts.com/financing",
     ogType: "website"
   }),
   
   // Specialty pages
   showroom: (): PageSEOConfig => ({
-    h1Text: "Shoreside Golf Carts Eastern Coastline Showroom",
-    benefitSentence: "Visit our premier Eastern Coastline showroom featuring the complete lineup of DENAGO and Evolution electric vehicles serving 400+ beach locations from Maine to Florida.",
-    keywords: "Shoreside golf carts showroom, Eastern Coastline golf cart dealership, DENAGO Evolution beach locations, coastal golf cart sales",
+    h1Text: "Neighborhood Golf Carts National Showroom",
+    benefitSentence: "Visit our premier showroom featuring the complete lineup of DENAGO and Evolution street-legal electric vehicles serving neighborhoods across all 50 states.",
+    keywords: "neighborhood golf carts showroom, street legal golf cart dealership, DENAGO Evolution nationwide, LSV sales all 50 states",
     pageName: "showroom",
-    canonicalUrl: "https://shoresidegolfcarts.com/showroom",
+    canonicalUrl: "https://neighborgolfcarts.com/showroom",
     ogType: "website"
   }),
   
   thankYou: (): PageSEOConfig => ({
     h1Text: "Thank You!",
-    benefitSentence: "Thank you for contacting Shoreside Golf Carts, we'll respond to your Eastern Coastline golf cart inquiry within 24 hours.",
-    keywords: "thank you, contact confirmation, Shoreside Golf Carts, Eastern Coastline golf carts",
+    benefitSentence: "Thank you for contacting Neighborhood Golf Carts, we'll respond to your neighborhood golf cart inquiry within 24 hours.",
+    keywords: "thank you, contact confirmation, Neighborhood Golf Carts, street legal golf carts",
     pageName: "thankyou",
-    canonicalUrl: "https://shoresidegolfcarts.com/thank-you",
+    canonicalUrl: "https://neighborgolfcarts.com/thank-you",
     ogType: "website"
   }),
   
   // Policy pages
   privacyPolicy: (): PageSEOConfig => ({
     h1Text: "Privacy Policy",
-    benefitSentence: "Review Shoreside Golf Carts' privacy policy to understand how we protect your personal information across all Eastern Coastline locations.",
-    keywords: "privacy policy, data protection, personal information, Shoreside Golf Carts",
+    benefitSentence: "Review Neighborhood Golf Carts' privacy policy to understand how we protect your personal information across all nationwide locations.",
+    keywords: "privacy policy, data protection, personal information, Neighborhood Golf Carts",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/privacy-policy",
+    canonicalUrl: "https://neighborgolfcarts.com/privacy-policy",
     ogType: "website"
   }),
   
   termsOfService: (): PageSEOConfig => ({
     h1Text: "Terms of Service",
-    benefitSentence: "Review Shoreside Golf Carts' terms of service for purchasing golf carts, rental services, and website usage across Eastern Coastline locations.",
-    keywords: "terms of service, terms and conditions, golf cart purchase, rental agreement, Shoreside Golf Carts",
+    benefitSentence: "Review Neighborhood Golf Carts' terms of service for purchasing golf carts, rental services, and website usage across nationwide locations.",
+    keywords: "terms of service, terms and conditions, golf cart purchase, rental agreement, Neighborhood Golf Carts",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/terms-of-service",
+    canonicalUrl: "https://neighborgolfcarts.com/terms-of-service",
     ogType: "website"
   }),
   
   correctionsPolicy: (): PageSEOConfig => ({
     h1Text: "Corrections Policy",
-    benefitSentence: "Learn about Shoreside Golf Carts' commitment to accuracy and transparent process for handling corrections to published content and information.",
-    keywords: "corrections policy, content accuracy, Shoreside Golf Carts, information corrections",
+    benefitSentence: "Learn about Neighborhood Golf Carts' commitment to accuracy and transparent process for handling corrections to published content and information.",
+    keywords: "corrections policy, content accuracy, Neighborhood Golf Carts, information corrections",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/corrections",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/corrections",
     ogType: "website"
   }),
   
   deliveryPolicy: (): PageSEOConfig => ({
     h1Text: "Delivery Policy",
-    benefitSentence: "Comprehensive golf cart delivery services throughout the Eastern Coastline from Maine to Florida with free delivery zones and professional transport.",
-    keywords: "delivery policy, golf cart delivery, Eastern Coastline delivery, golf cart shipping",
+    benefitSentence: "Comprehensive golf cart delivery services throughout the nationwide from all 50 states with free delivery zones and professional transport.",
+    keywords: "delivery policy, golf cart delivery, nationwide delivery, golf cart shipping",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/delivery",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/delivery",
     ogType: "website"
   }),
   
   diversityPolicy: (): PageSEOConfig => ({
     h1Text: "Diversity & Inclusion Policy", 
-    benefitSentence: "Learn about Shoreside Golf Carts' commitment to diversity, equity, and inclusion in our Eastern Coastline workplace and customer service practices.",
-    keywords: "diversity policy, equity inclusion, Shoreside Golf Carts, workplace diversity Eastern Coastline",
+    benefitSentence: "Learn about Neighborhood Golf Carts' commitment to diversity, equity, and inclusion in our nationwide workplace and customer service practices.",
+    keywords: "diversity policy, equity inclusion, Neighborhood Golf Carts, workplace diversity nationwide",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/diversity",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/diversity",
     ogType: "website"
   }),
   
   ethicsPolicy: (): PageSEOConfig => ({
     h1Text: "Ethics Policy",
-    benefitSentence: "Learn about Shoreside Golf Carts' code of ethics and business conduct standards serving customers throughout the Eastern Coastline from Maine to Florida.",
-    keywords: "ethics policy, business ethics, Shoreside Golf Carts, code of conduct Eastern Coastline",
+    benefitSentence: "Learn about Neighborhood Golf Carts' code of ethics and business conduct standards serving customers throughout the nationwide from all 50 states.",
+    keywords: "ethics policy, business ethics, Neighborhood Golf Carts, code of conduct nationwide",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/ethics",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/ethics",
     ogType: "website"
   }),
   
   feedbackPolicy: (): PageSEOConfig => ({
     h1Text: "Feedback Policy",
-    benefitSentence: "Learn how to provide feedback to Shoreside Golf Carts and our commitment to customer feedback and continuous improvement across Eastern Coastline locations.",
-    keywords: "feedback policy, customer feedback, Shoreside Golf Carts, customer service policy",
+    benefitSentence: "Learn how to provide feedback to Neighborhood Golf Carts and our commitment to customer feedback and continuous improvement across nationwide locations.",
+    keywords: "feedback policy, customer feedback, Neighborhood Golf Carts, customer service policy",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/feedback",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/feedback",
     ogType: "website"
   }),
   
   returnPolicy: (): PageSEOConfig => ({
     h1Text: "Return Policy",
-    benefitSentence: "Learn about Shoreside Golf Carts return policy for golf cart purchases, accessories, and parts across Eastern Coastline locations from Maine to Florida.",
-    keywords: "return policy, golf cart returns, Shoreside Golf Carts, refund policy Eastern Coastline",
+    benefitSentence: "Learn about Neighborhood Golf Carts return policy for golf cart purchases, accessories, and parts across nationwide locations from all 50 states.",
+    keywords: "return policy, golf cart returns, Neighborhood Golf Carts, refund policy nationwide",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/return",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/return",
     ogType: "website"
   }),
   
   rentalPolicy: (): PageSEOConfig => ({
     h1Text: "Rental Policy",
-    benefitSentence: "Complete golf cart rental policy for Shoreside Golf Carts with rental requirements, responsibilities, and terms throughout Eastern Coastline locations.",
-    keywords: "rental policy, golf cart rental, Eastern Coastline rentals, golf cart rental policy",
+    benefitSentence: "Complete golf cart rental policy for Neighborhood Golf Carts with rental requirements, responsibilities, and terms throughout nationwide locations.",
+    keywords: "rental policy, golf cart rental, nationwide rentals, golf cart rental policy",
     pageName: "policy",
-    canonicalUrl: "https://shoresidegolfcarts.com/policies/rental",
+    canonicalUrl: "https://neighborgolfcarts.com/policies/rental",
     ogType: "website"
   }),
   
   // Vehicle-specific configs
   denagoEvNomad: (): PageSEOConfig => ({
     h1Text: "EV NOMAD",
-    benefitSentence: "Discover the DENAGO EV NOMAD designed for outdoor adventures and off-road capability with 45-60 mile range, perfect for Eastern Coastline exploration.",
-    keywords: "DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer Eastern Coastline",
+    benefitSentence: "Discover the DENAGO EV NOMAD designed for outdoor adventures and off-road capability with 45-60 mile range, perfect for nationwide exploration.",
+    keywords: "DENAGO EV NOMAD, adventure electric vehicle, off-road golf cart, outdoor recreation, DENAGO dealer nationwide",
     pageName: "vehicle",
-    canonicalUrl: "https://shoresidegolfcarts.com/vehicles/denago-ev-nomad",
+    canonicalUrl: "https://neighborgolfcarts.com/vehicles/denago-ev-nomad",
     ogType: "product"
   }),
   
   denagoEvCityPage: (): PageSEOConfig => ({
     h1Text: "EV CITY",
-    benefitSentence: "Discover the DENAGO EV CITY lineup with urban mobility features and street-legal NEV certification, perfect for Eastern Coastline neighborhood transportation.",
-    keywords: "DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer Eastern Coastline",
+    benefitSentence: "Discover the DENAGO EV CITY lineup with urban mobility features and street-legal NEV certification, perfect for nationwide neighborhood transportation.",
+    keywords: "DENAGO EV CITY, street legal electric vehicle, NEV, urban mobility, DENAGO dealer nationwide",
     pageName: "vehicle",
-    canonicalUrl: "https://shoresidegolfcarts.com/vehicles/denago-ev-city",
+    canonicalUrl: "https://neighborgolfcarts.com/vehicles/denago-ev-city",
     ogType: "product"
   }),
   
   evolutionClassic4Plus: (): PageSEOConfig => ({
     h1Text: "CLASSIC 4 PLUS",
-    benefitSentence: "Experience the Evolution Classic 4 Plus with timeless design and modern electric performance combining classic styling with contemporary technology throughout the Eastern Coastline.",
-    keywords: "Evolution Classic 4 Plus, classic golf cart, premium electric vehicle, traditional styling, Evolution dealer Eastern Coastline",
+    benefitSentence: "Experience the Evolution Classic 4 Plus with timeless design and modern electric performance combining classic styling with contemporary technology throughout the nationwide.",
+    keywords: "Evolution Classic 4 Plus, classic golf cart, premium electric vehicle, traditional styling, Evolution dealer nationwide",
     pageName: "vehicle",
-    canonicalUrl: "https://shoresidegolfcarts.com/vehicles/evolution-classic-4-plus",
+    canonicalUrl: "https://neighborgolfcarts.com/vehicles/evolution-classic-4-plus",
     ogType: "product"
   }),
   
   denagoEvCity: (): PageSEOConfig => ({
     h1Text: "DENAGO EV City - Street Legal Electric Golf Cart $11,995",
-    benefitSentence: "Discover the DENAGO EV City street-legal electric golf cart with 25 mph capability and 35-mile range, perfect for Eastern Coastline communities.",
-    keywords: "DENAGO EV City, street legal golf cart, LSV low speed vehicle, 25 mph golf cart, Eastern Coastline electric vehicle",
+    benefitSentence: "Discover the DENAGO EV City street-legal electric golf cart with 25 mph capability and 35-mile range, perfect for nationwide communities.",
+    keywords: "DENAGO EV City, street legal golf cart, LSV low speed vehicle, 25 mph golf cart, nationwide electric vehicle",
     pageName: "vehicle",
-    canonicalUrl: "https://shoresidegolfcarts.com/vehicles/denago-ev-city",
+    canonicalUrl: "https://neighborgolfcarts.com/vehicles/denago-ev-city",
     ogType: "product"
   }),
   
   // Generic vehicle config generator
   vehicle: (vehicleName: string, brand: string, price?: string): PageSEOConfig => ({
     h1Text: price ? `${vehicleName} - ${brand} Electric Golf Cart ${price}` : vehicleName,
-    benefitSentence: `Discover the ${brand} ${vehicleName} electric golf cart with premium features and reliability, available throughout the Eastern Coastline from Maine to Florida.`,
-    keywords: `${brand} ${vehicleName}, ${brand} electric golf cart, Eastern Coastline electric vehicle, beach golf cart ${vehicleName}`,
+    benefitSentence: `Discover the ${brand} ${vehicleName} electric golf cart with premium features and reliability, available throughout the nationwide from all 50 states.`,
+    keywords: `${brand} ${vehicleName}, ${brand} electric golf cart, nationwide electric vehicle, beach golf cart ${vehicleName}`,
     pageName: "vehicle",
-    canonicalUrl: `https://shoresidegolfcarts.com/vehicles/${vehicleName.toLowerCase().replace(/\s+/g, '-')}`,
+    canonicalUrl: `https://neighborgolfcarts.com/vehicles/${vehicleName.toLowerCase().replace(/\s+/g, '-')}`,
     ogType: "product"
   }),
   
@@ -325,19 +325,19 @@ export const createPageSEOConfig = {
   location: (locationName: string, state: string): PageSEOConfig => ({
     h1Text: `${locationName} Golf Carts - Premium Beach Transportation Solutions`,
     benefitSentence: `Premium golf cart sales, service, and rentals in ${locationName}, ${state} with DENAGO and Evolution electric vehicles for beach communities.`,
-    keywords: `${locationName} golf carts, ${state} beach golf carts, ${locationName} electric vehicles, Eastern Coastline golf cart dealer`,
+    keywords: `${locationName} golf carts, ${state} neighborhood golf carts, ${locationName} electric vehicles, nationwide golf cart dealer`,
     pageName: "locations",
-    canonicalUrl: `https://shoresidegolfcarts.com/locations/${locationName.toLowerCase().replace(/\s+/g, '-')}`,
+    canonicalUrl: `https://neighborgolfcarts.com/locations/${locationName.toLowerCase().replace(/\s+/g, '-')}`,
     ogType: "website"
   }),
   
   // Generic policy config generator
   policy: (policyName: string): PageSEOConfig => ({
     h1Text: policyName,
-    benefitSentence: `Learn about Shoreside Golf Carts' ${policyName.toLowerCase()} serving customers throughout the Eastern Coastline from Maine to Florida.`,
-    keywords: `${policyName.toLowerCase()}, Shoreside Golf Carts policies, Eastern Coastline golf cart dealer`,
+    benefitSentence: `Learn about Neighborhood Golf Carts' ${policyName.toLowerCase()} serving customers throughout the nationwide from all 50 states.`,
+    keywords: `${policyName.toLowerCase()}, Neighborhood Golf Carts policies, nationwide golf cart dealer`,
     pageName: "policy", 
-    canonicalUrl: `https://shoresidegolfcarts.com/policies/${policyName.toLowerCase().replace(/\s+/g, '-')}`,
+    canonicalUrl: `https://neighborgolfcarts.com/policies/${policyName.toLowerCase().replace(/\s+/g, '-')}`,
     ogType: "website"
   })
 };

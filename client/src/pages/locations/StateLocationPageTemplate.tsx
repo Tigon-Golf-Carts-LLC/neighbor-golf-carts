@@ -15,13 +15,13 @@ interface StateLocationPageTemplateProps {
 export default function StateLocationPageTemplate({ state }: StateLocationPageTemplateProps) {
   const [location] = useLocation();
 
-  const pageTitle = `${state.name} Golf Carts - Shoreside Golf Carts | Beach & Coastal Golf Cart Sales`;
+  const pageTitle = `${state.name} Golf Carts - Neighborhood Golf Carts | Beach & Coastal Golf Cart Sales`;
   const pageDescription = `Professional golf cart sales, service, and rentals serving all ${state.name} coastal communities. Premium DENAGO and Evolution electric golf carts available throughout ${state.name} shores and beaches.`;
-  const pageUrl = `https://shoresidegolfcarts.com/${state.slug}-golf-carts`;
+  const pageUrl = `https://neighborgolfcarts.com/${state.slug}-golf-carts`;
 
   const breadcrumbs = [
-    { name: "Home", url: "https://shoresidegolfcarts.com/" },
-    { name: "States", url: "https://shoresidegolfcarts.com/coastal-states" },
+    { name: "Home", url: "https://neighborgolfcarts.com/" },
+    { name: "States", url: "https://neighborgolfcarts.com/coastal-states" },
     { name: `${state.name} Golf Carts`, url: pageUrl }
   ];
 
@@ -30,7 +30,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
       <SEOHead 
         title={pageTitle}
         description={pageDescription}
-        keywords={`golf carts ${state.name}, ${state.name} beach golf carts, coastal golf carts ${state.name}, ${state.beaches.slice(0, 5).map(b => b.name).join(', ')}`}
+        keywords={`golf carts ${state.name}, ${state.name} neighborhood golf carts, street-legal golf carts ${state.name}, ${state.beaches.slice(0, 5).map(b => b.name).join(', ')}`}
         canonicalUrl={pageUrl}
         ogType="website"
       />
@@ -50,7 +50,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-              {state.name} Golf Carts - Shoreside Golf Carts
+              {state.name} Golf Carts - Neighborhood Golf Carts
             </h1>
             <p className="text-xl mb-8 text-gray-100 max-w-4xl mx-auto">
               Professional golf cart sales, service, and rentals serving all {state.name} coastal communities. 
@@ -171,7 +171,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">
-              Why Choose Shoreside Golf Carts in {state.name}?
+              Why Choose Neighborhood Golf Carts in {state.name}?
             </h2>
           </div>
           
@@ -253,7 +253,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
             Ready to Get Your Golf Cart in {state.name}?
           </h2>
           <p className="text-xl mb-8 text-gray-100">
-            Contact Shoreside Golf Carts today for expert advice and personalized service throughout {state.name}.
+            Contact Neighborhood Golf Carts today for expert advice and personalized service throughout {state.name}.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">

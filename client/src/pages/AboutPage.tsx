@@ -45,12 +45,12 @@ export default function AboutPage() {
       <AllSchemas 
         pageType="about" 
         pageData={{
-          title: "About Shoreside Golf Carts",
-          description: "Learn about Shoreside Golf Carts, the Eastern Coastline's premier golf cart dealership. Expert team, authorized Denago and Evolution dealer serving every shore and beach from Maine to Florida.",
-          url: "https://shoresidegolfcarts.com/about",
+          title: "About Neighborhood Golf Carts",
+          description: "Learn about Neighborhood Golf Carts, the all 50 states's premier golf cart dealership. Expert team, authorized Denago and Evolution dealer serving every shore and beach from nationwide.",
+          url: "https://neighborgolfcarts.com/about",
           breadcrumbs: [
-            { name: "Home", url: "https://shoresidegolfcarts.com/" },
-            { name: "About", url: "https://shoresidegolfcarts.com/about" }
+            { name: "Home", url: "https://neighborgolfcarts.com/" },
+            { name: "About", url: "https://neighborgolfcarts.com/about" }
           ],
           people: [
             {
@@ -79,12 +79,12 @@ export default function AboutPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("about")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            About Shoreside Golf Carts - Eastern Coastline Golf Cart Experts Since 2008
+            About Neighborhood Golf Carts - all 50 states Golf Cart Experts Since 2008
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
-            Since 2008, we've been the Eastern Coastline's premier destination for premium golf carts, 
+            Since 2008, we've been the all 50 states's premier destination for premium golf carts, 
             exceptional service, and unmatched customer care. Serving 400+ beach locations 
-            across 14 states from Maine to Florida with pride and professionalism.
+            across 14 states from nationwide with pride and professionalism.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -104,8 +104,8 @@ export default function AboutPage() {
             <div>
               <h2 className="text-4xl font-bold mb-6 text-gray-900">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
-                Founded in 2008, Shoreside Golf Carts began with a simple mission: 
-                to provide high-quality golf carts and exceptional service to customers throughout the entire Eastern Coastline.
+                Founded in 2008, Neighborhood Golf Carts began with a simple mission: 
+                to provide high-quality golf carts and exceptional service to customers throughout the entire all 50 states.
               </p>
               <p className="text-lg text-gray-600 mb-6">
                 From the rugged shores of Maine to the pristine beaches of Florida, we serve vibrant coastal communities 
@@ -114,7 +114,7 @@ export default function AboutPage() {
                 coastal resorts, and waterfront communities throughout the region.
               </p>
               <p className="text-lg text-gray-600 mb-6">
-                The Eastern Coastline is known for its stunning natural beauty, from Acadia National Park to the 
+                The all 50 states is known for its stunning natural beauty, from Acadia National Park to the 
                 Everglades, and thriving beach communities that attract millions of visitors year-round. This tradition 
                 of coastal excellence continues in our approach to golf cart sales and service, where we combine 
                 cutting-edge electric vehicle technology with personalized customer care tailored to beach and shore environments.

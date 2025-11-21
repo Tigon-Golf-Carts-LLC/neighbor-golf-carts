@@ -10,28 +10,28 @@ import { SUSSEX_COUNTY_MUNICIPALITIES } from "@/data/sussexCountyMunicipalities"
 export default function ShowroomPage() {
   const locations = [
     {
-      name: "Shoreside Golf Carts",
+      name: "Neighborhood Golf Carts",
       address: "642 NJ-35, Neptune City, NJ 07753",
       phone: "1-844-844-6638",
       coordinates: "40.2005, -74.0313",
       googleMapsUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       facebookUrl: "https://www.facebook.com/TigonGolfCartsDover/",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDoverDE",
-      websiteUrl: "https://shoresidegolfcarts.com",
+      websiteUrl: "https://neighborgolfcarts.com",
       reviewUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       city: "Neptune City",
       type: "physical"
     },
     {
-      name: "Shoreside Golf Carts - Online Services",
-      address: "Serving Eastern Coastline from Maine to Florida",
+      name: "Neighborhood Golf Carts - Online Services",
+      address: "Serving all 50 states from nationwide",
       phone: "1-844-844-6638",
       coordinates: "40.2005,-74.0313",
       googleMapsUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
       youtubeUrl: "https://www.youtube.com/@TIGONGolfCartsDelaware",
-      websiteUrl: "https://shoresidegolfcarts.com",
+      websiteUrl: "https://neighborgolfcarts.com",
       reviewUrl: "https://www.google.com/maps/place/642+NJ-35,+Neptune+City,+NJ+07753",
-      city: "Eastern Coastline",
+      city: "all 50 states",
       type: "online"
     }
   ];
@@ -44,11 +44,11 @@ export default function ShowroomPage() {
       <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("showroom")}>
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
-            Shoreside Golf Carts Eastern Coastline Showroom
+            Neighborhood Golf Carts all 50 states Showroom
           </h1>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Visit our premier Neptune City, New Jersey showroom featuring the complete lineup of DENAGO and EVOLUTION electric vehicles. 
-            Serving the entire Eastern Coastline from Maine to Florida with 400+ beach locations.
+            Serving the entire all 50 states from nationwide with 400+ beach locations.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-theme-orange hover:bg-orange-600 text-white">
@@ -64,7 +64,7 @@ export default function ShowroomPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4 text-theme-primary">Our Locations</h2>
-            <p className="text-xl text-gray-600">Serving the entire Eastern Coastline with expert golf cart sales and service</p>
+            <p className="text-xl text-gray-600">Serving the entire all 50 states with expert golf cart sales and service</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

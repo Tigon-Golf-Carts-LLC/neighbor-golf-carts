@@ -49,10 +49,10 @@ export default function CountyPageTemplate({ county, municipalities }: CountyPag
   return (
     <>
       <SEOHead 
-        title={`${name} Golf Carts | Shoreside Golf Carts - All ${name} Beach Locations`}
-        description={`Professional golf cart sales, rentals, and service throughout ${name}. DENAGO and EVOLUTION electric vehicles with expert service in all ${municipalities.length} locations from Shoreside Golf Carts.`}
+        title={`${name} Golf Carts | Neighborhood Golf Carts - All ${name} Beach Locations`}
+        description={`Professional golf cart sales, rentals, and service throughout ${name}. DENAGO and EVOLUTION electric vehicles with expert service in all ${municipalities.length} locations from Neighborhood Golf Carts.`}
         keywords={`${name} golf carts, eastern coastline golf cart sales, ${name} golf cart rentals, DENAGO ${name}, EVOLUTION ${name}, Shoreside golf carts`}
-        canonicalUrl={`https://shoresidegolfcarts.com${county.url}`}
+        canonicalUrl={`https://neighborgolfcarts.com${county.url}`}
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_ZIJgnM0qSLqCnmqzAiha0w_Tcds7ckvRe6FNLFDKo_aDg_1755541056710.jpeg"
         ogType="website"
       />
@@ -72,7 +72,7 @@ export default function CountyPageTemplate({ county, municipalities }: CountyPag
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-4xl mx-auto">
               Premium DENAGO and EVOLUTION electric golf cart sales, rentals, and service 
-              throughout all {municipalities.length} beach locations in {name} from Shoreside Golf Carts.
+              throughout all {municipalities.length} beach locations in {name} from Neighborhood Golf Carts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a href="tel:1-844-844-6638">

@@ -7,9 +7,9 @@ interface WebsiteSchemaProps {
 }
 
 export default function WebsiteSchema({ 
-  url = "https://shoresidegolfcarts.com",
-  name = "Shoreside Golf Carts",
-  description = "Premier golf cart dealership serving the Eastern Coastline"
+  url = "https://neighborgolfcarts.com",
+  name = "Neighborhood Golf Carts",
+  description = "Premier golf cart dealership serving the all 50 states"
 }: WebsiteSchemaProps) {
   useEffect(() => {
     const structuredData = {
@@ -20,10 +20,10 @@ export default function WebsiteSchema({
       "url": url,
       "publisher": {
         "@type": "Organization",
-        "name": "Shoreside Golf Carts",
+        "name": "Neighborhood Golf Carts",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+          "url": "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
           "width": 400,
           "height": 400
         }

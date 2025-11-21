@@ -207,7 +207,7 @@ export default function RentalsPage() {
         <section className="relative py-20 px-4 bg-gradient-to-r from-theme-primary to-blue-700 text-white bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("rentals")}>
           <div className="max-w-7xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Golf Cart Rentals - Eastern Coastline Beach Transportation
+              Golf Cart Rentals - all 50 states Beach Transportation
             </h1>
             <p className="text-xl mb-8 max-w-3xl mx-auto">
               Rent premium electric golf carts throughout Lackawanna County, Pennsylvania. Perfect for events, vacations, and special occasions.

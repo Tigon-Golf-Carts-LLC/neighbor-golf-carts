@@ -15,16 +15,16 @@ export default function SchemaMarkup({ schema }: SchemaMarkupProps) {
 export const generateOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Shoreside Golf Carts",
-  "alternateName": "CCGC",
-  "description": "Premier golf cart dealer serving the Eastern Coastline from Maine to Florida specializing in DENAGO and EVOLUTION electric vehicles with sales, service, and rentals.",
-  "url": "https://shoresidegolfcarts.com",
-  "logo": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+  "name": "Neighborhood Golf Carts",
+  "alternateName": "NGC",
+  "description": "Premier golf cart dealer serving all 50 states specializing in street-legal DENAGO and EVOLUTION electric golf carts for neighborhoods with sales, service, and rentals.",
+  "url": "https://neighborgolfcarts.com",
+  "logo": "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
   "image": [
-    "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
+    "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
   ],
   "telephone": "1-844-844-6638",
-  "email": "info@shoresidegolfcarts.com",
+  "email": "info@neighborgolfcarts.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "642 NJ-35",
@@ -35,7 +35,7 @@ export const generateOrganizationSchema = () => ({
   },
   "areaServed": {
     "@type": "AdministrativeArea",
-    "name": "Eastern Coastline from Maine to Florida"
+    "name": "United States - All 50 States"
   },
   "serviceArea": {
     "@type": "GeoCircle",
@@ -44,15 +44,15 @@ export const generateOrganizationSchema = () => ({
       "latitude": 40.2005,
       "longitude": -74.0313
     },
-    "geoRadius": "2000000"
+    "geoRadius": "5000000"
   },
   "foundingDate": "2008",
   "numberOfEmployees": "15-25",
-  "slogan": "Professional golf cart services delivered to your town",
+  "slogan": "Street-legal golf carts for neighborhoods nationwide",
   "brand": ["DENAGO", "EVOLUTION"],
   "sameAs": [
-    "https://www.facebook.com/carbongolfcarts",
-    "https://www.instagram.com/carbongolfcarts"
+    "https://www.facebook.com/neighborgolfcarts",
+    "https://www.instagram.com/neighborgolfcarts"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -62,7 +62,7 @@ export const generateOrganizationSchema = () => ({
         "@type": "Offer",
         "itemOffered": {
           "@type": "Product",
-          "name": "Electric Golf Carts"
+          "name": "Street-Legal Electric Golf Carts for Neighborhoods"
         }
       },
       {
@@ -86,12 +86,12 @@ export const generateOrganizationSchema = () => ({
 export const generateLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://shoresidegolfcarts.com/#localbusiness",
-  "name": "Shoreside Golf Carts",
-  "description": "Premier golf cart dealer serving 400+ Eastern Coastline beach locations with electric vehicle sales, service, and rentals.",
-  "url": "https://shoresidegolfcarts.com",
+  "@id": "https://neighborgolfcarts.com/#localbusiness",
+  "name": "Neighborhood Golf Carts",
+  "description": "Premier golf cart dealer serving all 50 states with street-legal electric vehicle sales, service, and rentals for neighborhoods.",
+  "url": "https://neighborgolfcarts.com",
   "telephone": "1-844-844-6638",
-  "email": "info@shoresidegolfcarts.com",
+  "email": "info@neighborgolfcarts.com",
   "priceRange": "$$$",
   "currenciesAccepted": "USD",
   "paymentAccepted": "Cash, Credit Card, Financing",
@@ -113,9 +113,13 @@ export const generateLocalBusinessSchema = () => ({
     "longitude": -74.0313
   },
   "areaServed": [
-    "Maine", "New Hampshire", "Massachusetts", "Rhode Island", "Connecticut",
-    "New York", "New Jersey", "Delaware", "Maryland", "Virginia",
-    "North Carolina", "South Carolina", "Georgia", "Florida"
+    "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware",
+    "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+    "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri",
+    "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York",
+    "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island",
+    "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington",
+    "West Virginia", "Wisconsin", "Wyoming"
   ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -144,21 +148,21 @@ export const generateLocalBusinessSchema = () => ({
 export const generateWebsiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "https://shoresidegolfcarts.com/#website",
-  "name": "Shoreside Golf Carts",
-  "description": "Official website for Shoreside Golf Carts - Pennsylvania's premier electric golf cart dealer",
-  "url": "https://shoresidegolfcarts.com",
+  "@id": "https://neighborgolfcarts.com/#website",
+  "name": "Neighborhood Golf Carts",
+  "description": "Official website for Neighborhood Golf Carts - America's premier street-legal electric golf cart dealer serving all 50 states",
+  "url": "https://neighborgolfcarts.com",
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://shoresidegolfcarts.com/inventory?search={search_term_string}"
+      "urlTemplate": "https://neighborgolfcarts.com/inventory?search={search_term_string}"
     },
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Shoreside Golf Carts"
+    "name": "Neighborhood Golf Carts"
   }
 });
 
@@ -176,7 +180,7 @@ export const generateBreadcrumbSchema = (items: Array<{name: string, url: string
 export const generateProductSchema = (vehicle: any) => ({
   "@context": "https://schema.org",
   "@type": "Product",
-  "@id": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}#product`,
+  "@id": `https://neighborgolfcarts.com/vehicles/${vehicle.id}#product`,
   "name": vehicle.name,
   "description": vehicle.description,
   "brand": {
@@ -184,7 +188,7 @@ export const generateProductSchema = (vehicle: any) => ({
     "name": vehicle.brand
   },
   "category": vehicle.category,
-  "image": vehicle.images?.map((img: string) => `https://shoresidegolfcarts.com${img}`) || [],
+  "image": vehicle.images?.map((img: string) => `https://neighborgolfcarts.com${img}`) || [],
   "offers": {
     "@type": "Offer",
     "price": vehicle.price,
@@ -192,11 +196,11 @@ export const generateProductSchema = (vehicle: any) => ({
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
     "seller": {
       "@type": "Organization",
-      "name": "Shoreside Golf Carts",
+      "name": "Neighborhood Golf Carts",
       "telephone": "1-844-844-6638",
-      "email": "info@lackawannagolfcarts.com"
+      "email": "info@neighborgolfcarts.com"
     },
-    "url": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://neighborgolfcarts.com/vehicles/${vehicle.id}`
   },
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -236,15 +240,15 @@ export const generateProductSchema = (vehicle: any) => ({
 export const generateServiceSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "Golf Cart Services",
-  "description": "Comprehensive golf cart sales, service, repair, and rental services in Lehigh County, Pennsylvania",
+  "name": "Neighborhood Golf Cart Services",
+  "description": "Comprehensive street-legal golf cart sales, service, repair, and rental services across all 50 United States",
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Shoreside Golf Carts"
+    "name": "Neighborhood Golf Carts"
   },
   "areaServed": {
-    "@type": "State",
-    "name": "Pennsylvania"
+    "@type": "Country",
+    "name": "United States"
   },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -254,8 +258,8 @@ export const generateServiceSchema = () => ({
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Golf Cart Sales",
-          "description": "New and used electric golf cart sales"
+          "name": "Street-Legal Golf Cart Sales",
+          "description": "New and used street-legal electric golf cart sales for neighborhoods"
         }
       },
       {
@@ -289,32 +293,32 @@ export const generateServiceSchema = () => ({
 export const generateOfferCatalogSchema = (vehicles: any[]) => ({
   "@context": "https://schema.org",
   "@type": "OfferCatalog",
-  "name": "Golf Cart Inventory",
-  "description": "Complete inventory of electric golf carts available for sale",
+  "name": "Neighborhood Golf Cart Inventory",
+  "description": "Complete inventory of street-legal electric golf carts available for sale",
   "itemListElement": vehicles.map(vehicle => ({
     "@type": "Offer",
     "itemOffered": {
       "@type": "Product",
       "name": vehicle.name,
       "brand": vehicle.brand,
-      "image": vehicle.images?.[0] ? `https://shoresidegolfcarts.com${vehicle.images[0]}` : undefined
+      "image": vehicle.images?.[0] ? `https://neighborgolfcarts.com${vehicle.images[0]}` : undefined
     },
     "price": vehicle.price,
     "priceCurrency": "USD",
     "availability": vehicle.inStock ? "https://schema.org/InStock" : "https://schema.org/OutOfStock",
-    "url": `https://shoresidegolfcarts.com/vehicles/${vehicle.id}`
+    "url": `https://neighborgolfcarts.com/vehicles/${vehicle.id}`
   }))
 });
 
 export const generateContactPageSchema = () => ({
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  "name": "Contact Ocean County Golf Carts",
-  "description": "Get in touch with Ocean County Golf Carts for sales, service, rentals, and support",
-  "url": "https://shoresidegolfcarts.com/contact",
+  "name": "Contact Neighborhood Golf Carts",
+  "description": "Get in touch with Neighborhood Golf Carts for street-legal golf cart sales, service, rentals, and support",
+  "url": "https://neighborgolfcarts.com/contact",
   "mainEntity": {
     "@type": "Organization",
-    "name": "Ocean County Golf Carts",
+    "name": "Neighborhood Golf Carts",
     "contactPoint": [
       {
         "@type": "ContactPoint",
@@ -325,7 +329,7 @@ export const generateContactPageSchema = () => ({
       },
       {
         "@type": "ContactPoint",
-        "email": "info@shoresidegolfcarts.com",
+        "email": "info@neighborgolfcarts.com",
         "contactType": "sales",
         "areaServed": "US"
       }
@@ -333,25 +337,21 @@ export const generateContactPageSchema = () => ({
   }
 });
 
-export const generateTownPageSchema = (townName: string) => ({
+export const generateTownPageSchema = (townName: string, stateName: string = "New Jersey") => ({
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": `Golf Carts in ${townName}`,
-  "description": `Professional golf cart sales, service, and rentals delivered to ${townName}, Lehigh County, Pennsylvania`,
-  "url": `https://shoresidegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
+  "name": `Neighborhood Golf Carts in ${townName}`,
+  "description": `Professional street-legal golf cart sales, service, and rentals delivered to ${townName}, ${stateName}`,
+  "url": `https://neighborgolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`,
   "mainEntity": {
     "@type": "LocalBusiness",
-    "name": "Shoreside Golf Carts",
+    "name": "Neighborhood Golf Carts",
     "areaServed": {
       "@type": "City",
       "name": townName,
       "containedInPlace": {
-        "@type": "AdministrativeArea",
-        "name": "Lehigh County",
-        "containedInPlace": {
-          "@type": "State",
-          "name": "Pennsylvania"
-        }
+        "@type": "State",
+        "name": stateName
       }
     }
   },
@@ -362,13 +362,13 @@ export const generateTownPageSchema = (townName: string) => ({
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://shoresidegolfcarts.com"
+        "item": "https://neighborgolfcarts.com"
       },
       {
         "@type": "ListItem", 
         "position": 2,
         "name": `${townName} Golf Carts`,
-        "item": `https://shoresidegolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
+        "item": `https://neighborgolfcarts.com/towns/${townName.toLowerCase().replace(/\s+/g, '-')}`
       }
     ]
   }

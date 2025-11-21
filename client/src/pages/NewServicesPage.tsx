@@ -41,10 +41,10 @@ export default function NewServicesPage() {
   return (
     <>
       <SEOHead 
-        title="Golf Cart Services & Repair | Shoreside Golf Carts"
-        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving 400+ Eastern Coastline beach locations with certified technicians."
-        keywords="golf cart service, golf cart repair, battery replacement, maintenance, eastern coastline, beach golf cart service, Maine to Florida"
-        canonicalUrl="https://shoresidegolfcarts.com/services"
+        title="Golf Cart Services & Repair | Neighborhood Golf Carts"
+        description="Professional golf cart services including maintenance, repair, battery service, and custom modifications. Serving 400+ all 50 states beach locations with certified technicians."
+        keywords="golf cart service, golf cart repair, battery replacement, maintenance, eastern coastline, beach golf cart service, nationwide"
+        canonicalUrl="https://neighborgolfcarts.com/services"
         ogImage="/attached_assets/a-photograph-of-a-modern-golf-cart-deale_1Cnk505HSlGhjw-TPLFg9w_nDZV9Dn5QHiGR5OY8JPBgA_1753453234033.png"
         ogType="website"
       />

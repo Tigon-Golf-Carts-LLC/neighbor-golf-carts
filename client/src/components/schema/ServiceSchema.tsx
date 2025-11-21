@@ -18,8 +18,8 @@ export default function ServiceSchema({
   serviceName,
   description,
   serviceType = "Golf Cart Service",
-  provider = "Shoreside Golf Carts",
-  areaServed = "Eastern Coastline from Maine to Florida",
+  provider = "Neighborhood Golf Carts",
+  areaServed = "all 50 states from nationwide",
   availableChannel = ["https://schema.org/OnlineChannel", "https://schema.org/InStoreChannel"],
   offers = []
 }: ServiceSchemaProps) {
@@ -34,7 +34,7 @@ export default function ServiceSchema({
         "@type": "LocalBusiness",
         "name": provider,
         "telephone": "1-844-844-6638",
-        "email": "info@shoresidegolfcarts.com",
+        "email": "info@neighborgolfcarts.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "642 NJ-35",
@@ -45,7 +45,7 @@ export default function ServiceSchema({
         },
         "logo": {
           "@type": "ImageObject",
-          "url": "https://shoresidegolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
+          "url": "https://neighborgolfcarts.com/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"
         }
       },
       "areaServed": {
@@ -54,7 +54,7 @@ export default function ServiceSchema({
       },
       "availableChannel": availableChannel.map(channel => ({
         "@type": "ServiceChannel",
-        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://shoresidegolfcarts.com" : undefined,
+        "serviceUrl": channel === "https://schema.org/OnlineChannel" ? "https://neighborgolfcarts.com" : undefined,
         "serviceSmsNumber": channel === "https://schema.org/InStoreChannel" ? "1-844-844-6638" : undefined
       })),
       ...(offers.length > 0 && {

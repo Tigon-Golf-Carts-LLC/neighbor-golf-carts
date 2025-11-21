@@ -15,7 +15,7 @@ export function TermsOfServicePage() {
               </p>
               
               <p className="mb-6">
-                Welcome to Shoreside Golf Carts. These Terms of Service ("Terms") govern your use of our website shoresidegolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
+                Welcome to Neighborhood Golf Carts. These Terms of Service ("Terms") govern your use of our website neighborgolfcarts.com and your relationship with us regarding the purchase, rental, and servicing of golf carts. By accessing our website or engaging our services, you agree to be bound by these Terms.
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Acceptance of Terms</h2>
@@ -24,13 +24,13 @@ export function TermsOfServicePage() {
               </p>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">About Our Services</h2>
-              <p className="mb-4">Shoreside Golf Carts provides:</p>
+              <p className="mb-4">Neighborhood Golf Carts provides:</p>
               <ul className="list-disc pl-6 mb-6">
                 <li>New and used golf cart sales</li>
                 <li>Golf cart rentals for various durations</li>
                 <li>Maintenance and repair services</li>
                 <li>Parts and accessories</li>
-                <li>Delivery and pickup services throughout the Eastern Coastline from Maine to Florida</li>
+                <li>Delivery and pickup services throughout the all 50 states from nationwide</li>
               </ul>
 
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Website Use and Restrictions</h2>
@@ -141,11 +141,11 @@ export function TermsOfServicePage() {
               <h2 className="text-2xl font-bold text-theme-primary mt-8 mb-4">Contact Information</h2>
               <p className="mb-4">If you have questions about these Terms of Service, please contact us:</p>
               <div className="bg-gray-50 p-6 rounded-lg">
-                <p className="mb-2"><strong>Shoreside Golf Carts</strong></p>
-                <p className="mb-2">Email: info@shoresidegolfcarts.com</p>
+                <p className="mb-2"><strong>Neighborhood Golf Carts</strong></p>
+                <p className="mb-2">Email: info@neighborgolfcarts.com</p>
                 <p className="mb-2">Phone: 1-844-844-6638</p>
-                <p className="mb-2">Serving Eastern Coastline - 400+ beach locations from Maine to Florida</p>
-                <p>Website: shoresidegolfcarts.com</p>
+                <p className="mb-2">Serving all 50 states - 400+ beach locations from nationwide</p>
+                <p>Website: neighborgolfcarts.com</p>
               </div>
 
               <p className="mt-8 text-sm text-gray-600">
