@@ -38,7 +38,7 @@ export default function Navigation() {
               <img 
                 src="/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png" 
                 alt="Neighborhood Golf Carts Logo" 
-                className="h-56 w-56 object-contain"
+                className="h-56 w-56 object-contain mt-[-40px] mb-[-40px] pt-[-40px] pb-[-40px]"
               />
             </div>
             <Link href="/">
