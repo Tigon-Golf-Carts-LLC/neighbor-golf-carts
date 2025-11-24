@@ -68,14 +68,20 @@ export default function Blog() {
               data-testid={`blog-card-${post.slug}`}
             >
               <CardHeader className="pb-4">
-                <div className="aspect-video bg-gray-200 rounded-lg mb-4 overflow-hidden">
-                  <img
-                    src={imageMap[post.heroImage]}
-                    alt={post.heroImageAlt}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
+                {imageMap[post.heroImage] ? (
+                  <div className="aspect-video bg-gray-200 rounded-lg mb-4 overflow-hidden">
+                    <img
+                      src={imageMap[post.heroImage]}
+                      alt={post.heroImageAlt}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
+                ) : (
+                  <div className="aspect-video bg-gradient-to-br from-theme-primary to-blue-700 rounded-lg mb-4 flex items-center justify-center text-white p-6">
+                    <p className="text-sm opacity-80">Image loading...</p>
+                  </div>
+                )}
                 <div className="flex items-center text-sm text-gray-500 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
                   <time dateTime={post.publishDate}>

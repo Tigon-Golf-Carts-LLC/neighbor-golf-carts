@@ -98,13 +98,19 @@ export default function BlogPost() {
       {/* Hero Image */}
       <div className="bg-white border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-8">
-          <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
-            <img
-              src={imageMap[post.heroImage]}
-              alt={post.heroImageAlt}
-              className="w-full h-full object-cover"
-            />
-          </div>
+          {imageMap[post.heroImage] ? (
+            <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden">
+              <img
+                src={imageMap[post.heroImage]}
+                alt={post.heroImageAlt}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          ) : (
+            <div className="aspect-video bg-gradient-to-br from-theme-primary to-blue-700 rounded-lg flex items-center justify-center text-white p-8">
+              <p className="text-sm opacity-80">Hero image loading...</p>
+            </div>
+          )}
         </div>
       </div>
 
