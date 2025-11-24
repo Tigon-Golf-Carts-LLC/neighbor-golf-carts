@@ -19,6 +19,8 @@ import NotFound from "@/pages/not-found";
 import NewInventoryPage from "@/pages/NewInventoryPage";
 import NewServicesPage from "@/pages/NewServicesPage";
 import NewAboutPage from "@/pages/NewAboutPage";
+import Blog from "@/pages/Blog";
+import BlogPost from "@/pages/BlogPost";
 
 import { PrivacyPolicyPage } from "@/pages/PrivacyPolicyPage";
 import { TermsOfServicePage } from "@/pages/TermsOfServicePage";
@@ -187,6 +189,10 @@ export default function App() {
             <Route path="/policies/diversity-policy" component={DiversityPolicyPage} />
             <Route path="/policies/ethics-policy" component={EthicsPolicyPage} />
             <Route path="/policies/staffing-report" component={StaffingReportPage} />
+            
+            {/* Blog Pages */}
+            <Route path="/blog" component={Blog} />
+            <Route path="/blog/:slug" component={BlogPost} />
             
             {/* All 50 States Pages */}
             <Route path="/alabama-golf-carts" component={AlabamaPage} />
