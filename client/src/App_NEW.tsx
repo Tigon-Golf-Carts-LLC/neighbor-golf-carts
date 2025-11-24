@@ -2,8 +2,6 @@ import { Route, Switch } from "wouter";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import useScrollToTop from "@/hooks/useScrollToTop";
-import { useEffect } from "react";
-import { initGA } from "@/lib/analytics";
 import { useAnalytics } from "@/hooks/use-analytics";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -460,14 +458,6 @@ function Router() {
 }
 
 export default function App() {
-  useEffect(() => {
-    if (!import.meta.env.VITE_GA_MEASUREMENT_ID) {
-      console.warn('Missing required Google Analytics key: VITE_GA_MEASUREMENT_ID');
-    } else {
-      initGA();
-    }
-  }, []);
-
   return (
     <QueryClientProvider client={queryClient}>
       <div className="min-h-screen flex flex-col">
