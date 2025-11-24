@@ -5,6 +5,32 @@ import { Button } from "@/components/ui/button";
 import SEOHead from "@/components/SEOHead";
 import { BLOG_POSTS } from "@/data/blogPosts";
 
+// Import all blog hero images
+import neighborhoodGolfCartLifestyle from "@assets/generated_images/neighborhood_golf_cart_lifestyle.png";
+import golfCartsNationwideLandscapes from "@assets/generated_images/golf_carts_nationwide_landscapes.png";
+import denagoGolfCartHome from "@assets/generated_images/denago_golf_cart_home.png";
+import evolutionGolfCartFeatures from "@assets/generated_images/evolution_golf_cart_features.png";
+import golfCartDailyUse from "@assets/generated_images/golf_cart_daily_use.png";
+import golfCartSizeComparison from "@assets/generated_images/golf_cart_size_comparison.png";
+import golfCartChargingStation from "@assets/generated_images/golf_cart_charging_station.png";
+import golfCartAllSeasons from "@assets/generated_images/golf_cart_all_seasons.png";
+import customGolfCartOptions from "@assets/generated_images/custom_golf_cart_options.png";
+import golfCartDealershipShowroom from "@assets/generated_images/golf_cart_dealership_showroom.png";
+
+// Map image paths to imported images
+const imageMap: Record<string, string> = {
+  "@assets/generated_images/neighborhood_golf_cart_lifestyle.png": neighborhoodGolfCartLifestyle,
+  "@assets/generated_images/golf_carts_nationwide_landscapes.png": golfCartsNationwideLandscapes,
+  "@assets/generated_images/denago_golf_cart_home.png": denagoGolfCartHome,
+  "@assets/generated_images/evolution_golf_cart_features.png": evolutionGolfCartFeatures,
+  "@assets/generated_images/golf_cart_daily_use.png": golfCartDailyUse,
+  "@assets/generated_images/golf_cart_size_comparison.png": golfCartSizeComparison,
+  "@assets/generated_images/golf_cart_charging_station.png": golfCartChargingStation,
+  "@assets/generated_images/golf_cart_all_seasons.png": golfCartAllSeasons,
+  "@assets/generated_images/custom_golf_cart_options.png": customGolfCartOptions,
+  "@assets/generated_images/golf_cart_dealership_showroom.png": golfCartDealershipShowroom,
+};
+
 export default function Blog() {
   const sortedPosts = [...BLOG_POSTS].sort((a, b) => 
     new Date(b.publishDate).getTime() - new Date(a.publishDate).getTime()
@@ -42,11 +68,13 @@ export default function Blog() {
               data-testid={`blog-card-${post.slug}`}
             >
               <CardHeader className="pb-4">
-                <div className="aspect-video bg-gradient-to-br from-theme-primary to-blue-700 rounded-lg mb-4 flex items-center justify-center text-white p-6">
-                  <div className="text-center">
-                    <p className="text-sm font-medium opacity-80 mb-2">Hero Image</p>
-                    <p className="text-xs opacity-60 line-clamp-2">{post.heroImageAlt}</p>
-                  </div>
+                <div className="aspect-video bg-gray-200 rounded-lg mb-4 overflow-hidden">
+                  <img
+                    src={imageMap[post.heroImage]}
+                    alt={post.heroImageAlt}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="flex items-center text-sm text-gray-500 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />

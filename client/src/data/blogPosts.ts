@@ -5,6 +5,7 @@ export interface BlogPost {
   metaDescription: string;
   excerpt: string;
   publishDate: string;
+  heroImage: string;
   heroImagePrompt: string;
   heroImageAlt: string;
   content: {
@@ -25,6 +26,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Discover the top-rated electric neighborhood golf carts built for hilly terrain across the US. Compare power, battery life, and hill-climbing features for DENAGO and Evolution models.",
     excerpt: "Looking for a reliable electric golf cart that can handle steep hills and challenging terrain? Discover the best neighborhood golf carts with powerful motors and extended battery life perfect for hilly communities.",
     publishDate: "2025-01-20",
+    heroImage: "@assets/generated_images/neighborhood_golf_cart_lifestyle.png",
     heroImagePrompt: "Professional photograph of a modern electric neighborhood golf cart climbing a steep residential hill in a beautiful suburban community, street-legal golf cart with premium features, sunny day with trees and well-maintained homes in background, photorealistic, high quality",
     heroImageAlt: "Best electric neighborhood golf cart for hilly terrain climbing steep residential hill in suburban community",
     content: {
@@ -90,6 +92,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Locate trusted neighborhood golf cart dealers near you across all 50 US states. Get expert service, competitive pricing, and quality DENAGO and Evolution street-legal golf carts delivered to your door.",
     excerpt: "Searching for reliable golf cart dealers in your area? Find authorized DENAGO and Evolution neighborhood golf cart dealers offering sales, service, and rentals across all 50 states with local expertise and support.",
     publishDate: "2025-01-18",
+    heroImage: "@assets/generated_images/golf_cart_dealership_showroom.png",
     heroImagePrompt: "Modern golf cart dealership showroom with multiple street-legal neighborhood golf carts on display, professional sales environment, customers browsing premium electric carts, bright and welcoming retail space, photorealistic",
     heroImageAlt: "Professional neighborhood golf cart dealership showroom displaying street-legal electric golf carts across all 50 states",
     content: {
@@ -155,6 +158,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Find affordable street-legal neighborhood golf carts with extended battery life. Compare lithium and lead-acid options, pricing from $8K-$15K, and get up to 40+ miles per charge across all 50 states.",
     excerpt: "Discover affordable neighborhood golf carts featuring extended battery life that won't break your budget. Learn about lithium-ion vs. lead-acid batteries, real-world range expectations, and the best value models available.",
     publishDate: "2025-01-15",
+    heroImage: "@assets/generated_images/golf_cart_charging_station.png",
     heroImagePrompt: "Affordable electric neighborhood golf cart with extended battery system, modern design, parked in front of suburban home with battery indicator display visible, cost-effective street-legal cart, professional product photography",
     heroImageAlt: "Affordable neighborhood golf cart with extended battery life for long-range residential use",
     content: {
@@ -220,6 +224,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Discover the best family-friendly neighborhood golf cart brands. Compare DENAGO and Evolution safety features, seating capacity, and comfort for families across all 50 states.",
     excerpt: "Find the perfect family-friendly neighborhood golf cart with top safety ratings, comfortable seating for 4-6 passengers, and features parents love. Compare leading brands trusted by families nationwide.",
     publishDate: "2025-01-12",
+    heroImage: "@assets/generated_images/evolution_golf_cart_features.png",
     heroImagePrompt: "Happy family of four sitting in a modern neighborhood golf cart, parents in front seats with two children in rear seats, suburban residential neighborhood setting, street-legal electric cart, safe and comfortable, sunny day",
     heroImageAlt: "Family-friendly neighborhood golf cart with parents and children in safe comfortable seating",
     content: {
@@ -285,6 +290,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Complete guide to choosing the perfect neighborhood golf cart. Learn about street-legal requirements, seating capacity, battery types, pricing, and features across all 50 US states.",
     excerpt: "Comprehensive guide to selecting the ideal neighborhood golf cart for your community. Expert advice on evaluating features, comparing brands, understanding state regulations, and making a smart investment.",
     publishDate: "2025-01-10",
+    heroImage: "@assets/generated_images/golf_cart_size_comparison.png",
     heroImagePrompt: "Professional buyer's guide image showing variety of neighborhood golf carts side by side, comparison shopping scene, street-legal electric carts in different colors and configurations, informative and helpful",
     heroImageAlt: "Comparison of different neighborhood golf cart models for buyers choosing the perfect cart",
     content: {
@@ -355,6 +361,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Comprehensive neighborhood golf cart pricing comparison across all 50 US states. Compare DENAGO and Evolution models, features, financing options, and find the best deals on new street-legal carts.",
     excerpt: "Complete pricing guide for new neighborhood golf carts across America. Compare models, features, and prices from leading brands with state-by-state insights and financing options.",
     publishDate: "2025-01-08",
+    heroImage: "@assets/generated_images/golf_carts_nationwide_landscapes.png",
     heroImagePrompt: "Price comparison chart display with multiple neighborhood golf carts showing different price points, professional pricing guide visualization, new electric street-legal carts with price tags, clean and organized presentation",
     heroImageAlt: "Neighborhood golf cart pricing comparison showing different models and price points across the United States",
     content: {
@@ -425,6 +432,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Find weather-resistant neighborhood golf carts built for rain, snow, heat, and coastal conditions. Compare all-weather models with enclosures, rust-proof frames, and climate protection across all 50 states.",
     excerpt: "Discover neighborhood golf carts engineered to withstand any weather. From Florida humidity to Alaska snow, find models with weather enclosures, corrosion resistance, and climate-specific features.",
     publishDate: "2025-01-05",
+    heroImage: "@assets/generated_images/golf_cart_all_seasons.png",
     heroImagePrompt: "Weather-resistant neighborhood golf cart with full enclosure driving in light rain, protective features visible, all-weather capable street-legal electric cart, durable in various climates, professional photography",
     heroImageAlt: "All-weather neighborhood golf cart with weather-resistant enclosure and protective features for year-round use",
     content: {
@@ -495,6 +503,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Explore custom neighborhood golf cart options for personal and commercial use. Discover customization packages, commercial fleet solutions, and personalization options across all 50 states.",
     excerpt: "Transform your neighborhood golf cart with custom features for personal enjoyment or commercial applications. From luxury upgrades to commercial fleet branding, discover endless customization possibilities.",
     publishDate: "2025-01-02",
+    heroImage: "@assets/generated_images/custom_golf_cart_options.png",
     heroImagePrompt: "Customized neighborhood golf cart with premium features, custom paint job, upgraded wheels, luxury seating, and commercial branding options, professional showroom quality photo, versatile street-legal cart",
     heroImageAlt: "Custom neighborhood golf cart with personalized features for personal or commercial business use",
     content: {
@@ -560,6 +569,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Read honest reviews of the smoothest-riding neighborhood golf carts. Compare suspension, comfort, and ride quality of top DENAGO and Evolution models across all 50 states.",
     excerpt: "Discover which neighborhood golf carts deliver the smoothest, most comfortable rides. Detailed reviews comparing suspension systems, comfort features, and real-world performance from owners nationwide.",
     publishDate: "2024-12-28",
+    heroImage: "@assets/generated_images/golf_cart_daily_use.png",
     heroImagePrompt: "Smooth-riding neighborhood golf cart on perfectly paved residential street, comfortable passengers enjoying ride quality, premium suspension visible, professional test drive photography, peaceful suburban setting",
     heroImageAlt: "Smooth-riding neighborhood golf cart with premium suspension delivering comfortable ride on residential streets",
     content: {
@@ -625,6 +635,7 @@ export const BLOG_POSTS: BlogPost[] = [
     metaDescription: "Find professional neighborhood golf cart maintenance services near you across all 50 states. Expert battery, tire, brake service, and preventive maintenance for DENAGO and Evolution carts.",
     excerpt: "Locate trusted golf cart maintenance and repair services in your area. Comprehensive guide to finding qualified technicians, understanding service needs, and keeping your neighborhood golf cart running smoothly.",
     publishDate: "2024-12-25",
+    heroImage: "@assets/generated_images/denago_golf_cart_home.png",
     heroImagePrompt: "Professional golf cart maintenance service, certified technician working on neighborhood golf cart in modern service facility, diagnostic equipment visible, clean professional service environment, quality maintenance",
     heroImageAlt: "Professional neighborhood golf cart maintenance service with expert technician servicing electric cart",
     content: {
