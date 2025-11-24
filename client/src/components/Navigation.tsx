@@ -36,7 +36,7 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/attached_assets/Shoreside Golf Carts_1756300319737.png" 
+                src="/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png" 
                 alt="Neighborhood Golf Carts Logo" 
                 className="h-20 w-20 object-contain"
               />

@@ -13,53 +13,53 @@
   
   "icons": [
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "256x256",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+      "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -121,7 +121,7 @@
       "url": "/inventory",
       "icons": [
         {
-          "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+          "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
           "sizes": "96x96"
         }
       ]
@@ -129,11 +129,11 @@
     {
       "name": "Visit Neptune City Showroom",
       "short_name": "Showroom",
-      "description": "Shoreside Golf Carts Neptune City, NJ location",
+      "description": "Neighborhood Golf Carts Neptune City, NJ location",
       "url": "/showroom",
       "icons": [
         {
-          "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+          "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
           "sizes": "96x96"
         }
       ]
@@ -141,11 +141,11 @@
     {
       "name": "Golf Cart Rentals",
       "short_name": "Rentals",
-      "description": "Beach and vacation golf cart rentals",
+      "description": "Neighborhood golf cart rentals nationwide",
       "url": "/rentals",
       "icons": [
         {
-          "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+          "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
           "sizes": "96x96"
         }
       ]
@@ -157,7 +157,7 @@
       "url": "/contact",
       "icons": [
         {
-          "src": "/attached_assets/Shoreside Golf Carts (1)_1756300346412.png",
+          "src": "/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png",
           "sizes": "96x96"
         }
       ]
