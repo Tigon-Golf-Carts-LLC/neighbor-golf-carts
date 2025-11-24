@@ -32,13 +32,13 @@ export default function Navigation() {
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24">
+        <div className="flex justify-between items-center h-32">
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
                 src="/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png" 
                 alt="Neighborhood Golf Carts Logo" 
-                className="h-28 w-28 object-contain"
+                className="h-56 w-56 object-contain"
               />
             </div>
             <Link href="/">
