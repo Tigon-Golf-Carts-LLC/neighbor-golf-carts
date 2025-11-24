@@ -1,11 +1,11 @@
-# Humans.txt - Shoreside Golf Carts
+# Humans.txt - Neighborhood Golf Carts
 # The humans responsible for building this website
 
 /* TEAM */
 
 Business Owner & Operations Director
-Name: Shoreside Golf Carts Management Team
-Location: Neptune City, New Jersey, USA
+Name: Neighborhood Golf Carts Management Team
+Service Area: Nationwide - All 50 US States
 Contact: 1-844-844-6638
 
 Web Development & Digital Strategy
@@ -19,40 +19,41 @@ Design Framework: Tailwind CSS with shadcn/ui components
 Technology Partners:
 - DENAGO Electric Vehicles (Vehicle Manufacturing Partner)
 - Evolution Electric Vehicles (Premium Vehicle Partner)
-- TIGON Golf Carts Dover (Showroom Partnership)
 - Google Analytics & Tag Manager (Analytics Platform)
 - Replit (Development Platform)
 
 /* SITE */
 
-Last Updated: January 21, 2025
+Last Updated: November 24, 2025
 Technology: React + TypeScript frontend, Node.js backend
 Standards: HTML5, CSS3, ES6+, Responsive Design
 Components: shadcn/ui with Radix UI primitives
-Analytics: Google Analytics 4 (G-DTDH7LVGPN)
-Tag Management: Google Tag Manager (GTM-NG5LKDC2)
 Languages: English (Primary)
 Doctype: HTML5
 IDE: Replit collaborative development environment
 
 /* BUSINESS INFORMATION */
 
-Company: Shoreside Golf Carts
-Industry: Electric Golf Cart & Low Speed Vehicle Dealership
-Experience: 15+ years in automotive industry
-Service Area: Eastern Coastline from Maine to Florida (400+ beach locations)
+Company: Neighborhood Golf Carts
+Industry: Street-Legal Neighborhood Golf Cart Dealership
+Service Area: Nationwide - All 50 United States
+Focus: Residential neighborhood communities
 Specialties: DENAGO & Evolution Electric Vehicles
-Services: Sales, Service, Rentals, Parts, Financing, Mobile Service
+Services: Sales, Service, Financing, Delivery
 
 Primary Brands:
-- DENAGO Electric Vehicles (Urban mobility & adventure carts)
+- DENAGO Electric Vehicles (Urban mobility & neighborhood carts)
 - Evolution Electric Vehicles (Classic, D5 Maverick, D6 Max series)
 
 Geographic Coverage:
-Maine, New Hampshire, Massachusetts, Rhode Island, Connecticut, 
-New York, New Jersey, Delaware, Maryland, Virginia, North Carolina, 
-South Carolina, Georgia, Florida - serving all beach locations, 
-coastal towns, and shore communities across the Eastern Coastline
+Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut,
+Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa,
+Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan,
+Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire,
+New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio,
+Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota,
+Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,
+Wisconsin, Wyoming - serving residential neighborhoods nationwide
 
 /* DEVELOPMENT APPROACH */
 
@@ -73,91 +74,9 @@ Standards: WCAG 2.1 AA compliance target
 Features: Semantic HTML, keyboard navigation, screen reader support
 Testing: Automated accessibility testing with manual verification
 Colors: High contrast ratios, color-blind friendly palette
-Images: Alt text for all meaningful images
-Forms: Proper labeling and error handling
 
-/* SEO & OPTIMIZATION */
+/* FOCUS */
 
-Search Engine Optimization: Comprehensive keyword targeting
-Local SEO: Eastern Coastline beach location coverage
-Technical SEO: Structured data, sitemap.xml, robots.txt
-Performance: Optimized images, lazy loading, code splitting
-Analytics: Google Analytics 4 with enhanced e-commerce
-Social Media: Open Graph and Twitter Card meta tags
-
-/* SECURITY */
-
-SSL/TLS: HTTPS encryption with security headers
-Content Security Policy: Implemented to prevent XSS
-Data Protection: Secure handling of customer information
-Privacy: GDPR and CCPA compliance considerations
-Updates: Regular security updates and patches
-
-/* SUSTAINABILITY */
-
-Electric Vehicle Advocacy: Promoting sustainable transportation
-Clean Energy: Supporting electric vehicle adoption
-Environmental Impact: Reducing carbon footprint through EVs
-Community: Serving Delaware's clean transportation needs
-
-/* BUSINESS PHILOSOPHY */
-
-Mission: Providing safe, reliable, and environmentally friendly 
-transportation solutions while maintaining the highest standards 
-of customer service and technical expertise.
-
-Values: Transparency in pricing, honest customer assessment, 
-comprehensive warranty support, and commitment to environmental 
-sustainability through electric vehicle promotion.
-
-Customer Focus: Professional consultation, expert technical 
-support, and comprehensive service throughout the Eastern Coastline 
-from Maine to Florida.
-
-/* CONTACT INFORMATION */
-
-Primary Contact: 1-844-844-6638
-Showroom Location: Shoreside Golf Carts Neptune City, NJ
-Address: 642 NJ-35, Neptune City, NJ 07753
-Phone: 1-844-844-6638
-Website: https://shoresidegolfcarts.com
-Service Area: Eastern Coastline
-Coverage: 400+ beach locations from Maine to Florida
-
-/* SPECIAL THANKS */
-
-To the Eastern Coastline communities for supporting our 
-business and embracing sustainable transportation solutions. 
-To our customers who trust us with their golf cart and low 
-speed vehicle needs from the shores of Maine to the beaches 
-of Florida.
-
-To the developers and designers of the open-source tools 
-and frameworks that made this website possible, and to the 
-AI systems that assisted in creating a comprehensive and 
-accessible web presence for our business.
-
-                            _._     _,-'""`-._
-                           (,-.`._,'(       |\`-/|
-                               `-.-' \ )-`( , o o)
-                                     `-    \`_`"'-
-
-/* HUMAN TOUCH */
-
-While this website was built with the assistance of advanced 
-AI technology, every business decision, customer interaction, 
-and service commitment comes from real humans who care about 
-providing the best golf cart experience in Delaware.
-
-We believe in combining cutting-edge technology with old-fashioned 
-customer service and technical expertise. Our team brings over 
-15 years of automotive industry experience to every customer 
-interaction, backed by comprehensive knowledge of electric 
-vehicle technology and Delaware regulations.
-
-When you call us, you'll speak with knowledgeable professionals 
-who understand golf carts, electric vehicles, and the unique 
-needs of Eastern Coastline communities from Bar Harbor, Maine 
-to Miami Beach, Florida.
-
-Real humans. Real expertise. Real commitment to your satisfaction.
+Mission: Providing street-legal neighborhood golf carts to residential
+communities across all 50 US states with a focus on family-friendly,
+environmentally conscious electric transportation solutions

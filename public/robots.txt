@@ -1,4 +1,4 @@
-# Enhanced Comprehensive robots.txt for Shoreside Golf Carts
+# Comprehensive robots.txt for Neighborhood Golf Carts
 # MAXIMUM SEARCH ENGINE VISIBILITY - ZERO RESTRICTIONS
 # Allow ALL search engines and bots with COMPLETE INDEXING PERMISSIONS
 
@@ -94,14 +94,6 @@ User-agent: TikTokBot
 Allow: /
 Crawl-delay: 0
 
-User-agent: SnapchatBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: WhatsApp
-Allow: /
-Crawl-delay: 0
-
 # SEO TOOLS - UNLIMITED ANALYSIS PERMISSIONS
 User-agent: AhrefsBot
 Allow: /
@@ -123,118 +115,14 @@ User-agent: MozBot
 Allow: /
 Crawl-delay: 0
 
-User-agent: SerpstatBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: SEOkicks
-Allow: /
-Crawl-delay: 0
-
-User-agent: RankActiveLinkBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: DataForSeoBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: SpyFu
-Allow: /
-Crawl-delay: 0
-
-# MOBILE CRAWLERS
-User-agent: Googlebot-Mobile
-Allow: /
-Crawl-delay: 0
-
-User-agent: Bingbot-Mobile
-Allow: /
-Crawl-delay: 0
-
-User-agent: YahooSeeker-Mobile
-Allow: /
-Crawl-delay: 0
-
-# VOICE ASSISTANTS
-User-agent: Alexa
-Allow: /
-Crawl-delay: 0
-
-User-agent: GoogleAssistant
-Allow: /
-Crawl-delay: 0
-
-User-agent: SiriBot
-Allow: /
-Crawl-delay: 0
-
-# NEWS AGGREGATION
-User-agent: NewsNow
-Allow: /
-Crawl-delay: 0
-
-User-agent: GoogleNews
-Allow: /
-Crawl-delay: 0
-
-User-agent: BingNews
-Allow: /
-Crawl-delay: 0
-
-# ARCHIVING SERVICES
-User-agent: ia_archiver
-Allow: /
-Crawl-delay: 0
-
-User-agent: Wayback
-Allow: /
-Crawl-delay: 0
-
-User-agent: Archive.org_bot
-Allow: /
-Crawl-delay: 0
-
-# E-COMMERCE BOTS
-User-agent: ShoppingSite
-Allow: /
-Crawl-delay: 0
-
-User-agent: PriceGrabber
-Allow: /
-Crawl-delay: 0
-
-User-agent: Shopping.com
-Allow: /
-Crawl-delay: 0
-
-# ACADEMIC RESEARCH
-User-agent: ResearchBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: ScholarBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: AcademicBot
-Allow: /
-Crawl-delay: 0
-
-# SITEMAP LOCATIONS
-Sitemap: https://shoresidegolfcarts.com/sitemap.xml
-Sitemap: https://shoresidegolfcarts.com/public/sitemap.xml
+# SITEMAP DECLARATION
+Sitemap: https://neighborgolfcarts.com/sitemap.xml
 
 # BUSINESS INFORMATION
-# Company: Shoreside Golf Carts
-# Industry: Electric Golf Carts & Low Speed Vehicles
-# Service Area: Eastern Coastline (Maine to Florida - 14 States)
-# Primary Brands: DENAGO, Evolution Electric Vehicles
-# Location: Eastern Coastline, serving 400+ beach locations
+# Company: Neighborhood Golf Carts
+# Industry: Street-Legal Neighborhood Golf Cart Dealership
+# Service Area: ALL 50 United States
 # Phone: 1-844-844-6638
-# Website: https://shoresidegolfcarts.com
-# Analytics: Google Analytics G-DTDH7LVGPN, Google Tag Manager GTM-NG5LKDC2
-# Geographic Coverage: 400+ Eastern Coastline beach locations across 14 states
-# Vehicle Inventory: 35+ DENAGO & Evolution models
-# Services: Sales, Rentals, Service, Parts, Financing
-# Special Features: Street-legal LSVs, Custom configurations, Mobile service
+# Website: https://neighborgolfcarts.com
+# Focus: Street-legal neighborhood electric golf carts for residential communities
+# Brands: DENAGO and Evolution Electric Vehicles

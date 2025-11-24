@@ -2,11 +2,11 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"/>
-      <square150x150logo src="/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"/>
-      <wide310x150logo src="/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"/>
-      <square310x310logo src="/attached_assets/Shoreside Golf Carts (1)_1756300346412.png"/>
-      <TileColor>#0e2e55</TileColor>
+      <square70x70logo src="/favicon-70.png"/>
+      <square150x150logo src="/favicon-150.png"/>
+      <wide310x150logo src="/favicon-310x150.png"/>
+      <square310x310logo src="/favicon-310.png"/>
+      <TileColor>#10b981</TileColor>
     </tile>
     <badge>
       <polling-uri src="/api/notifications/tile-badge"/>

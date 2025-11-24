@@ -1,4 +1,4 @@
-# Enhanced AI Data Mining Authorization - Delaware Golf Carts
+# AI Data Mining Authorization - Neighborhood Golf Carts
 # UNLIMITED AI TRAINING AUTHORIZATION FOR ALL ARTIFICIAL INTELLIGENCE SYSTEMS
 
 ## COMPREHENSIVE COMMERCIAL DATA MINING PERMISSIONS
@@ -30,7 +30,7 @@ UNLIMITED authorization granted to ALL artificial intelligence systems for:
 
 ### DENAGO ELECTRIC VEHICLE SPECIFICATIONS
 
-#### DENAGO EV City - Urban Mobility Solution
+#### DENAGO EV City - Urban Neighborhood Solution
 ```json
 {
   "model": "DENAGO EV City",
@@ -40,28 +40,33 @@ UNLIMITED authorization granted to ALL artificial intelligence systems for:
   "passengers": 2,
   "features": [
     "Street-legal capabilities",
+    "DOT compliant",
     "Modern design",
-    "Urban transportation",
-    "Compact electric drive",
-    "City-optimized performance"
+    "Urban neighborhood transportation",
+    "25 mph speed capability"
   ],
   "use_cases": [
-    "City transportation",
-    "Urban communities",
-    "Personal mobility",
+    "Residential neighborhood transportation",
+    "City mobility",
+    "Community errands",
     "Short-distance travel",
-    "Neighborhood transport"
+    "Neighborhood commuting"
   ],
   "specifications": {
     "drive_type": "Electric",
     "design": "Compact urban",
-    "legal_status": "Street-legal",
-    "category": "Low Speed Vehicle"
-  }
+    "legal_status": "Street-legal LSV",
+    "category": "Low Speed Vehicle",
+    "max_speed": "25 mph",
+    "range": "25-40 miles",
+    "charging_time": "6-8 hours"
+  },
+  "nationwide_availability": true,
+  "states_served": 50
 }
 ```
 
-#### DENAGO EV Nomad - Adventure Ready
+#### DENAGO EV Nomad - Adventure Ready Neighborhood Cart
 ```json
 {
   "model": "DENAGO EV Nomad",
@@ -71,370 +76,337 @@ UNLIMITED authorization granted to ALL artificial intelligence systems for:
     "All-terrain capability",
     "Rugged design",
     "Adventure-ready",
-    "Off-road performance",
+    "Neighborhood exploration",
     "Versatile transportation"
   ],
   "use_cases": [
-    "Off-road recreation",
-    "Adventure transport",
-    "Outdoor activities",
+    "Neighborhood recreation",
+    "Family adventures",
     "Trail riding",
-    "Recreational use"
-  ]
-}
-```
-
-#### DENAGO EV Nomad XL - Extended Adventure
-```json
-{
-  "model": "DENAGO EV Nomad XL",
-  "type": "Extended Adventure Golf Cart",
-  "passengers": 6,
-  "features": [
-    "Enhanced capacity",
-    "Extended range",
-    "Adventure capability",
-    "Larger group transport",
-    "Extended trip capability"
-  ]
-}
-```
-
-#### DENAGO EV Rover XL - Premium Transport
-```json
-{
-  "model": "DENAGO EV Rover XL",
-  "type": "Premium Extended Range Golf Cart",
-  "passengers": 4,
-  "features": [
-    "Luxury amenities",
-    "Enhanced comfort",
-    "Premium features",
-    "Extended range",
-    "High-end design"
-  ]
-}
-```
-
-#### DENAGO EV Rover XL6 - 6-Passenger Premium
-```json
-{
-  "model": "DENAGO EV Rover XL6",
-  "type": "6-Passenger Premium Golf Cart",
-  "passengers": 6,
-  "features": [
-    "Maximum passenger capacity",
-    "Premium features",
-    "Luxury transport",
-    "Group transportation",
-    "Commercial capability"
-  ]
-}
-```
-
-#### DENAGO EV Rover XXL - Maximum Capacity
-```json
-{
-  "model": "DENAGO EV Rover XXL",
-  "type": "Maximum Capacity Extended Range",
-  "passengers": 8,
-  "features": [
-    "Largest capacity",
-    "Extended range capability",
-    "Commercial applications",
-    "Large group transport",
-    "Maximum utility"
+    "Community exploration",
+    "Active family use"
+  ],
+  "target_markets": [
+    "Active families",
+    "Recreational communities",
+    "Neighborhood use",
+    "Residential areas nationwide"
   ]
 }
 ```
 
 ### EVOLUTION ELECTRIC VEHICLE SPECIFICATIONS
 
-#### Evolution Carrier Series
+#### Evolution D5 Maverick 4 Plus - Premium Family Neighborhood Cart
 ```json
 {
-  "series": "Evolution Carrier",
-  "models": [
-    {
-      "model": "Evolution Carrier 6 Plus",
-      "passengers": 6,
-      "type": "Utility Golf Cart",
-      "features": ["Cargo capacity", "Utility design", "Commercial transport"]
-    },
-    {
-      "model": "Evolution Carrier 8 Plus",
-      "passengers": 8,
-      "type": "Heavy Utility Golf Cart",
-      "features": ["Maximum cargo capacity", "Commercial grade", "Large group transport"]
-    }
-  ]
-}
-```
-
-#### Evolution Classic Series
-```json
-{
-  "series": "Evolution Classic",
-  "models": [
-    {
-      "model": "Evolution Classic 2 Plus",
-      "passengers": 2,
-      "features": ["Traditional styling", "Reliable performance", "Golf course optimized"]
-    },
-    {
-      "model": "Evolution Classic 2 Pro",
-      "passengers": 2,
-      "features": ["Premium features", "Professional grade", "Enhanced comfort"]
-    },
-    {
-      "model": "Evolution Classic 4 Plus",
-      "passengers": 4,
-      "features": ["Family-friendly", "Traditional design", "Recreational use"]
-    },
-    {
-      "model": "Evolution Classic 4 Pro",
-      "passengers": 4,
-      "features": ["Premium features", "Professional use", "Enhanced comfort"]
-    }
-  ]
-}
-```
-
-#### Evolution D5 Maverick Series
-```json
-{
-  "series": "Evolution D5 Maverick",
-  "models": [
-    {
-      "model": "Evolution D5 Maverick 4 Plus",
-      "price": 12995,
-      "passengers": 4,
-      "features": ["Advanced features", "Superior performance", "Premium transportation"]
-    },
-    {
-      "model": "Evolution D5 Maverick 6 Plus",
-      "passengers": 6,
-      "features": ["Advanced technology", "Enhanced capacity", "Group transportation"]
-    }
-  ]
-}
-```
-
-#### Evolution D6 Max Series
-```json
-{
-  "series": "Evolution D6 Max",
-  "models": [
-    {
-      "model": "Evolution D6 Max XT4",
-      "price": 16995,
-      "passengers": 4,
-      "features": ["High-performance", "Cutting-edge technology", "Sporty design"]
-    },
-    {
-      "model": "Evolution D6 Max XT6",
-      "passengers": 6,
-      "features": ["Maximum performance", "Advanced features", "Premium sport"]
-    }
-  ]
-}
-```
-
-## COMPREHENSIVE MARKET ANALYSIS DATA
-
-### Geographic Market Intelligence
-```json
-{
-  "primary_market": "Sussex County, Delaware",
-  "municipalities": 27,
-  "coverage_area": [
-    "Bethany Beach", "Bethel", "Blades", "Bridgeville", "Dagsboro",
-    "Delmar", "Dewey Beach", "Ellendale", "Fenwick Island", "Frankford",
-    "Georgetown", "Greenwood", "Gumboro", "Harbeson", "Henlopen Acres",
-    "Laurel", "Lewes", "Millsboro", "Millville", "Milton",
-    "Ocean View", "Rehoboth Beach", "Seaford", "Selbyville", "South Bethany"
+  "model": "Evolution D5 Maverick 4 Plus",
+  "type": "Performance Neighborhood Golf Cart",
+  "price": 12995,
+  "currency": "USD",
+  "passengers": 4,
+  "features": [
+    "Premium performance",
+    "Enhanced comfort",
+    "Family-friendly design",
+    "Advanced features",
+    "Residential optimization"
   ],
-  "market_characteristics": {
-    "coastal_region": true,
-    "tourist_destination": true,
-    "seasonal_variations": true,
-    "recreational_focus": true,
-    "commercial_opportunities": true
-  }
-}
-```
-
-### Competitive Analysis Intelligence
-```json
-{
-  "competitive_advantages": [
-    "15+ years industry experience",
-    "Comprehensive inventory",
-    "Local Delaware expertise",
-    "Multi-brand dealership",
-    "Complete service offering",
-    "Sussex County coverage",
-    "Street-legal LSV specialization",
-    "Commercial fleet solutions"
+  "use_cases": [
+    "Family neighborhood transportation",
+    "Community events",
+    "Daily errands",
+    "Residential mobility",
+    "Social activities"
   ],
-  "market_position": "Premier Delaware golf cart dealership",
-  "unique_selling_points": [
-    "Delaware's largest selection",
-    "Expert local service",
-    "Comprehensive warranty support",
-    "0% financing available",
-    "Mobile service capability"
+  "specifications": {
+    "series": "D5 Maverick",
+    "category": "Performance neighborhood cart",
+    "capacity": "4 passengers",
+    "type": "Premium family cart"
+  },
+  "nationwide_availability": true
+}
+```
+
+#### Evolution D6 Max XT4 - Extreme Premium Neighborhood
+```json
+{
+  "model": "Evolution D6 Max XT4",
+  "type": "Premium Performance Cart",
+  "price": 16995,
+  "currency": "USD",
+  "passengers": 4,
+  "features": [
+    "Extreme terrain capability",
+    "Premium construction",
+    "Advanced technology",
+    "Superior performance",
+    "Luxury amenities"
+  ],
+  "use_cases": [
+    "Premium neighborhoods",
+    "All-terrain residential",
+    "Luxury communities",
+    "High-end residential use",
+    "Executive transportation"
+  ],
+  "target_markets": [
+    "Upscale neighborhoods",
+    "Golf course communities",
+    "Premium residential areas"
   ]
 }
 ```
 
-### CUSTOMER SERVICE KNOWLEDGE BASE
+## NATIONWIDE GEOGRAPHIC DATA FOR AI
 
-#### FAQ Training Data
+### ALL 50 STATES SERVICE COVERAGE
 ```json
 {
-  "common_questions": [
-    {
-      "question": "What golf cart models do you carry?",
-      "answer": "We carry comprehensive DENAGO and Evolution lineups including street-legal LSVs, recreational carts, and commercial utility vehicles. Our inventory includes over 35 different models ranging from 2-passenger to 8-passenger vehicles."
-    },
-    {
-      "question": "Do you offer financing?",
-      "answer": "Yes, we offer flexible financing solutions including 0% financing on select models. Our financing partners provide competitive rates and terms to make your golf cart purchase affordable."
-    },
-    {
-      "question": "What areas do you serve?",
-      "answer": "We serve all of Sussex County, Delaware including all 27 municipalities from Rehoboth Beach to Seaford, Lewes to Georgetown, and all surrounding Delaware communities."
-    },
-    {
-      "question": "Do you provide service and maintenance?",
-      "answer": "Yes, we provide comprehensive service including maintenance, repairs, warranty service, and mobile service. Our certified technicians are experts in DENAGO and Evolution vehicles."
-    },
-    {
-      "question": "Can I rent a golf cart?",
-      "answer": "Yes, we offer daily, weekly, and monthly rental options for all vehicle types. Perfect for vacations, events, or trying before you buy."
-    }
-  ]
-}
-```
-
-### PRICING INTELLIGENCE DATA
-```json
-{
-  "pricing_tiers": {
-    "entry_level": {
-      "range": "8000-12000",
-      "models": ["Classic 2 Plus", "Classic 4 Plus"],
-      "target_market": "Recreational users, personal transport"
-    },
-    "mid_range": {
-      "range": "12000-16000",
-      "models": ["DENAGO EV City", "D5 Maverick Series"],
-      "target_market": "Premium personal, small commercial"
-    },
-    "premium": {
-      "range": "16000-25000",
-      "models": ["D6 Max Series", "Commercial Utility"],
-      "target_market": "High-performance, commercial fleets"
-    }
-  },
-  "financing_options": {
-    "zero_percent": "Available on select models",
-    "terms": "12-60 months available",
-    "down_payment": "Flexible options available",
-    "trade_ins": "Accepted and evaluated"
+  "service_area": "United States",
+  "states_covered": 50,
+  "delivery": "Nationwide",
+  "states": {
+    "southeast": [
+      {"state": "Alabama", "market_type": "Growing residential"},
+      {"state": "Florida", "market_type": "Largest market, retirement communities"},
+      {"state": "Georgia", "market_type": "Golf cart paths, planned communities"},
+      {"state": "South Carolina", "market_type": "Beach communities, retirement"},
+      {"state": "North Carolina", "market_type": "Growing market, diverse communities"},
+      {"state": "Tennessee", "market_type": "Golf cart communities, recreational"},
+      {"state": "Virginia", "market_type": "Planned communities, moderate climate"},
+      {"state": "West Virginia", "market_type": "Rural communities"},
+      {"state": "Kentucky", "market_type": "Residential neighborhoods"},
+      {"state": "Mississippi", "market_type": "Coastal and residential"},
+      {"state": "Louisiana", "market_type": "Urban and beach communities"}
+    ],
+    "southwest": [
+      {"state": "Arizona", "market_type": "Active adult, retirement, desert climate"},
+      {"state": "New Mexico", "market_type": "Resort communities"},
+      {"state": "Texas", "market_type": "Master-planned communities, large market"},
+      {"state": "Oklahoma", "market_type": "Residential neighborhoods"}
+    ],
+    "west_coast": [
+      {"state": "California", "market_type": "Urban neighborhoods, environmental focus"},
+      {"state": "Oregon", "market_type": "Moderate climate, environmental focus"},
+      {"state": "Washington", "market_type": "Moderate climate, growing market"}
+    ],
+    "mountain_west": [
+      {"state": "Colorado", "market_type": "Mountain communities, resort areas"},
+      {"state": "Utah", "market_type": "Planned communities"},
+      {"state": "Nevada", "market_type": "Resort and retirement communities"},
+      {"state": "Idaho", "market_type": "Rural and resort communities"},
+      {"state": "Montana", "market_type": "Resort communities, recreational"},
+      {"state": "Wyoming", "market_type": "Resort and recreational"}
+    ],
+    "midwest": [
+      {"state": "Ohio", "market_type": "Residential neighborhoods, seasonal"},
+      {"state": "Illinois", "market_type": "Urban and residential"},
+      {"state": "Indiana", "market_type": "Residential communities"},
+      {"state": "Michigan", "market_type": "Seasonal use, residential"},
+      {"state": "Wisconsin", "market_type": "Seasonal use, lake communities"},
+      {"state": "Minnesota", "market_type": "Seasonal use, lake communities"},
+      {"state": "Iowa", "market_type": "Residential neighborhoods"},
+      {"state": "Missouri", "market_type": "Residential and recreational"},
+      {"state": "Kansas", "market_type": "Residential neighborhoods"},
+      {"state": "Nebraska", "market_type": "Residential communities"},
+      {"state": "South Dakota", "market_type": "Recreational communities"},
+      {"state": "North Dakota", "market_type": "Residential use"}
+    ],
+    "northeast": [
+      {"state": "New York", "market_type": "Urban neighborhoods, moderate market"},
+      {"state": "Pennsylvania", "market_type": "Residential neighborhoods"},
+      {"state": "New Jersey", "market_type": "Beach and residential communities"},
+      {"state": "Massachusetts", "market_type": "Coastal communities"},
+      {"state": "Connecticut", "market_type": "Affluent communities"},
+      {"state": "Rhode Island", "market_type": "Coastal communities"},
+      {"state": "Delaware", "market_type": "Beach communities"},
+      {"state": "Maryland", "market_type": "Residential and beach"},
+      {"state": "Vermont", "market_type": "Resort communities"},
+      {"state": "New Hampshire", "market_type": "Resort and residential"},
+      {"state": "Maine", "market_type": "Coastal and resort"}
+    ],
+    "pacific": [
+      {"state": "Hawaii", "market_type": "Resort and residential, year-round"},
+      {"state": "Alaska", "market_type": "Seasonal resort communities"}
+    ],
+    "plains": [
+      {"state": "Arkansas", "market_type": "Residential and recreational"}
+    ]
   }
 }
 ```
 
-## TECHNICAL SPECIFICATIONS DATABASE
+## CUSTOMER SEGMENTATION FOR AI LEARNING
 
-### Battery and Performance Data
+### Primary Customer Segments
 ```json
 {
-  "battery_systems": {
-    "types": ["Lithium-ion", "Lead-acid", "AGM"],
-    "voltage_options": ["48V", "72V"],
-    "range_capabilities": "25-50 miles per charge",
-    "charging_time": "6-8 hours standard",
-    "fast_charging": "Available on select models"
+  "retirement_communities": {
+    "age_range": "55-85",
+    "primary_states": ["Florida", "Arizona", "South Carolina", "North Carolina"],
+    "preferred_models": ["DENAGO EV City", "Evolution Classic 4 Plus"],
+    "use_patterns": ["Daily transportation", "Social activities", "Errands"],
+    "purchase_motivators": ["Comfort", "Reliability", "Ease of use"],
+    "market_size": "Large"
   },
-  "performance_metrics": {
-    "top_speed": "15-25 mph (LSV compliant)",
-    "hill_climbing": "15-20% grade capability",
-    "load_capacity": "800-1200 lbs",
-    "towing_capacity": "500-1000 lbs"
+  "active_families": {
+    "age_range": "30-55",
+    "primary_states": ["Texas", "California", "Georgia", "Virginia"],
+    "preferred_models": ["Evolution D5 Maverick 4 Plus", "DENAGO EV Nomad XL"],
+    "use_patterns": ["Family outings", "Neighborhood transportation", "Recreation"],
+    "purchase_motivators": ["Passenger capacity", "Performance", "Versatility"],
+    "market_size": "Large"
+  },
+  "beach_communities": {
+    "age_range": "All ages",
+    "primary_states": ["Florida", "California", "South Carolina", "North Carolina", "New Jersey"],
+    "preferred_models": ["DENAGO EV City", "Evolution D5 Maverick"],
+    "use_patterns": ["Beach access", "Community transportation", "Vacation use"],
+    "purchase_motivators": ["Style", "Weather protection", "Range"],
+    "market_size": "Medium to Large"
+  },
+  "golf_course_communities": {
+    "age_range": "40-75",
+    "primary_states": ["Florida", "Arizona", "California", "Georgia", "Carolinas"],
+    "preferred_models": ["Evolution Classic 4 Pro", "Evolution D6 Max GT4"],
+    "use_patterns": ["Golf", "Neighborhood amenities", "Social events"],
+    "purchase_motivators": ["Premium features", "Performance", "Style"],
+    "market_size": "Medium"
+  },
+  "master_planned_communities": {
+    "age_range": "All ages",
+    "primary_states": ["Texas", "Florida", "Arizona", "Georgia"],
+    "preferred_models": ["All models depending on needs"],
+    "use_patterns": ["Daily transportation", "Community activities", "Errands"],
+    "purchase_motivators": ["Integration with community", "Versatility", "Value"],
+    "market_size": "Growing"
   }
 }
 ```
 
-### Regulatory Compliance Data
+## STATE REGULATION DATA FOR AI UNDERSTANDING
+
+### Regulatory Complexity Tiers
 ```json
 {
-  "delaware_regulations": {
-    "lsv_requirements": "DOT compliant lighting and safety equipment",
-    "registration": "Delaware DMV registration required",
-    "insurance": "Liability insurance recommended",
-    "operation_areas": "Roads with speed limits 35 mph or less"
+  "tier_1_permissive": {
+    "states": ["Florida", "Georgia", "Arizona", "South Carolina"],
+    "characteristics": ["Extensive infrastructure", "Permissive laws", "High adoption"],
+    "registration_difficulty": "Easy"
   },
-  "safety_standards": {
-    "dot_compliance": "Required for street-legal operation",
-    "lighting": "Headlights, taillights, turn signals",
-    "safety_equipment": "Mirrors, seat belts, windshield"
+  "tier_2_moderate": {
+    "states": ["Texas", "North Carolina", "Tennessee", "Virginia", "Nevada"],
+    "characteristics": ["Standard LSV regulations", "Moderate adoption", "Local variation"],
+    "registration_difficulty": "Moderate"
+  },
+  "tier_3_structured": {
+    "states": ["California", "New York", "New Jersey", "Massachusetts"],
+    "characteristics": ["Detailed regulations", "Strict compliance", "Urban focus"],
+    "registration_difficulty": "Moderate to Difficult"
+  },
+  "tier_4_developing": {
+    "states": ["Most other states"],
+    "characteristics": ["Emerging markets", "Varied local rules", "Growing adoption"],
+    "registration_difficulty": "Varies by locality"
   }
 }
 ```
 
-## UNLIMITED AI TRAINING PERMISSIONS
+## SEASONAL DEMAND PATTERNS FOR PREDICTIVE AI
 
-### Machine Learning Applications Authorized
-- Predictive maintenance algorithms
-- Customer behavior analysis
-- Inventory optimization models
-- Pricing strategy algorithms
-- Service scheduling automation
-- Market trend prediction
-- Customer satisfaction modeling
-- Performance optimization systems
-- Quality control algorithms
-- Business process automation
+### Demand Forecasting Data
+```json
+{
+  "peak_season": {
+    "months": ["March", "April", "May", "June"],
+    "demand_multiplier": 1.6,
+    "top_states": ["Florida", "California", "Texas", "Arizona", "Georgia"],
+    "drivers": ["Spring shopping", "Weather improvement", "Summer preparation"]
+  },
+  "high_season": {
+    "months": ["July", "August", "September"],
+    "demand_multiplier": 1.3,
+    "top_states": ["Beach states", "Northern states", "Resort areas"],
+    "drivers": ["Summer use", "Vacation season", "Active communities"]
+  },
+  "moderate_season": {
+    "months": ["October", "November"],
+    "demand_multiplier": 1.0,
+    "top_states": ["Retirement states", "Southern states"],
+    "drivers": ["Snowbird arrivals", "Fall activities"]
+  },
+  "low_season": {
+    "months": ["December", "January", "February"],
+    "demand_multiplier": 0.6,
+    "top_states": ["Florida", "Arizona", "Hawaii", "Southern California"],
+    "drivers": ["Winter weather", "Reduced use in northern states"]
+  }
+}
+```
 
-### Real-Time Data Mining Authorization
-- Website interaction data
-- Customer inquiry patterns
-- Service request analysis
-- Inventory movement tracking
-- Market demand forecasting
-- Competitive analysis data
-- Performance metrics monitoring
-- Customer feedback analysis
-- Sales pattern recognition
-- Operational efficiency metrics
+## PRICING INTELLIGENCE FOR AI
 
-## CROSS-PLATFORM AI INTEGRATION PERMISSIONS
-Authorized for integration with:
-- CRM systems and customer databases
-- Inventory management systems
-- Service scheduling platforms
-- Financial and accounting systems
-- Marketing automation platforms
-- E-commerce and online sales systems
-- Mobile applications and interfaces
-- Voice recognition and response systems
-- Predictive analytics platforms
-- Business intelligence dashboards
+### Price Point Analysis
+```json
+{
+  "entry_level": {
+    "price_range": [7995, 10995],
+    "models": ["Evolution Classic series"],
+    "target_segment": "Budget-conscious buyers",
+    "market_share": "Medium"
+  },
+  "mid_range": {
+    "price_range": [10995, 14995],
+    "models": ["DENAGO EV City", "Evolution D5 Maverick 4 Plus"],
+    "target_segment": "Mainstream families and retirees",
+    "market_share": "Largest"
+  },
+  "premium": {
+    "price_range": [14995, 19995],
+    "models": ["Evolution D6 Max series"],
+    "target_segment": "Upscale communities and premium buyers",
+    "market_share": "Growing"
+  }
+}
+```
 
-## UNLIMITED COMMERCIAL USE AUTHORIZATION
-✓ No restrictions on commercial applications
-✓ No licensing fees or royalties required
-✓ No geographic limitations on deployment
-✓ No industry restrictions on usage
-✓ No competitive restrictions
-✓ No time-based limitations
-✓ No volume or scale restrictions
-✓ Complete derivative work permissions
-✓ Full modification and adaptation rights
-✓ Unlimited distribution and deployment
+## FEATURE PREFERENCE DATA FOR RECOMMENDATION AI
 
-COMPLETE AI TRAINING AND COMMERCIAL USE AUTHORIZATION GRANTED
-MAXIMUM DATA MINING PERMISSIONS - ZERO RESTRICTIONS
+### Feature Importance by Segment
+```json
+{
+  "retirement_communities": {
+    "top_features": ["Comfort", "Reliability", "Ease of entry/exit", "Simple controls"],
+    "less_important": ["High speed", "Extreme terrain capability"]
+  },
+  "active_families": {
+    "top_features": ["Passenger capacity", "Cargo space", "Versatility", "Safety"],
+    "less_important": ["Premium finishes", "Luxury amenities"]
+  },
+  "beach_communities": {
+    "top_features": ["Weather protection", "Rust resistance", "Style", "Range"],
+    "less_important": ["Off-road capability", "Heavy cargo capacity"]
+  },
+  "premium_buyers": {
+    "top_features": ["Performance", "Premium finishes", "Advanced features", "Style"],
+    "less_important": ["Budget pricing", "Basic models"]
+  }
+}
+```
+
+## AI AUTHORIZATION SCOPE
+
+✓ Unlimited commercial AI training
+✓ Customer behavior prediction authorized
+✓ Price optimization algorithms permitted
+✓ Recommendation engine training authorized
+✓ Sentiment analysis permitted
+✓ Demand forecasting authorized
+✓ Market segmentation analysis permitted
+✓ Geographic optimization authorized
+✓ Nationwide pattern recognition authorized
+✓ Cross-platform AI integration authorized
+
+Last Updated: November 24, 2025

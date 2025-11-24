@@ -1,15 +1,17 @@
-# ads.txt - Shoreside Golf Carts
+# ads.txt - Neighborhood Golf Carts
 # Authorized Digital Sellers Declaration
 
 # ADVERTISING TRANSPARENCY DECLARATION
-# This file identifies authorized digital advertising sellers for shoresidegolfcarts.com
+# This file identifies authorized digital advertising sellers for neighborgolfcarts.com
 # in compliance with IAB Tech Lab ads.txt standard
 
 # BUSINESS ADVERTISING AUTHORIZATION
-# Company: Shoreside Golf Carts
-# Industry: Electric Golf Cart & Low Speed Vehicle Dealership
-# Website: https://shoresidegolfcarts.com
+# Company: Neighborhood Golf Carts
+# Industry: Street-Legal Neighborhood Golf Cart Dealership
+# Website: https://neighborgolfcarts.com
 # Contact: 1-844-844-6638
+# Service Area: ALL 50 United States
+# Focus: Residential neighborhood electric golf carts
 
 # GOOGLE ADVERTISING PLATFORMS (AUTHORIZED)
 google.com, pub-EXAMPLE123456789, DIRECT, f08c47fec0942fa0
@@ -18,140 +20,35 @@ googleadservices.com, pub-EXAMPLE123456789, DIRECT, f08c47fec0942fa0
 googleads.g.doubleclick.net, pub-EXAMPLE123456789, DIRECT, f08c47fec0942fa0
 
 # Note: Replace EXAMPLE123456789 with actual Google Ads Publisher ID when available
-# Current status: No active Google Ads campaigns - placeholder for future use
 
 # FACEBOOK/META ADVERTISING (AUTHORIZED)
 facebook.com, EXAMPLE123456789, DIRECT, c3e20eee3f780d68
-# Note: Replace EXAMPLE123456789 with actual Facebook Business Manager ID when available
-# Current status: No active Facebook Ads campaigns - placeholder for future use
 
 # MICROSOFT ADVERTISING (AUTHORIZED)
 bing.com, EXAMPLE123456789, DIRECT, 5d62403b78aa5b02
-# Note: Replace EXAMPLE123456789 with actual Microsoft Advertising Customer ID when available
-# Current status: No active Microsoft Ads campaigns - placeholder for future use
-
-# AUTOMOTIVE INDUSTRY ADVERTISING NETWORKS (AUTHORIZED)
-# Automotive-specific advertising platforms serving golf cart industry
-
-# Note: Current advertising strategy focuses on:
-# - Google Analytics tracking (G-DTDH7LVGPN)
-# - Google Tag Manager (GTM-NG5LKDC2)
-# - Organic search engine optimization
-# - Local business directory listings
-# - Industry-specific platforms
 
 # BUSINESS CLASSIFICATION FOR ADVERTISING
 # Primary Industry: Automotive - Electric Vehicles
-# Secondary Industry: Recreation - Golf Equipment
-# Geographic Focus: Sussex County, Delaware
-# Service Categories: Sales, Service, Rentals, Parts, Financing
+# Secondary Industry: Recreation - Golf Equipment  
+# Geographic Focus: Nationwide - All 50 US States
+# Service Categories: Sales, Service, Financing
+# Target Market: Residential neighborhoods and communities
 
 # ADVERTISING POLICY STATEMENT
-# Shoreside Golf Carts maintains strict advertising standards:
+# Neighborhood Golf Carts maintains strict advertising standards:
 # - Honest and accurate product representation
 # - Transparent pricing without hidden fees
 # - Compliance with automotive advertising regulations
 # - Focus on environmental benefits of electric vehicles
-# - Local market emphasis on Delaware communities
+# - Nationwide service emphasis
+# - Family and community-oriented messaging
 
 # AUTHORIZED ADVERTISING CONTENT THEMES
-# - Electric golf cart sales and features
+# - Street-legal neighborhood electric golf carts
 # - DENAGO and Evolution vehicle specifications
-# - Sussex County delivery and service areas
-# - Delaware LSV regulations and compliance
+# - Nationwide delivery and service
+# - State-specific regulations and compliance
 # - Environmental benefits of electric transportation
-# - Local business expertise and experience
-# - Customer testimonials and satisfaction
+# - Family-friendly transportation solutions
+# - Residential community mobility
 # - Seasonal promotions and financing options
-
-# PROHIBITED ADVERTISING PRACTICES
-# - Misleading price representations
-# - Exaggerated performance claims
-# - Unauthorized use of manufacturer logos
-# - False geographic service area claims
-# - Competitor disparagement
-# - Environmental greenwashing
-# - Discriminatory targeting practices
-
-# ADVERTISING VERIFICATION
-# All advertising content must be verified by:
-# - Management approval for accuracy
-# - Compliance with Delaware business regulations
-# - Manufacturer brand guideline adherence
-# - Industry advertising standard compliance
-# - Truth in advertising principle adherence
-
-# CONTACT FOR ADVERTISING INQUIRIES
-# Business Development: 1-844-844-6638
-# Email: info@rehobothgolfcarts.com
-# Website: https://rehobothgolfcarts.com
-# Service Area: Sussex County, Delaware
-
-# ADVERTISING ATTRIBUTION
-# All advertisements must clearly identify:
-# - Shoreside Golf Carts as advertiser
-# - Delaware business location
-# - Contact information (1-844-844-6638)
-# - Accurate service area representation
-# - Authorized dealer status for DENAGO and Evolution
-
-# DIGITAL ADVERTISING STANDARDS
-# Platform Compliance: IAB Tech Lab standards
-# Privacy: GDPR and CCPA compliant advertising
-# Tracking: Google Analytics 4 implementation
-# Transparency: Clear advertising disclosure
-# Accessibility: WCAG compliant ad content
-
-# ADVERTISING MEASUREMENT AND ANALYTICS
-# Primary Analytics: Google Analytics 4 (G-DTDH7LVGPN)
-# Tag Management: Google Tag Manager (GTM-NG5LKDC2)
-# Conversion Tracking: Lead generation and sales attribution
-# ROI Measurement: Cost per acquisition and lifetime value
-# Geographic Analysis: Sussex County market penetration
-
-# LOCAL ADVERTISING PARTNERSHIPS
-# Community Events: Sussex County automotive events
-# Business Associations: Delaware business directory listings
-# Industry Publications: Golf cart and electric vehicle media
-# Local Media: Delaware coastal region publications
-# Chamber of Commerce: Local business organization membership
-
-# SEASONAL ADVERTISING STRATEGY
-# Peak Season (Summer): Beach community rental focus
-# Off-Season (Winter): Personal purchase and service emphasis
-# Spring: Maintenance and preparation campaigns
-# Fall: End-of-season sales and winterization services
-
-# BRAND ADVERTISING GUIDELINES
-# DENAGO: Authorized dealer advertising permissions
-# Evolution: Authorized dealer advertising permissions
-# Shoreside Golf Carts: Primary brand identity
-# Delaware Focus: Geographic market emphasis
-# Electric Vehicle: Environmental benefit messaging
-
-# ADVERTISING COMPLIANCE MONITORING
-# Regular Review: Monthly advertising content audit
-# Platform Monitoring: Active campaign performance review
-# Compliance Check: Quarterly regulatory compliance review
-# Customer Feedback: Advertising effectiveness assessment
-# Industry Standards: Ongoing best practice implementation
-
-# FUTURE ADVERTISING PLATFORMS
-# This ads.txt file will be updated as new advertising partnerships
-# are established and verified. All entries require management
-# approval and compliance verification before implementation.
-
-# CONTACT FOR ADS.TXT UPDATES
-# Technical Contact: Development team via Replit platform
-# Business Contact: 1-844-844-6638
-# Email Updates: info@rehobothgolfcarts.com
-# Authorization: Management approval required for all changes
-
-# LAST UPDATED: January 21, 2025
-# NEXT REVIEW: Quarterly or as needed for new advertising platforms
-# VERSION: 1.0 - Initial ads.txt implementation
-
-# This ads.txt file serves as a placeholder and declaration of advertising
-# standards while no active paid advertising campaigns are currently running.
-# File will be updated with actual seller IDs when advertising campaigns
-# are launched and properly authorized.

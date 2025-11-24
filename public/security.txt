@@ -1,8 +1,8 @@
-# Security Policy - Shoreside Golf Carts
+# Security Policy - Neighborhood Golf Carts
 # Web Security Information and Contact Details
 
 # Contact Information for Security Issues
-Contact: security@shoresidegolfcarts.com
+Contact: security@neighborgolfcarts.com
 Contact: 1-844-844-6638
 Preferred-Languages: en
 
@@ -12,7 +12,7 @@ Response: 72 hours
 Escalation: 1 week
 
 # Website Security Information
-Canonical: https://shoresidegolfcarts.com/.well-known/security.txt
+Canonical: https://neighborgolfcarts.com/.well-known/security.txt
 
 # Encryption and Security Measures
 Encryption: HTTPS/TLS 1.3 required for all connections
@@ -22,8 +22,8 @@ Headers: Security headers enforced (X-Frame-Options, X-Content-Type-Options)
 
 # Scope of Security Policy
 In-Scope:
-- https://shoresidegolfcarts.com/*
-- All subdomains of shoresidegolfcarts.com
+- https://neighborgolfcarts.com/*
+- All subdomains of neighborgolfcarts.com
 - Customer data handling systems
 - Payment processing interfaces
 - Database systems
@@ -31,7 +31,7 @@ In-Scope:
 
 Out-of-Scope:
 - Physical security of business locations
-- Third-party partner systems (TIGON Golf Carts, etc.)
+- Third-party partner systems
 - Social media accounts
 - Email systems hosted by third parties
 - External payment processors
@@ -60,10 +60,11 @@ Not Permitted:
 - Brute force attacks on authentication systems
 
 # Business Information Security
-Company: Shoreside Golf Carts
-Industry: Electric Golf Cart & Low Speed Vehicle Dealership
+Company: Neighborhood Golf Carts
+Industry: Street-Legal Neighborhood Golf Cart Dealership
+Service Area: ALL 50 United States
 Data Types: Customer contact information, vehicle preferences, service records
-Compliance: Following Delaware business security requirements
+Compliance: Following US business security requirements
 Insurance: Business liability and cyber security coverage
 
 # Customer Data Protection
@@ -72,122 +73,3 @@ Payment Data: Processed through secure third-party processors
 Contact Data: Protected with encryption and access controls
 Service Records: Secure storage with retention policies
 Marketing Data: Opt-in basis with unsubscribe options
-
-# Technical Security Measures
-Web Application Security:
-- HTTPS enforcement with HSTS preload
-- Content Security Policy (CSP) implementation
-- Secure session management
-- Input validation and sanitization
-- SQL injection prevention
-- Cross-Site Scripting (XSS) protection
-- Cross-Site Request Forgery (CSRF) protection
-
-Infrastructure Security:
-- Regular security updates and patches
-- Access control and authentication
-- Monitoring and logging systems
-- Backup and recovery procedures
-- Network security measures
-
-# Third-Party Security
-Analytics: Google Analytics with privacy controls
-Tag Management: Google Tag Manager with security restrictions
-Partners: Security requirements for all business partners
-Vendors: Due diligence for all technology vendors
-
-# Incident Response Plan
-Detection: Monitoring systems for security incidents
-Response: Immediate isolation and investigation procedures
-Communication: Customer notification within 72 hours if affected
-Recovery: Documented procedures for service restoration
-Learning: Post-incident analysis and security improvements
-
-# Security Training and Awareness
-Staff Training: Regular security awareness training
-Procedures: Documented security procedures and policies
-Updates: Regular review and update of security measures
-Communication: Clear security communication channels
-
-# Vulnerability Categories
-Critical: Remote code execution, data breach, authentication bypass
-High: Privilege escalation, significant data exposure
-Medium: Limited data exposure, denial of service
-Low: Information disclosure, minor configuration issues
-
-# Reporting Templates
-Include in vulnerability reports:
-- Vulnerability description and impact
-- Steps to reproduce
-- Proof of concept (if applicable)
-- Suggested remediation
-- Contact information for follow-up
-
-# Legal and Compliance
-Jurisdiction: Delaware, United States
-Compliance: Delaware business regulations, federal privacy laws
-Legal: Responsible disclosure protections
-Liability: Limited liability for good faith security research
-
-# Security Contact Response Times
-Initial Response: Within 48 hours of report
-Status Updates: Every 72 hours during investigation
-Resolution: Target 30 days for non-critical issues
-Critical Issues: Target 72 hours for immediate response
-
-# Bug Bounty Information
-Current Status: No formal bug bounty program
-Recognition: Security researchers credited with permission
-Coordination: Coordinated disclosure preferred
-Timeline: 90-day disclosure timeline for non-critical issues
-
-# Security Best Practices for Users
-Customer Recommendations:
-- Use strong, unique passwords
-- Keep browsers updated
-- Be cautious with email links
-- Verify website URL before entering information
-- Report suspicious communications
-
-Business Security:
-- Secure WiFi networks
-- Regular software updates
-- Employee security training
-- Secure document handling
-- Regular backup procedures
-
-# Additional Security Resources
-OWASP: Following OWASP security guidelines
-NIST: Implementing NIST cybersecurity framework
-Industry: Automotive industry security best practices
-Local: Delaware cybersecurity resources and requirements
-
-# Security Metrics and Monitoring
-Uptime: 99.9% availability target
-Response Time: Sub-second page load times
-Security Scans: Weekly automated security scanning
-Updates: Monthly security update reviews
-Audits: Annual security audit procedures
-
-# Contact for General Security Questions
-Business: 1-844-844-6638
-Email: info@rehobothgolfcarts.com
-Website: https://rehobothgolfcarts.com
-Address: Sussex County, Delaware service area
-
-# Security Policy Updates
-Last Updated: January 21, 2025
-Review Schedule: Quarterly security policy review
-Changes: Version controlled security policy updates
-Communication: Stakeholder notification of policy changes
-
-# Emergency Security Contact
-After-Hours: 1-844-844-6638 (voicemail monitored)
-Escalation: Management notification for critical issues
-Response: Emergency response procedures documented
-Coordination: Local law enforcement coordination if needed
-
-This security policy demonstrates our commitment to protecting 
-customer data and maintaining secure business operations while 
-serving the golf cart and electric vehicle needs of Sussex 
-County, Delaware.

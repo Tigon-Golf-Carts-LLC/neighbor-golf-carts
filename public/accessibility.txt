@@ -1,8 +1,8 @@
-# Accessibility Statement - Rehoboth Golf Carts
+# Accessibility Statement - Neighborhood Golf Carts
 # Commitment to Digital Accessibility and Inclusive Design
 
 ## ACCESSIBILITY COMMITMENT
-Rehoboth Golf Carts is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards to ensure our website is accessible to all users.
+Neighborhood Golf Carts is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards to ensure our website is accessible to all users nationwide.
 
 ## ACCESSIBILITY STANDARDS COMPLIANCE
 Our website aims to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 Level AA standards. These guidelines explain how to make web content more accessible for people with disabilities and user-friendly for everyone.
@@ -10,7 +10,7 @@ Our website aims to conform to the Web Content Accessibility Guidelines (WCAG) 2
 ### Current Compliance Level
 - **Target Standard:** WCAG 2.1 AA
 - **Testing Method:** Automated and manual accessibility testing
-- **Last Audit:** January 21, 2025
+- **Last Audit:** November 24, 2025
 - **Next Review:** Quarterly accessibility assessment
 
 ## ACCESSIBILITY FEATURES IMPLEMENTED
@@ -51,192 +51,61 @@ Our website aims to conform to the Web Content Accessibility Guidelines (WCAG) 2
 ✓ Modal dialogs with appropriate focus management
 
 ## BUSINESS ACCESSIBILITY SERVICES
-Beyond our website, Rehoboth Golf Carts is committed to serving customers with disabilities:
-
-### Physical Accessibility
-- Accessible vehicle entry and exit assistance
-- Accommodation for mobility devices during test drives
-- Flexible service appointment scheduling
-- Alternative communication methods available
+Beyond our website, Neighborhood Golf Carts is committed to serving customers with disabilities nationwide:
 
 ### Service Accessibility
 - Large print documentation available upon request
 - Verbal explanation of all technical information
-- Flexible payment and financing option discussions
-- Sign language interpreter coordination when needed (advance notice)
+- Flexible delivery and service scheduling
+- Alternative communication methods available
+- Phone support: 1-844-844-6638
 
 ### Vehicle Accessibility Options
 - Golf cart modifications for accessibility needs
-- Wheelchair accessible utility vehicles
+- Wheelchair accessible utility vehicles available
 - Hand controls and adaptive equipment consultation
 - Custom seating and mobility aid storage solutions
+- Nationwide delivery to accommodate accessibility requirements
 
 ## ASSISTIVE TECHNOLOGY COMPATIBILITY
 Our website is designed to work with:
-- Screen readers (NVDA, JAWS, VoiceOver, TalkBack)
-- Voice recognition software
-- Keyboard navigation tools
-- Browser zoom functions up to 200%
-- High contrast and dark mode browsers
-- Mobile accessibility features
+- Screen readers (JAWS, NVDA, VoiceOver)
+- Screen magnification software
+- Speech recognition software
+- Alternative input devices
+- Browser accessibility features
 
-## ACCESSIBILITY TESTING PROCEDURES
+## NATIONWIDE ACCESSIBILITY SUPPORT
+Neighborhood Golf Carts provides accessible service across all 50 US states:
+- Phone consultations: 1-844-844-6638
+- Email support with accessible documentation
+- State-specific accessibility requirement guidance
+- Compliance with all state and federal accessibility laws
+- ADA-compliant service across all locations
 
-### Automated Testing
-- Regular automated accessibility scanning
-- WAVE (Web Accessibility Evaluation Tool) testing
-- Lighthouse accessibility audits
-- Color contrast ratio verification
-- HTML validation for semantic structure
+## FEEDBACK AND ASSISTANCE
+We welcome feedback on the accessibility of our website. If you encounter accessibility barriers, please contact us:
 
-### Manual Testing
-- Keyboard-only navigation testing
-- Screen reader compatibility testing
-- Mobile accessibility verification
-- User experience testing with accessibility tools
-- Focus management and visual indicator testing
+**Phone:** 1-844-844-6638
+**Email:** accessibility@neighborgolfcarts.com
+**Response Time:** Within 2 business days
 
-### User Testing
-- Feedback collection from users with disabilities
-- Accessibility consultation with community members
-- Regular usability testing with assistive technologies
+## ONGOING ACCESSIBILITY EFFORTS
+- Regular accessibility audits
+- Staff training on accessibility best practices
 - Continuous improvement based on user feedback
+- Compliance monitoring across all 50 states
+- Partnership with accessibility experts
 
-## KNOWN ACCESSIBILITY LIMITATIONS
-We are working to address the following areas:
-- Some third-party embedded content may not meet full accessibility standards
-- Complex vehicle specification tables may need enhanced screen reader support
-- Map interfaces require continued accessibility enhancement
-- Some decorative images may need improved alternative text
+## THIRD-PARTY CONTENT
+We strive to ensure that third-party content (such as embedded videos, social media feeds, or advertisements) meets the same accessibility standards. If you encounter inaccessible third-party content, please notify us.
 
-## ACCESSIBILITY FEEDBACK AND SUPPORT
+## STATE-SPECIFIC ACCESSIBILITY COMPLIANCE
+Neighborhood Golf Carts maintains compliance with accessibility requirements in all 50 states including:
+- California accessibility standards
+- Texas accessibility requirements
+- Florida accessibility laws
+- New York accessibility mandates
+- And all other state-specific accessibility regulations
 
-### How to Report Accessibility Issues
-If you encounter any accessibility barriers on our website, please contact us:
-
-**Primary Contact:**
-- Phone: 1-844-844-6638
-- Email: accessibility@rehobothgolfcarts.com
-- Website: Contact form at https://rehobothgolfcarts.com/contact
-
-**Information to Include:**
-- Description of the accessibility barrier
-- Page URL where the issue occurs
-- Assistive technology being used
-- Browser and operating system information
-- Suggested improvements if known
-
-### Response Commitment
-- **Acknowledgment:** Within 48 hours
-- **Investigation:** Within 72 hours
-- **Resolution:** Within 2 weeks for minor issues
-- **Major Issues:** Escalated for immediate attention
-
-## ACCESSIBILITY TRAINING AND AWARENESS
-
-### Staff Training
-- Regular accessibility awareness training for all staff
-- Customer service training for disability accommodation
-- Technical training for website accessibility maintenance
-- Sensitivity training for respectful customer interaction
-
-### Ongoing Education
-- Participation in accessibility webinars and conferences
-- Collaboration with disability advocacy organizations
-- Regular review of accessibility best practices
-- Industry-specific accessibility standard updates
-
-## THIRD-PARTY ACCESSIBILITY
-
-### Partner Standards
-- Google Analytics: Configured for accessibility compliance
-- Google Tag Manager: Privacy and accessibility settings enabled
-- Payment Processors: Accessibility-compliant options selected
-- Social Media: Alt text and captions used for shared content
-
-### Vendor Requirements
-- All technology vendors must meet accessibility standards
-- New partnerships include accessibility compliance requirements
-- Regular vendor accessibility compliance reviews
-- Preference for accessibility-focused service providers
-
-## ACCESSIBILITY IN BUSINESS OPERATIONS
-
-### Customer Service Accessibility
-- Phone support available during business hours
-- Email support for detailed technical questions
-- In-person consultation with accessibility accommodations
-- Flexible communication preferences honored
-
-### Documentation Accessibility
-- Alternative format documentation available
-- Clear, simple language in all customer communications
-- Visual aids and diagrams for technical explanations
-- Multiple communication channel options
-
-### Facility Accessibility
-- Partner showroom (TIGON Golf Carts Dover) accessibility verified
-- Mobile service eliminates transportation barriers
-- Accessible parking and entrance at partner locations
-- Equipment demonstration accessibility considerations
-
-## CONTINUOUS IMPROVEMENT COMMITMENT
-
-### Regular Reviews
-- Quarterly accessibility assessment
-- Annual comprehensive accessibility audit
-- Ongoing user feedback integration
-- Technology update accessibility evaluation
-
-### Future Enhancements
-- Enhanced mobile accessibility features
-- Improved voice navigation options
-- Better integration with emerging assistive technologies
-- Expanded alternative format options
-
-### Community Engagement
-- Participation in Delaware accessibility initiatives
-- Support for local disability advocacy organizations
-- Collaboration with assistive technology users
-- Feedback from Sussex County disability community
-
-## ACCESSIBILITY RESOURCES
-
-### External Resources
-- Web Content Accessibility Guidelines (WCAG): https://www.w3.org/WAI/WCAG21/
-- Americans with Disabilities Act: https://www.ada.gov/
-- Delaware Division for the Visually Impaired: State accessibility resources
-- Sussex County disability services directory
-
-### Assistive Technology Support
-- Screen reader user guides and tips
-- Keyboard navigation instructions
-- Browser accessibility feature information
-- Mobile accessibility app recommendations
-
-## BUSINESS CONTACT INFORMATION
-**Rehoboth Golf Carts**
-- Primary Phone: 1-844-844-6638
-- Accessibility Email: accessibility@rehobothgolfcarts.com
-- Website: https://rehobothgolfcarts.com
-- Service Area: All 27 Sussex County, Delaware municipalities
-
-**Partner Location (TIGON Golf Carts):**
-- Address: 5158 N Dupont Hwy, Dover, DE 19901
-- Phone: 302-546-0010
-- Accessibility: ADA compliant facility
-
-## LEGAL COMPLIANCE
-This accessibility statement demonstrates our commitment to:
-- Americans with Disabilities Act (ADA) compliance
-- Section 508 accessibility standards
-- Delaware state accessibility requirements
-- Industry best practices for digital accessibility
-
-## STATEMENT UPDATES
-- **Last Updated:** January 21, 2025
-- **Review Schedule:** Quarterly updates
-- **Contact for Updates:** accessibility@rehobothgolfcarts.com
-- **Version:** 1.0 - Initial accessibility statement
-
-We are committed to making continuous improvements to ensure our website and services are accessible to all users. Your feedback helps us identify areas for improvement and ensures we meet the diverse needs of the Sussex County, Delaware community we serve.
+Last Updated: November 24, 2025
