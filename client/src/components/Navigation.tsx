@@ -36,9 +36,9 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
             <div className="rounded-lg">
               <img 
-                src="/attached_assets/NEIGHBORHOOD GOLF CARTS_1764007878652.png" 
+                src="/attached_assets/NEIGHBORHOOD GOLF CARTS (1)_1764008828101.png" 
                 alt="Neighborhood Golf Carts Logo" 
-                className="h-56 w-56 object-contain pt-[-40px] pb-[-40px] mt-[0px] mb-[0px]"
+                className="h-56 w-56 object-contain"
               />
             </div>
             <Link href="/">
