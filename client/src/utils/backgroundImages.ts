@@ -1,15 +1,15 @@
-// Neighborhood Golf Carts - Professional Shore-Side Background Images
-// 9 new professional Shoreside golf cart shore-side images for dynamic backgrounds
+// Neighborhood Golf Carts - Professional Showroom Background Images
+// 9 new professional NGC showroom images for dynamic backgrounds
 
-import image1 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side_1756238208000.jpeg";
-import image2 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 2_1756238208000.jpeg";
-import image3 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 3_1756238208001.jpeg";
-import image4 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 4_1756238208001.jpeg";
-import image5 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 5_1756238208001.jpeg";
-import image6 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 6_1756238208001.jpeg";
-import image7 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 7_1756238208002.jpeg";
-import image8 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 8_1756238208002.jpeg";
-import image9 from "@assets/Shoreside Golf Carts - Golf Carts In and On the Shore Side 9_1756238208002.jpeg";
+import image1 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood_1764084707794.jpeg";
+import image2 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood- 2_1764084707795.jpeg";
+import image3 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 1_1764084707795.jpeg";
+import image4 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 3_1764084707795.jpeg";
+import image5 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 4_1764084707795.jpeg";
+import image6 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 5_1764084707796.jpeg";
+import image7 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 6_1764084707796.jpeg";
+import image8 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 7_1764084707796.jpeg";
+import image9 from "@assets/Neighborhood Golf Carts - NGC - Golf Carts For The Neighborhood 8_1764084707797.jpeg";
 
 export const backgroundImages = [
   image1,
@@ -25,22 +25,22 @@ export const backgroundImages = [
 
 // Page-specific background image assignments for consistency
 export const pageBackgrounds = {
-  home: image1,           // Neighborhood Golf Carts main shore-side scene for homepage
-  inventory: image2,      // Neighborhood Golf Carts shore display
-  rentals: image3,        // Neighborhood Golf Carts beach-focused view
-  services: image4,       // Neighborhood Golf Carts professional shore service
-  about: image5,          // Neighborhood Golf Carts welcoming shore scene
-  contact: image6,        // Neighborhood Golf Carts customer shore area
-  showroom: image7,       // Neighborhood Golf Carts premium shore showroom
-  denago: image8,         // Neighborhood Golf Carts shore area for Denago vehicles
-  evolution: image9,      // Neighborhood Golf Carts shore scene for Evolution vehicles
-  vehicle: image3,        // Neighborhood Golf Carts individual vehicle shore display
-  vehicleDetail: image7,  // Neighborhood Golf Carts premium vehicle shore showcase
-  counties: image2,       // Neighborhood Golf Carts for county/state pages
-  locations: image6,      // Neighborhood Golf Carts for location pages
-  financing: image4,      // Neighborhood Golf Carts for financing pages
-  policies: image5,       // Neighborhood Golf Carts for policy pages
-  default: image1,        // Neighborhood Golf Carts main shore scene as fallback
+  home: image1,           // NGC professional showroom scene for homepage
+  inventory: image2,      // NGC showroom display area
+  rentals: image3,        // NGC customer service area
+  services: image4,       // NGC professional service desk
+  about: image5,          // NGC welcoming showroom scene
+  contact: image6,        // NGC customer reception area
+  showroom: image7,       // NGC premium showroom interior
+  denago: image8,         // NGC showroom for Denago vehicles
+  evolution: image9,      // NGC showroom for Evolution vehicles
+  vehicle: image3,        // NGC individual vehicle display
+  vehicleDetail: image7,  // NGC premium vehicle showcase
+  counties: image2,       // NGC showroom for county/state pages
+  locations: image6,      // NGC showroom for location pages
+  financing: image4,      // NGC showroom for financing pages
+  policies: image5,       // NGC showroom for policy pages
+  default: image1,        // NGC main showroom scene as fallback
 };
 
 // Function to get background image for a specific page
@@ -64,7 +64,7 @@ export const getRandomVehicleBackground = (): string => {
 
 // Function to get a random background for location pages
 export const getRandomLocationBackground = (): string => {
-  // Use shore-focused images for location pages
+  // Use showroom images for location pages
   const locationImages = [image1, image2, image5, image6];
   const randomIndex = Math.floor(Math.random() * locationImages.length);
   return locationImages[randomIndex];
