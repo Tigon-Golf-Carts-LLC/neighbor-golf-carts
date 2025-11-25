@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import SEOHead from "@/components/SEOHead";
 import AllSchemas from "@/components/schema/AllSchemas";
 import { State } from "@/data/all50States";
+import { getHeroBackgroundStyle } from "@/utils/backgroundImages";
 
 interface StateLocationPageTemplateProps {
   state: State;
@@ -46,7 +47,7 @@ export default function StateLocationPageTemplate({ state }: StateLocationPageTe
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4">
+      <section className="relative bg-gradient-to-br from-theme-primary via-blue-800 to-theme-primary text-white py-20 px-4 bg-cover bg-center bg-no-repeat" style={getHeroBackgroundStyle("counties")}>
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
